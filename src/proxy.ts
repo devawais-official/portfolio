@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { locales, getLocaleFromHeaders } from "./i18n/config";
 
-// Default fallback locale define karein (e.g., 'en')
 const DEFAULT_LOCALE = locales[0] || "en";
 
 export function proxy(request: NextRequest) {
@@ -45,14 +44,12 @@ export function proxy(request: NextRequest) {
 
         const redirectUrl = new URL(redirectPath, request.url);
 
-        // Safety Check: Agar target URL same hai, toh loop break karne ke liye next() chalayein
         if (redirectUrl.pathname === pathname) {
             return NextResponse.next();
         }
 
         const response = NextResponse.redirect(redirectUrl);
 
-        // Cookie flags fix: Secure add karein agar production hai
         response.cookies.set("NEXT_LOCALE", targetLocale, {
             path: "/",
             maxAge: 31536000, // 1 year
