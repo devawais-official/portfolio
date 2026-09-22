@@ -58,7 +58,7 @@ export default function Header() {
     };
   }, [pathname, contextLocale]);
 
-  const buttonText = translate("home.buttonStart") || "Start a Project";
+  const buttonText = translate("home.buttonStart") || "Let's Talk";
 
   return (
     <header
@@ -89,7 +89,7 @@ export default function Header() {
           translate={translate}
         />
 
-        {/* 3. RIGHT: Utility & Action Area ([GitHub] [LinkedIn] [🌐 EN ▾] [ Start a Project ]) */}
+        {/* 3. RIGHT: Utility & Action Area ([GitHub] [LinkedIn] [🌐 EN ▾] [Let's Talk ]) */}
         <div className="hidden items-center gap-2 sm:gap-2.5 md:flex">
           {/* Developer Icons: Only GitHub & LinkedIn */}
           <div className="flex items-center gap-1">
@@ -108,7 +108,7 @@ export default function Header() {
             ))}
           </div>
 
-          {/* Standout Primary CTA Button [ Start a Project ] */}
+          {/* Standout Primary CTA Button [ Let's Talk ] */}
           <Magnetic strength={0.15}>
             <Link
               href={getLocalizedHref("/contact")}

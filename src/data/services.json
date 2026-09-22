@@ -42,5 +42,16 @@
             "SOLID",
             "Performance"
         ]
+    },
+    {
+        "id": 5,
+        "slug": "web-development",
+        "icon": "web",
+        "tech": [
+            "Node.js",
+            "Next.js",
+            "Backend API",
+            "React"
+        ]
     }
 ]

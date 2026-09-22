@@ -196,8 +196,8 @@
     },
     "projects": {
         "title": "Projets",
-        "headerTitle": "Applications déployées dans les écosystèmes Android natif et Flutter.",
-        "headerDesc": "Filtrez par plateforme pour voir comment l'architecture et la stack technique s'adaptent pour offrir des performances optimales, de la sécurité et une connectivité temps réel.",
+        "headerTitle": "Applications déployées sur les écosystèmes Android Natif et Flutter.",
+        "headerDesc": "Filtrez par plateforme pour découvrir comment l'architecture et le stack technique s'adaptent pour offrir des performances maximales, une sécurité renforcée et une connectivité en temps réel.",
         "noProjectsFound": "Aucun projet trouvé pour cette catégorie.",
         "backToProjects": "Tous les projets",
         "techStack": "Stack technique",
@@ -209,128 +209,690 @@
             "kmp": "KMP",
             "cmp": "CMP"
         },
+        "platforms": {
+            "android": "Android Natif",
+            "flutter": "Flutter",
+            "ios": "iOS",
+            "kmp": "Kotlin Multiplatform",
+            "cmp": "Compose Multiplatform",
+            "web": "Web"
+        },
+        "mockup": {
+            "date": "Lundi 20 mai",
+            "greeting": "Bonjour,",
+            "userName": "Muhammad.",
+            "todaysFocus": "OBJECTIF DU JOUR",
+            "focusText": "Construisez quelque chose\nqui dure.",
+            "progressCount": "3 sur 5 accomplis",
+            "task1": "Revue d'architecture",
+            "task2": "Revue de code",
+            "overview": "Aperçu",
+            "inControl": "Tout est sous contrôle,",
+            "together": "ensemble.",
+            "availableToSpend": "Disponible à dépenser",
+            "growthText": "+12.4% ce mois-ci",
+            "spending": "Dépenses",
+            "saved": "Économisé",
+            "library": "Votre bibliothèque",
+            "learningHeading1": "Continuez à créer,",
+            "learningHeading2": "esprit curieux.",
+            "tag1": "Architecture",
+            "cardTitle1": "Code propre,\nesprit clair.",
+            "cardTime1": "12 min restantes",
+            "tag2": "Pensée produit",
+            "cardTitle2": "Commencez par une\nmeilleure question.",
+            "cardTime2": "18 min restantes",
+            "tag3": "Temps réel",
+            "cardTitle3": "Comprendre les\nflux de données.",
+            "cardTime3": "8 min restantes",
+            "liveProject": "PROJET EN DIRECT",
+            "defaultHeading1": "Conçu pour un usage",
+            "defaultHeading2": "du monde réel.",
+            "statLabel1": "Utilisateurs",
+            "statLabel2": "Note",
+            "statLabel3": "Disponibilité",
+            "statLabel4": "Légèreté"
+        },
         "ctas": {
             "playStore": "Google Play",
             "appStore": "App Store",
-            "details": "Voir les détails"
+            "details": "Voir les détails",
+            "viewLive": "Voir en direct",
+            "backToProjects": "← Tous les projets"
+        },
+        "detail": {
+            "role": "Rôle",
+            "duration": "Durée",
+            "platform": "Plateforme",
+            "challenge": "Défie",
+            "solution": "Solution",
+            "outcome": "Résultat",
+            "techStack": "Stack technique",
+            "highlights": "Points forts",
+            "metrics": "Métrique",
+            "viewOnPlayStore": "Voir sur Google Play",
+            "viewOnAppStore": "Voir sur l'App Store"
         },
         "items": {
             "spectra-care": {
-                "title": "Spectra Care : Télésanté & Plateforme Matérielle",
-                "category": "Télésanté & IoT",
-                "summary": "Plateforme de télésanté d'entreprise avec Jetpack Compose, appels vidéo Agora et intégration de moniteurs médicaux 6-en-1.",
-                "description": "App Android de télésanté en production construite avec Jetpack Compose et l'architecture MVI. Intègre des consultations vidéo Agora à faible latence, des pilotes d'appareils réactifs pour les moniteurs de santé Spectra Care 6-en-1 et une synchronisation sécurisée des données SOAP EHR.",
+                "title": "Spectra Care : Plateforme de Santé & IoT",
+                "category": "Télémédecine & IoT",
+                "summary": "Plateforme de télémédecine d'entreprise conçue avec Jetpack Compose, consultations vidéo via Agora et intégration d'un moniteur de signes vitaux 6-en-1.",
+                "description": "Application Android native de télémédecine prête pour la production, développée avec Jetpack Compose et une architecture MVI. Elle propose des consultations vidéo à ultra-basse latence via Agora, des pilotes pour moniteurs de santé 6-en-1 Spectra Care et la synchronisation sécurisée des dossiers médicaux électroniques (DME).",
                 "ctaText": "Voir sur Google Play",
-                "altText": "Spectra Care — App Android native de télésanté avec appels vidéo Agora et intégration IoT par Muhammad Awais",
+                "altText": "Application Spectra Care — Application Android native de télémédecine avec appels vidéo Agora et intégration IoT, par Muhammad Awais",
                 "highlights": [
-                    "Consultations vidéo temps réel via Agora SDK",
-                    "Synchro moniteur de santé IoT Spectra Care 6-en-1",
+                    "Consultations vidéo en temps réel via le SDK Agora",
+                    "Synchronisation du moniteur de santé intelligent 6-en-1 Spectra Care",
                     "Architecture MVI avec Jetpack Compose"
+                ],
+                "role": "Lead Ingénieur Android",
+                "duration": "8 mois",
+                "challenge": "Unifier des bases de code distinctes pour les applications médecins et patients, tout en intégrant en temps réel les dispositifs IoT Spectra Care et des consultations vidéo fluides via Agora sans perturber le travail clinique quotidien.",
+                "solution": "Refonte complète à partir de zéro en utilisant Jetpack Compose et MVI, avec une architecture modulaire partagée séparant les connexions IoT de l'interface utilisateur grâce aux Kotlin Flows réactifs. Isolation du SDK Agora dans une couche d'abstraction garantissant une reconconnexion automatique en cas de coupure réseau.",
+                "outcome": "Une plateforme hautement stable utilisée quotidiennement en milieu clinique, affichant un taux de sessions sans erreur supérieur à 99 % et zéro problème d'intégrité des données pendant la synchronisation.",
+                "metrics": [
+                    {
+                        "label": "Sessions sans erreur",
+                        "value": "> 99%"
+                    },
+                    {
+                        "label": "Appareils IoT pris en charge",
+                        "value": "6-en-1"
+                    },
+                    {
+                        "label": "Latence vidéo",
+                        "value": "< 300ms"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Mesures quotidiennes",
+                        "title": "Moniteur de santé 6-en-1",
+                        "kicker": "Capteurs en temps réel",
+                        "heading": "Suivez vos signes vitaux,",
+                        "headingItalic": "en temps réel."
+                    },
+                    {
+                        "detail": "Téléconsultation",
+                        "title": "Appel médical instantané",
+                        "kicker": "Soins connectés",
+                        "heading": "Parlez à un médecin,",
+                        "headingItalic": "en quelques minutes."
+                    },
+                    {
+                        "detail": "Diagnostics",
+                        "title": "Analyses en laboratoire à domicile",
+                        "kicker": "Expédition rapide",
+                        "heading": "Tests certifiés,",
+                        "headingItalic": "à votre porte."
+                    },
+                    {
+                        "detail": "Coffre-fort santé",
+                        "title": "Dossier médical crypté",
+                        "kicker": "Stockage sécurisé",
+                        "heading": "Vos données de santé,",
+                        "headingItalic": "toujours sous votre contrôle."
+                    }
                 ]
             },
             "zouris": {
-                "title": "Zouris : Plateforme de Bien-être Holistique",
+                "title": "Zouris : Plateforme de Bien-être Global",
                 "category": "Santé & Bien-être",
-                "summary": "Application de bien-être multiplateforme offrant des séances guidées, des flux audio et des affirmations.",
-                "description": "Zouris est une plateforme de bien-être holistique conçue sous Flutter où des coachs et praticiens certifiés partagent des sessions guidées, des méditations et des flux audio en temps réel avec des performances UX natives sur Android et iOS.",
+                "summary": "Application de bien-être multiplateforme proposant des sessions guidées, des podcasts et des affirmations.",
+                "description": "Zouris est une plateforme de bien-être tout-en-un développée avec Flutter. Des coachs et praticiens certifiés y partagent des sessions guidées, des méditations et des podcasts en direct avec une excellente fluidité et un rendu natif sur Android et iOS.",
                 "ctaText": "Google Play",
                 "iosCtaText": "App Store",
-                "altText": "Zouris app de bien-être — plateforme multiplateforme de méditation et streaming audio par Muhammad Awais",
+                "altText": "Application Zouris — Plateforme multiplateforme de méditation et podcasts par Muhammad Awais",
                 "highlights": [
-                    "Architecture multiplateforme Flutter",
-                    "Streaming audio temps réel à faible latence",
-                    "Gestion d'état propre avec BLoC"
+                    "Architecture multiplateforme avec Flutter",
+                    "Streaming audio en temps réel à faible latence",
+                    "Gestion d'état structurée avec BLoC"
+                ],
+                "role": "Développeur Flutter",
+                "duration": "5 mois",
+                "challenge": "Proposer une expérience de bien-être haut de gamme et fluide sur Android et iOS à partir d'une seule base de code Flutter, en assurant la diffusion audio en arrière-plan et des transitions parfaites entre coachs et abonnés.",
+                "solution": "Utilisation de Flutter BLoC pour une gestion d'état robuste des sessions, intégration d'un gestionnaire audio personnalisé pour un streaming à faible latence et mise en place de Decompose Navigation pour une architecture de routage flexible.",
+                "outcome": "Une application aboutie disponible sur Google Play et App Store, offrant des sessions de bien-être en direct aux utilisateurs aux Émirats Arabes Unis avec d'excellentes évaluations.",
+                "metrics": [
+                    {
+                        "label": "Plateformes lancées",
+                        "value": "2"
+                    },
+                    {
+                        "label": "Latence audio",
+                        "value": "< 500ms"
+                    },
+                    {
+                        "label": "Note sur les stores",
+                        "value": "4.8★"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Bilan quotidien",
+                        "title": "Démarrage serein",
+                        "kicker": "Bonjour, Maya",
+                        "heading": "Faites de la place pour",
+                        "headingItalic": "ce qui compte."
+                    },
+                    {
+                        "detail": "Session de concentration",
+                        "title": "Une chose à la fois",
+                        "kicker": "12 minutes",
+                        "heading": "Juste ceci.",
+                        "headingItalic": "Rien d'autre."
+                    },
+                    {
+                        "detail": "Progrès hebdomadaires",
+                        "title": "Ressentez le rythme",
+                        "kicker": "Vos progrès",
+                        "heading": "Votre propre rythme",
+                        "headingItalic": "grandit chaque jour."
+                    },
+                    {
+                        "detail": "Profil personnel",
+                        "title": "Adaptez-le à votre image",
+                        "kicker": "Votre allure",
+                        "heading": "Petits pas,",
+                        "headingItalic": "à votre manière."
+                    }
                 ]
             },
             "egora-b2b": {
                 "title": "Egora B2B : Plateforme Partenaires Restaurants",
                 "category": "Solutions B2B",
-                "summary": "Tableau de bord partenaire en marque blanche permettant aux restaurateurs de gérer commandes, retraits et réservations en direct.",
-                "description": "Plateforme partenaire en marque blanche conçue avec Flutter, Dio et GetIt. Permet aux restaurateurs de gérer de façon autonome la restauration sur place, à emporter, les commandes par QR code et l'impression thermique de reçus avec des paiements sécurisés.",
+                "summary": "Tableau de bord personnalisable pour les restaurateurs afin de gérer les commandes, la vente à emporter et les réservations.",
+                "description": "Portail partenaire en marque blanche développé avec Flutter, Dio et GetIt. Il permet aux restaurateurs de gérer le service sur place, à emporter, les commandes par QR code et l'impression de tickets thermiques avec l'intégration de passerelles de paiement.",
                 "ctaText": "Voir les détails du projet",
-                "altText": "Egora B2B dashboard partenaire — commandes, réservations et gestion QR par Muhammad Awais",
+                "altText": "Tableau de bord Egora B2B pour restaurateurs — Gestion des commandes, réservations et QR codes par Muhammad Awais",
                 "highlights": [
-                    "Architecture Flutter, Dio et GetIt",
-                    "Tableaux de bord multi-marchands indépendants",
-                    "Moteur de notification et synchro des commandes en temps réel"
+                    "Architecture basée sur Flutter, Dio et GetIt",
+                    "Tableaux de bord multi-commerçants isolés",
+                    "Moteur de synchronisation des commandes et notifications en temps réel"
+                ],
+                "role": "Ingénieur Senior Flutter",
+                "duration": "4 mois",
+                "challenge": "Concevoir un tableau de bord B2B personnalisable permettant à plusieurs enseignes de fonctionner de manière indépendante, avec une synchronisation des commandes en temps réel et l'impression de reçus sur divers modèles d'imprimantes.",
+                "solution": "Développement d'un système de configuration visuelle alimenté par une API distante. Mise en place d'une couche HTTP partagée et d'une injection de dépendances propre avec Dio + GetIt.",
+                "outcome": "Déployé avec succès chez plusieurs restaurateurs partenaires, chacun exploitant sa propre identité visuelle sans aucun conflit de données et avec une fiabilité parfaite.",
+                "metrics": [
+                    {
+                        "label": "Restaurants partenaires",
+                        "value": "10+"
+                    },
+                    {
+                        "label": "Stabilité de synchro",
+                        "value": "99%"
+                    },
+                    {
+                        "label": "Fiabilité d'impression",
+                        "value": "100%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Gestion des stocks",
+                        "title": "Tableau de bord commerçant",
+                        "kicker": "Moteur de stock",
+                        "heading": "Gérez vos articles,",
+                        "headingItalic": "en temps réel."
+                    },
+                    {
+                        "detail": "Routage des commandes",
+                        "title": "Écran d'affichage cuisine",
+                        "kicker": "Matrice cuisine",
+                        "heading": "Acheminez les commandes,",
+                        "headingItalic": "sans aucun délai."
+                    },
+                    {
+                        "detail": "Analyses",
+                        "title": "Aperçu des revenus",
+                        "kicker": "Statistiques quotidiennes",
+                        "heading": "Métriques de ventes,",
+                        "headingItalic": "en un coup d'œil."
+                    },
+                    {
+                        "detail": "Personnalisation",
+                        "title": "Kit de marque",
+                        "kicker": "Moteur de design",
+                        "heading": "Conçu sur mesure",
+                        "headingItalic": "pour chaque restaurant."
+                    }
                 ]
             },
             "egora": {
-                "title": "Egora : Écosystème Restaurant Intelligent",
+                "title": "Egora : Écosystème de Restauration Intelligente",
                 "category": "Alimentation & Boissons",
-                "summary": "Écosystème de restaurant à grande échelle avec commande par QR code, gestion des réservations et intégrations matérielles Bluetooth.",
-                "description": "Système de réservation et de restauration évolutif construit avec Flutter et Jetpack Compose. Intègre la commande par QR code, le traitement des paiements XStax (+10k transactions/mois) et des pilotes d'imprimante thermique Bluetooth sur mesure (fiabilité 100 %).",
+                "summary": "Écosystème de restauration évolutif avec commande par QR code, gestion des réservations et intégration d'imprimantes Bluetooth.",
+                "description": "Système de réservation et de commande hautement évolutif conçu avec Flutter et Jetpack Compose. Il propose la commande par QR code, le traitement intégré des paiements via XStax (>10k transactions/mois) et des pilotes pour imprimantes thermiques Bluetooth d'une fiabilité absolue.",
                 "ctaText": "Voir les détails du projet",
-                "altText": "Egora app restaurant — commandes QR, système de réservation et imprimante Bluetooth par Muhammad Awais",
+                "altText": "Application Egora — Commande par QR code, réservations et intégration d'imprimantes thermiques Bluetooth par Muhammad Awais",
                 "highlights": [
-                    "Hausse de 30 % de l'adoption client",
-                    "Intégration d'imprimante thermique Bluetooth (latence réduite de 50 %)",
-                    "Passerelle XStax traitant 10k+ transactions mensuelles"
+                    "Augmentation de 30% du taux de rotation des clients",
+                    "Intégration d'imprimantes thermiques Bluetooth avec 50% de latence en moins",
+                    "Passerelle de paiement XStax traitant plus de 10 000 transactions/mois"
+                ],
+                "role": "Ingénieur Mobile Senior",
+                "duration": "6 mois",
+                "challenge": "Créer un système de commande par QR code et de réservation capable de gérer les pics d'affluence, tout en pilotant de manière stable les imprimantes thermiques Bluetooth depuis l'application.",
+                "solution": "Conception d'une couche d'abstraction pour imprimantes Bluetooth intégrant la logique de réessai et la gestion du statut de connexion en Kotlin. Utilisation de Socket.IO pour le flux en temps réel et XStax pour des paiements sécurisés certifiés PCI.",
+                "outcome": "Hausse de 30 % de la fréquentation client, 100 % de fiabilité lors de l'impression des tickets et latence réduite de 50 % sur plus de 10 000 transactions mensuelles.",
+                "metrics": [
+                    {
+                        "label": "Rotation clients",
+                        "value": "+30%"
+                    },
+                    {
+                        "label": "Transactions mensuelles",
+                        "value": "> 10 000"
+                    },
+                    {
+                        "label": "Latence d'impression",
+                        "value": "-50%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Scan QR à table",
+                        "title": "Moteur de commande instantanée",
+                        "kicker": "Scannez & commandez",
+                        "heading": "Commandez directement,",
+                        "headingItalic": "depuis votre table."
+                    },
+                    {
+                        "detail": "Synchronisation cuisine",
+                        "title": "Suivi de commande en direct",
+                        "kicker": "Cuisine en direct",
+                        "heading": "Suivez la préparation,",
+                        "headingItalic": "étape par étape."
+                    },
+                    {
+                        "detail": "Partage d'addition",
+                        "title": "Paiement de groupe simplifié",
+                        "kicker": "Repas de groupe",
+                        "heading": "Partagez l'addition,",
+                        "headingItalic": "en un seul geste."
+                    },
+                    {
+                        "detail": "Espace fidélité",
+                        "title": "Cumulez des récompenses",
+                        "kicker": "Programme de fidélité",
+                        "heading": "Gagnez des avantages",
+                        "headingItalic": "dans vos endroits préférés."
+                    }
                 ]
             },
             "makernote": {
-                "title": "Makernote : EdTech Interactive",
+                "title": "Makernote : Apprentissage Interactif",
                 "category": "Application Éducative",
-                "summary": "Plateforme éducative avec collaboration en temps réel et synchronisation hors ligne.",
-                "description": "Plateforme éducative haute performance pour professeurs et étudiants — conçue en Clean Architecture pour la collaboration multi-utilisateurs en temps réel, la synchronisation instantanée des notes et une persistance hors ligne transparente.",
+                "summary": "Plateforme éducative permettant la collaboration en temps réel et la synchronisation hors ligne.",
+                "description": "Plateforme éducative haute performance pour enseignants et étudiants — conçue selon l'architecture Clean pour permettre la collaboration en temps réel, la synchronisation instantanée des notes et le stockage local hors ligne.",
                 "ctaText": "Voir sur l'App Store",
-                "altText": "Makernote EdTech app — collaboration temps réel et mode hors ligne par Muhammad Awais",
+                "altText": "Application éducative Makernote — Collaboration en temps réel et travail hors ligne par Muhammad Awais",
                 "highlights": [
                     "Collaboration multi-utilisateurs en temps réel",
-                    "Stockage local axé sur le hors-ligne (Offline-first)",
+                    "Stockage local avec support hors ligne complet",
                     "Architecture MVVM propre"
+                ],
+                "role": "Développeur Flutter",
+                "duration": "3 mois",
+                "challenge": "Offrir un environnement interactif où enseignants et élèves peuvent collaborer simultanément sur des tableaux virtuels partagés, même en cas de réseau scolaire instable.",
+                "solution": "Mise en place d'une architecture offline-first reposant sur une base SQLite locale et une file d'attente de synchronisation en arrière-plan. La collaboration en temps réel a été gérée via une couche WebSockets dédiée.",
+                "outcome": "Outil pédagogique robuste disponible sur l'App Store, utilisé chaque jour par des enseignants et doté d'une fonctionnalité de reconnaissance d'écriture manuscrite par IA.",
+                "metrics": [
+                    {
+                        "label": "Fiabilité hors ligne",
+                        "value": "100%"
+                    },
+                    {
+                        "label": "Latence de synchro",
+                        "value": "< 1 seconde"
+                    },
+                    {
+                        "label": "Plateforme",
+                        "value": "iOS"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Canvas vectoriel",
+                        "title": "Moteur de tracé rapide",
+                        "kicker": "Tableau intelligent",
+                        "heading": "Écrivez avec fluidité,",
+                        "headingItalic": "de manière très naturelle."
+                    },
+                    {
+                        "detail": "IA d'écriture",
+                        "title": "Conversion OCR instantanée",
+                        "kicker": "Moteur neuronal",
+                        "heading": "Convertissez vos notes,",
+                        "headingItalic": "en texte recherchable."
+                    },
+                    {
+                        "detail": "Synchronisation cloud",
+                        "title": "Sauvegarde multi-appareils",
+                        "kicker": "Synchro instantanée",
+                        "heading": "Vos notes,",
+                        "headingItalic": "toujours avec vous."
+                    },
+                    {
+                        "detail": "Collections",
+                        "title": "Rangement visuel de cahiers",
+                        "kicker": "Organisation",
+                        "heading": "Structurez vos idées,",
+                        "headingItalic": "sans effort."
+                    }
                 ]
             },
             "eco-grocery": {
-                "title": "Eco Grocery : Suivi d'Inventaire Intelligent",
-                "category": "Utilitaire Intelligent",
-                "summary": "Application intelligente de suivi de courses avec scanner de codes-barres, recommandations de recettes et alertes de péremption.",
-                "description": "Application utilitaire Android intelligente proposant une liste de courses dynamique liée à un moteur de recettes, couplée à un scanner de codes-barres par caméra pour un catalogage instantané et une gestion des dates de péremption.",
+                "title": "Eco Grocery : Gestion Intelligente des Courses",
+                "category": "Outil Intelligent",
+                "summary": "Application de courses intelligente avec scanner de codes-barres, suggestions de recettes et alertes de péremption.",
+                "description": "Application Android intelligente proposant une liste de courses dynamique connectée à un moteur de recommandation de recettes et un scanner de codes-barres par caméra pour le suivi des stocks en temps réel.",
                 "ctaText": "Voir les détails du projet",
-                "altText": "Eco Grocery app Android — tracker de courses avec scanner de codes-barres par Muhammad Awais",
+                "altText": "Application Android Eco Grocery — Gestionnaire de courses avec scanner de codes-barres par Muhammad Awais",
                 "highlights": [
-                    "Intégration du scanner de codes-barres par caméra",
-                    "Système intelligent de notifications de péremption",
-                    "Gestion réactive de l'état de l'UI"
+                    "Scanner de codes-barres intégré via l'appareil photo",
+                    "Système d'alerte intelligent pour les dates de péremption",
+                    "Gestion réactive des états de l'interface"
+                ],
+                "role": "Développeur Android",
+                "duration": "3 mois",
+                "challenge": "Créer un assistant du quotidien qui dépasse la simple liste de tâches, en associant le scan de produits, le suivi des dates limite et des idées de recettes dans une interface intuitive.",
+                "solution": "Intégration de ML Kit pour la lecture de codes-barres, couplé à Room pour la sauvegarde locale et à une API de recettes. Utilisation de WorkManager pour l'envoi fiable des rappels de péremption.",
+                "outcome": "Application Android pratique et appréciée des utilisateurs pour son efficacité à organiser le garde-manger et à réduire le gaspillage alimentaire.",
+                "metrics": [
+                    {
+                        "label": "Précision du scan",
+                        "value": "98%"
+                    },
+                    {
+                        "label": "Alertes de péremption",
+                        "value": "En temps réel"
+                    },
+                    {
+                        "label": "Recettes suggérées",
+                        "value": "500+"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Scanner de codes-barres",
+                        "title": "Recherche instantanée de produits",
+                        "kicker": "Scan d'ingrédients",
+                        "heading": "Scannez vos articles,",
+                        "headingItalic": "en les rangeant."
+                    },
+                    {
+                        "detail": "Radar anti-gaspillage",
+                        "title": "Suivi pour éviter le gaspillage",
+                        "kicker": "Alerte fraîcheur",
+                        "heading": "Cuisinez vos produits,",
+                        "headingItalic": "avant qu'ils ne périment."
+                    },
+                    {
+                        "detail": "Moteur de recettes",
+                        "title": "Cuisinez avec ce que vous avez",
+                        "kicker": "Recettes intelligentes",
+                        "heading": "Idées de repas,",
+                        "headingItalic": "selon vos ingrédients."
+                    },
+                    {
+                        "detail": "Indice d'éco-impact",
+                        "title": "Suivi de l'impact écologique",
+                        "kicker": "Progrès éco",
+                        "heading": "Mesurez vos efforts,",
+                        "headingItalic": "pour réduire les déchets."
+                    }
                 ]
             },
             "hcloud": {
-                "title": "HCloud : Suite de Gestion de Clinique",
-                "category": "Application Médecins",
-                "summary": "Portail d'exploitation d'entreprise pour professionnels de santé avec synchronisation des rendez-vous et des ordonnances.",
-                "description": "Application de gestion de clinique de niveau entreprise conçue pour les médecins. Bâtie avec MVVM, Hilt et Room DB pour permettre la création d'ordonnances en temps réel, la gestion des dossiers patients et la prise de rendez-vous offline-first.",
+                "title": "HCloud : Suite de Gestion de Cabinet Médical",
+                "category": "Application Médicale",
+                "summary": "Système de gestion médicale pour praticiens et cliniques avec synchronisation des rendez-vous et ordonnances numériques.",
+                "description": "Application de gestion de cabinet pour médecins et établissements de santé. Développée avec MVVM, Hilt et Room DB pour permettre la création rapide d'ordonnances, la gestion des dossiers patients et la prise de rendez-vous avec support hors ligne.",
                 "ctaText": "Voir sur Google Play",
-                "altText": "HCloud suite de gestion de clinique — synchronisation des ordonnances par Muhammad Awais",
+                "altText": "Suite de gestion médicale HCloud — Synchronisation des rendez-vous et ordonnances en temps réel par Muhammad Awais",
                 "highlights": [
-                    "Cœur d'architecture à double application",
-                    "File de synchro offline-first avec Room DB",
-                    "UI clinique réactive pour médecins"
+                    "Architecture fondamentale pour un environnement à deux applications",
+                    "File d'attente de synchronisation offline-first avec Room DB",
+                    "Interface clinique optimisée pour les médecins"
+                ],
+                "role": "Développeur Android",
+                "duration": "4 mois",
+                "challenge": "Garantir aux professionnels de santé un outil fiable pour la gestion des prescriptions et rendez-vous, fonctionnant parfaitement même sans connexion réseau stable, tout en restant synchronisé avec l'application patient.",
+                "solution": "Conception d'une architecture offline-first utilisant Room DB comme source principale de données et Retrofit pour la synchronisation en arrière-plan dès que le réseau est disponible.",
+                "outcome": "Une application publiée sur Google Play utilisée quotidiennement par le personnel médical, permettant de fluidifier significativement la rédaction des ordonnances et la gestion administrative.",
+                "metrics": [
+                    {
+                        "label": "Fonctionnement hors ligne",
+                        "value": "100%"
+                    },
+                    {
+                        "label": "Délai de synchro",
+                        "value": "< 2 secondes"
+                    },
+                    {
+                        "label": "Disponible sur Google Play",
+                        "value": "✓"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "File d'attente patients",
+                        "title": "Système d'appel en temps réel",
+                        "kicker": "Flux du cabinet",
+                        "heading": "Organisez l'arrivée,",
+                        "headingItalic": "de vos patients."
+                    },
+                    {
+                        "detail": "Télémédecine HD",
+                        "title": "Consultation vidéo via Twilio",
+                        "kicker": "Appel sécurisé",
+                        "heading": "Consultations en HD,",
+                        "headingItalic": "sur n'importe quel écran."
+                    },
+                    {
+                        "detail": "Générateur d'ordonnances",
+                        "title": "Prescription numérique",
+                        "kicker": "Émission rapide",
+                        "heading": "Rédigez vos ordonnances,",
+                        "headingItalic": "en quelques secondes."
+                    },
+                    {
+                        "detail": "Suivi financier",
+                        "title": "Analyses des revenus du cabinet",
+                        "kicker": "Centre financier",
+                        "heading": "Évolution de l'activité,",
+                        "headingItalic": "en un coup d'œil."
+                    }
                 ]
             },
             "healthwire": {
-                "title": "Healthwire : Écosystème HealthTech",
-                "category": "Plateforme de Télésanté",
-                "summary": "Application de santé majeure avec 2M+ de téléchargements, télémédecine, réservation de labos et paiements sécurisés.",
-                "description": "Conception de l'une des principales plateformes de santé du Pakistan — pilotant la logistique pharmaceutique, les réservations de tests de labo, les consultations vidéo Twilio et les passerelles de paiement locales (Meezan, JazzCash, Foree) avec plus de 99 % de sessions sans crash.",
+                "title": "Healthwire : Écosystème de Santé",
+                "category": "Plateforme de Santé",
+                "summary": "Application de santé majeure (+2M de téléchargements) proposant consultations, réservations d'analyses et paiements sécurisés.",
+                "description": "Développement de l'une des plus grandes plateformes de santé au Pakistan — intégrant des services de pharmacie, des réservations d'analyses médicales, des téléconsultations vidéo via Twilio et plusieurs passerelles de paiement locales (Meezan, JazzCash, Foree) avec plus de 99 % de sessions sans erreur.",
                 "ctaText": "Voir sur Google Play",
-                "altText": "Healthwire app de santé — logistique pharma, labos et télémédecine Twilio par Muhammad Awais",
+                "altText": "Application de santé Healthwire — Services de pharmacie, réservations de labo et téléconsultations Twilio par Muhammad Awais",
                 "highlights": [
-                    "2M+ téléchargements sur Google Play Store",
-                    "Consultations vidéo en temps réel Twilio (+15 % d'engagement)",
-                    "Paiements 100 % sécurisés (Meezan, JazzCash, Foree)"
+                    "Plus de 2 millions de téléchargements sur Google Play",
+                    "Téléconsultations vidéo via Twilio (+15% d'engagement)",
+                    "Paiements 100% sécurisés (Meezan, JazzCash, Foree)"
+                ],
+                "role": "Ingénieur Logiciel (Android)",
+                "duration": "2+ ans",
+                "challenge": "Faire évoluer une application médicale massive utilisée par des millions de personnes, en intégrant la vidéo Twilio, trois passerelles de paiement et la réservation d'analyses, le tout avec un niveau de stabilité supérieur à 99 %.",
+                "solution": "Mise en œuvre de l'architecture MVVM avec Hilt et Coroutines/Flow pour un code réactif et propre. WorkManager assure la synchronisation et l'envoi des notifications, tandis que les écrans clés ont été migrés progressivement vers Jetpack Compose.",
+                "outcome": "Une des applications de santé les plus téléchargées du pays avec plus de 2 millions d'installations, un taux de stabilité de plus de 99 % et une hausse de 15 % de l'engagement grâce aux fonctionnalités de téléconsultation.",
+                "metrics": [
+                    {
+                        "label": "Téléchargements",
+                        "value": "> 2 Millions"
+                    },
+                    {
+                        "label": "Taux de stabilité",
+                        "value": "> 99%"
+                    },
+                    {
+                        "label": "Hausse de l'engagement",
+                        "value": "+15%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Recherche de médecins",
+                        "title": "Réservation auprès de spécialistes",
+                        "kicker": "Trouver un médecin",
+                        "heading": "Prenez rendez-vous,",
+                        "headingItalic": "avec des praticiens vérifiés."
+                    },
+                    {
+                        "detail": "Consultation en ligne",
+                        "title": "Télémédecine 24/7",
+                        "kicker": "Soins immédiats",
+                        "heading": "Consultez un médecin,",
+                        "headingItalic": "à tout moment."
+                    },
+                    {
+                        "detail": "Pharmacie express",
+                        "title": "Livraison de médicaments à domicile",
+                        "kicker": "Livraison rapide",
+                        "heading": "Vos médicaments livrés,",
+                        "headingItalic": "en moins de 30 minutes."
+                    },
+                    {
+                        "detail": "Dossier médical",
+                        "title": "Historique de santé unifié",
+                        "kicker": "Registres numériques",
+                        "heading": "Tous vos résultats,",
+                        "headingItalic": "réunis au même endroit."
+                    }
                 ]
             },
             "dongamers": {
-                "title": "DonGamers : Plateforme e-Sports",
-                "category": "Plateforme e-Gaming",
-                "summary": "Plateforme de jeux mondiale avec chat temps réel Pusher, brackets de tournois et monétisation optimisée.",
-                "description": "Développement d'une plateforme e-sports internationale sur Android natif. Migration de Java vers Kotlin, architecture d'un chat temps réel évolutif via Pusher (+15 % d'engagement) et optimisation des achats in-app et de Google AdMob.",
+                "title": "DonGamers : Plateforme d'Esport",
+                "category": "Plateforme d'Esport",
+                "summary": "Plateforme esport mondiale avec chat en temps réel via Pusher, suivi de tournois et monétisation optimisée.",
+                "description": "Développement d'une plateforme esport Android à l'échelle mondiale. Migration du code de Java vers Kotlin, mise en place d'une infrastructure de chat en temps réel avec Pusher (+15% d'engagement) et optimisation des achats in-app ainsi que des annonces AdMob.",
                 "ctaText": "Voir sur Google Play",
-                "altText": "DonGamers plateforme e-sports — chat temps réel et suivi de tournois par Muhammad Awais",
+                "altText": "Plateforme d'Esport DonGamers — Chat en temps réel et suivi de tournois par Muhammad Awais",
                 "highlights": [
-                    "Taux sans crash de 99 % sur une disponibilité mondiale",
-                    "Infrastructure de chat temps réel avec Pusher",
-                    "Optimisation de la monétisation boostant les ventes de 10 %"
+                    "99% de sessions sans erreur dans le monde entier",
+                    "Infrastructure de chat en temps réel alimentée par Pusher",
+                    "Optimisation de la monétisation en hausse de 10%"
+                ],
+                "role": "Développeur Senior Android",
+                "duration": "1,5 an",
+                "challenge": "Migrer une importante base de code Java vers Kotlin sans interrompre le service pour les utilisateurs à travers le monde, tout en intégrant un chat en temps réel et en optimisant les revenus.",
+                "solution": "Migration progressive exploitant l'interopérabilité entre Java et Kotlin. Intégration de Pusher comme moteur de chat avec file d'attente locale des messages et tests A/B pour les stratégies de publicité et d'achats in-app.",
+                "outcome": "Taux de stabilité de 99 % à l'international, hausse de 15 % de l'engagement grâce au chat et augmentation de 10 % des ventes grâce à l'optimisation des parcours d'achat et des publicités AdMob.",
+                "metrics": [
+                    {
+                        "label": "Taux de stabilité",
+                        "value": "99%"
+                    },
+                    {
+                        "label": "Engagement du chat",
+                        "value": "+15%"
+                    },
+                    {
+                        "label": "Croissance des ventes",
+                        "value": "+10%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Arènes en direct",
+                        "title": "Planning des tournois",
+                        "kicker": "Esport en direct",
+                        "heading": "Participez aux tournois,",
+                        "headingItalic": "avec la communauté."
+                    },
+                    {
+                        "detail": "Chat d'équipe",
+                        "title": "Lobby en temps réel",
+                        "kicker": "Lobby instantané",
+                        "heading": "Coordonnez vos tactiques,",
+                        "headingItalic": "avec votre équipe."
+                    },
+                    {
+                        "detail": "Portefeuille gamer",
+                        "title": "Récompenses en tokens",
+                        "kicker": "Moteur de récompenses",
+                        "heading": "Gagnez des pièces,",
+                        "headingItalic": "à chaque victoire."
+                    },
+                    {
+                        "detail": "Profil pro",
+                        "title": "Fiche de statistiques du joueur",
+                        "kicker": "Classement général",
+                        "heading": "Affichez vos victoires,",
+                        "headingItalic": "et vos performances."
+                    }
+                ]
+            },
+            "wallpaper": {
+                "title": "Service Backend Wallpaper",
+                "category": "Développement Web",
+                "summary": "Service backend en Node.js conçu pour une plateforme de fonds d'écran haute performance.",
+                "description": "Service backend évolutif sous Node.js alimentant le site wallpaper.devawais.com. Développé avec une priorité accordée à la vitesse de réponse de l'API, au traitement efficace des données et à une infrastructure robuste.",
+                "ctaText": "Visiter le site",
+                "altText": "Backend Node.js pour l'application de fonds d'écran par Muhammad Awais",
+                "highlights": [
+                    "Architecture backend basée sur Node.js",
+                    "Temps de réponse API optimisés",
+                    "Services web évolutifs"
+                ],
+                "role": "Développeur Backend",
+                "duration": "1 mois",
+                "challenge": "Concevoir un service backend capable de distribuer des images haute résolution avec une latence minimale dans le monde entier, optimisé pour le réseau de diffusion de contenu (CDN).",
+                "solution": "Développement d'une API REST avec Node.js optimisée pour le transfert de fichiers, le filtrage par catégories et une couche de données légère conçue pour le stockage en cache CDN.",
+                "outcome": "Un service en production alimentant wallpaper.devawais.com avec des temps de réponse ultra-rapides et une architecture prête à monter en charge.",
+                "metrics": [
+                    {
+                        "label": "Réponse API",
+                        "value": "< 100ms"
+                    },
+                    {
+                        "label": "Disponibilité",
+                        "value": "99.9%"
+                    },
+                    {
+                        "label": "Statut en ligne",
+                        "value": "✓"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Catalogue premium",
+                        "title": "Collection Ultra HD",
+                        "kicker": "Explorer",
+                        "heading": "Découvrez des fonds,",
+                        "headingItalic": "et créations 4K."
+                    },
+                    {
+                        "detail": "Application en un geste",
+                        "title": "Configuration instantanée",
+                        "kicker": "Application en un clic",
+                        "heading": "Définissez votre fond,",
+                        "headingItalic": "en un seul toucher."
+                    },
+                    {
+                        "detail": "Nouveautés quotidiennes",
+                        "title": "Collections mises à jour",
+                        "kicker": "Mise à jour quotidienne",
+                        "heading": "De nouvelles images,",
+                        "headingItalic": "toutes les 24 heures."
+                    },
+                    {
+                        "detail": "Moteur API",
+                        "title": "Distribution CDN rapide",
+                        "kicker": "API REST",
+                        "heading": "Livraison d'images,",
+                        "headingItalic": "à très haute vitesse."
+                    }
                 ]
             }
         }
@@ -355,6 +917,10 @@
             "architecture": {
                 "title": "Architecture Mobile et Modernisation de Codebase",
                 "description": "Refactoring de bases de code monolithiques vers une Clean Architecture modulaire, migration de Java vers Kotlin et optimisation de la stabilité pour atteindre plus de 99 % de sessions sans crash."
+            },
+            "web-development": {
+                "title": "Web Development & Backend Services",
+                "description": "Custom scalable backend development utilizing Node.js, Next.js, and modern web architectures designed for high performance and robust API integrations."
             }
         }
     },
@@ -419,6 +985,7 @@
         "navigate": "Navigation",
         "specialties": "Spécialités",
         "getInTouch": "Restons en contact",
+        "viaEmail": "Contactez-nous par e-mail",
         "specialtiesList": [
             "Android natif (Kotlin & Java)",
             "Kotlin Multiplatform (KMP)",

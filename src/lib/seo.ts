@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "./site-config";
-import { locales, Locale } from "@/i18n/config";
+import { locales, Locale, defaultLocale } from "@/i18n/config";
 
 const localizedDefaults: Record<Locale, { title: string; description: string }> = {
     en: {
@@ -61,7 +61,7 @@ export function buildSharedFields(locale: Locale, path: string, title: string, d
         metadataBase: new URL(siteConfig.url),
         description,
         alternates: {
-            canonical: `${siteConfig.url}/${locale}${path}`,
+            canonical: locale === defaultLocale ? `${siteConfig.url}${path}` : `${siteConfig.url}/${locale}${path}`,
             languages: {
                 ...languageAlternates,
                 "x-default": `${siteConfig.url}/${defaultLocaleFallback()}${path}`,
@@ -69,7 +69,7 @@ export function buildSharedFields(locale: Locale, path: string, title: string, d
         },
         openGraph: {
             type: "website",
-            url: `${siteConfig.url}/${locale}${path}`,
+            url: locale === defaultLocale ? `${siteConfig.url}${path}` : `${siteConfig.url}/${locale}${path}`,
             title,
             description,
             siteName: "Muhammad Awais — Senior Mobile Developer Portfolio",

@@ -67,7 +67,7 @@
         "heading1": "Architecting Scalable",
         "heading2": "Mobile & Multiplatform Solutions",
         "description": "Senior Mobile Developer & Architect with 6+ years experience in Native Android (Jetpack Compose), KMP, CMP, and Flutter. Specialist in Clean Architecture & high-performance apps.",
-        "buttonStart": "Start a project",
+        "buttonStart": "Let's Talk",
         "buttonView": "View selected work",
         "skillsEyebrow": "Tech Stack",
         "portraitAlt": "Muhammad Awais — Senior Mobile App Developer and Multiplatform Architect in Lahore Pakistan",
@@ -209,10 +209,66 @@
             "kmp": "KMP",
             "cmp": "CMP"
         },
+        "platforms": {
+            "android": "Android Native",
+            "flutter": "Flutter",
+            "ios": "iOS",
+            "kmp": "Kotlin Multiplatform",
+            "cmp": "Compose Multiplatform",
+            "web": "Web"
+        },
+        "mockup": {
+            "date": "MONDAY, 20 MAY",
+            "greeting": "Good morning,",
+            "userName": "Muhammad.",
+            "todaysFocus": "TODAY'S FOCUS",
+            "focusText": "Ship something\nworth keeping.",
+            "progressCount": "3 of 5 complete",
+            "task1": "Architecture review",
+            "task2": "Code review pass",
+            "overview": "YOUR OVERVIEW",
+            "inControl": "In control,",
+            "together": "together.",
+            "availableToSpend": "AVAILABLE TO SPEND",
+            "growthText": "+12.4% this month",
+            "spending": "Spending",
+            "saved": "Saved",
+            "library": "YOUR LIBRARY",
+            "learningHeading1": "Keep building,",
+            "learningHeading2": "curious mind.",
+            "tag1": "ARCHITECTURE",
+            "cardTitle1": "Clean code,\nclean mind.",
+            "cardTime1": "12 min left",
+            "tag2": "PRODUCT THINKING",
+            "cardTitle2": "Start with a\nbetter question.",
+            "cardTime2": "18 min left",
+            "liveProject": "LIVE PROJECT",
+            "defaultHeading1": "Built for",
+            "defaultHeading2": "real use.",
+            "statLabel1": "Users",
+            "statLabel2": "Rating",
+            "statLabel3": "Uptime",
+            "statLabel4": "Speed"
+        },
         "ctas": {
             "playStore": "Google Play",
             "appStore": "App Store",
-            "details": "View details"
+            "details": "View details",
+            "viewLive": "View live",
+            "backToProjects": "← All Projects"
+        },
+        "detail": {
+            "role": "My Role",
+            "duration": "Duration",
+            "platform": "Platform",
+            "challenge": "The Challenge",
+            "solution": "The Solution",
+            "outcome": "Outcome",
+            "techStack": "Tech Stack",
+            "highlights": "Key Highlights",
+            "metrics": "Impact Metrics",
+            "viewOnPlayStore": "View on Google Play",
+            "viewOnAppStore": "View on App Store"
         },
         "items": {
             "spectra-care": {
@@ -226,6 +282,55 @@
                     "Agora SDK real-time video consultations",
                     "Spectra Care 6-in-1 IoT health monitor sync",
                     "MVI architecture with Jetpack Compose"
+                ],
+                "role": "Lead Android Developer",
+                "duration": "8 months",
+                "challenge": "Unifying a fragmented doctor and patient app codebase while simultaneously integrating proprietary Spectra Care IoT hardware drivers and low-latency Agora video calling — without disrupting daily clinical operations.",
+                "solution": "Rebuilt the platform from scratch using Jetpack Compose and MVI, creating a shared module architecture that decoupled IoT device communication from the UI layer via reactive Kotlin Flows. Agora SDK integration was wrapped in an abstraction layer enabling fault-tolerant reconnection logic.",
+                "outcome": "A unified, rock-solid HealthTech platform used daily in live clinical environments with a 99%+ crash-free session rate and zero documented data-integrity failures across IoT device sync.",
+                "metrics": [
+                    {
+                        "label": "Crash-Free Sessions",
+                        "value": "99%+"
+                    },
+                    {
+                        "label": "IoT Devices Supported",
+                        "value": "6-in-1"
+                    },
+                    {
+                        "label": "Video Latency",
+                        "value": "<300ms"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Daily Vitals",
+                        "title": "6-in-1 IoT Health Monitor",
+                        "kicker": "LIVE SENSORS",
+                        "heading": "Track vitals in",
+                        "headingItalic": "real-time."
+                    },
+                    {
+                        "detail": "Teleconsult",
+                        "title": "Instant Doctor Call",
+                        "kicker": "CONNECTED CARE",
+                        "heading": "Speak to a doctor",
+                        "headingItalic": "in minutes."
+                    },
+                    {
+                        "detail": "Diagnostics",
+                        "title": "Home Lab Test Booking",
+                        "kicker": "FAST DISPATCH",
+                        "heading": "Certified lab tests",
+                        "headingItalic": "at your door."
+                    },
+                    {
+                        "detail": "Medical Vault",
+                        "title": "Encrypted Health History",
+                        "kicker": "SECURE STORAGE",
+                        "heading": "Your health data,",
+                        "headingItalic": "always yours."
+                    }
                 ]
             },
             "zouris": {
@@ -240,6 +345,55 @@
                     "Cross-platform Flutter architecture",
                     "Low-latency real-time audio streaming",
                     "Clean state management with BLoC"
+                ],
+                "role": "Flutter Developer",
+                "duration": "5 months",
+                "challenge": "Delivering a premium, native-feeling wellness experience across both Android and iOS from a single Flutter codebase, with reliable background audio streaming and seamless coach-to-student session delivery.",
+                "solution": "Leveraged Flutter BLoC for predictable state management across the session lifecycle, integrated a custom audio pipeline for low-latency streaming, and implemented Decompose Navigation for a scalable, screen-agnostic routing architecture.",
+                "outcome": "A polished dual-platform app live on both Google Play and the App Store, delivering real-time guided wellness sessions to users across the UAE with consistently high store ratings.",
+                "metrics": [
+                    {
+                        "label": "Platforms Shipped",
+                        "value": "2"
+                    },
+                    {
+                        "label": "Audio Latency",
+                        "value": "<500ms"
+                    },
+                    {
+                        "label": "Store Rating",
+                        "value": "4.8★"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Daily check-in",
+                        "title": "A softer start",
+                        "kicker": "GOOD MORNING, MAYA",
+                        "heading": "Make space",
+                        "headingItalic": "for what matters."
+                    },
+                    {
+                        "detail": "Focus session",
+                        "title": "One thing at a time",
+                        "kicker": "12 MINUTES",
+                        "heading": "Just this.",
+                        "headingItalic": "Nothing else."
+                    },
+                    {
+                        "detail": "Weekly progress",
+                        "title": "Notice the rhythm",
+                        "kicker": "YOUR PROGRESS",
+                        "heading": "Your rhythm",
+                        "headingItalic": "is growing."
+                    },
+                    {
+                        "detail": "Personal settings",
+                        "title": "Make it yours",
+                        "kicker": "YOUR TEMPO",
+                        "heading": "Small steps,",
+                        "headingItalic": "your way."
+                    }
                 ]
             },
             "egora-b2b": {
@@ -253,6 +407,55 @@
                     "Flutter, Dio, and GetIt architecture",
                     "Independent multi-merchant dashboards",
                     "Real-time order sync and notification engine"
+                ],
+                "role": "Sr. Flutter Developer",
+                "duration": "4 months",
+                "challenge": "Building a white-labeled B2B dashboard that multiple restaurant brands could customize independently, while synchronizing real-time orders, QR codes, and receipt printing across heterogeneous hardware.",
+                "solution": "Architected a white-labeling configuration system in Flutter with theming and branding assets driven by a remote config API. Dio + GetIt provided clean dependency injection and a shared HTTP layer used across all tenant variants.",
+                "outcome": "Deployed across multiple restaurant partners, each running independently branded dashboards with zero shared-state conflicts and a stable real-time order sync pipeline.",
+                "metrics": [
+                    {
+                        "label": "Restaurant Partners",
+                        "value": "10+"
+                    },
+                    {
+                        "label": "Order Sync Uptime",
+                        "value": "99%"
+                    },
+                    {
+                        "label": "Print Reliability",
+                        "value": "100%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Inventory Control",
+                        "title": "Merchant Dashboard",
+                        "kicker": "STOCK ENGINE",
+                        "heading": "Manage items",
+                        "headingItalic": "in real-time."
+                    },
+                    {
+                        "detail": "Order Routing",
+                        "title": "Kitchen Display System",
+                        "kicker": "KDS MATRIX",
+                        "heading": "Zero-latency",
+                        "headingItalic": "order dispatch."
+                    },
+                    {
+                        "detail": "Analytics",
+                        "title": "Revenue Insights",
+                        "kicker": "DAILY STATS",
+                        "heading": "Sales metrics",
+                        "headingItalic": "at a glance."
+                    },
+                    {
+                        "detail": "White Label",
+                        "title": "Custom Brand Kit",
+                        "kicker": "BRAND ENGINE",
+                        "heading": "Tailored for",
+                        "headingItalic": "every restaurant."
+                    }
                 ]
             },
             "egora": {
@@ -266,6 +469,55 @@
                     "Driven 30% increase in customer adoption",
                     "Bluetooth thermal printer integration with 50% reduced latency",
                     "XStax payment gateway processing 10k+ monthly transactions"
+                ],
+                "role": "Sr. Mobile Developer",
+                "duration": "6 months",
+                "challenge": "Building a scalable QR-based ordering and reservation system that could handle peak restaurant traffic while also reliably driving Bluetooth thermal printers from a mobile app — hardware that was notorious for pairing instability.",
+                "solution": "Designed a dedicated Bluetooth printer abstraction layer with retry logic and connection-state machines in Kotlin. The QR ordering engine used Socket.IO for instant order broadcast and XStax for PCI-compliant payment processing.",
+                "outcome": "30% increase in customer adoption and a Bluetooth printing pipeline with 100% reliability and 50% reduced query latency, processing over 10,000 monthly transactions.",
+                "metrics": [
+                    {
+                        "label": "Customer Adoption",
+                        "value": "+30%"
+                    },
+                    {
+                        "label": "Monthly Transactions",
+                        "value": "10k+"
+                    },
+                    {
+                        "label": "Print Query Latency",
+                        "value": "-50%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Table QR Scan",
+                        "title": "Instant Dining Engine",
+                        "kicker": "SCAN & ORDER",
+                        "heading": "Order directly",
+                        "headingItalic": "from your table."
+                    },
+                    {
+                        "detail": "Kitchen Sync",
+                        "title": "Real-time Order Status",
+                        "kicker": "LIVE KITCHEN",
+                        "heading": "Track your food",
+                        "headingItalic": "step by step."
+                    },
+                    {
+                        "detail": "Split Payment",
+                        "title": "Seamless Bill Sharing",
+                        "kicker": "GROUP DINING",
+                        "heading": "Split the bill",
+                        "headingItalic": "with one tap."
+                    },
+                    {
+                        "detail": "Rewards Hub",
+                        "title": "Dine & Earn Points",
+                        "kicker": "TEMPO LOYALTY",
+                        "heading": "Earn perks at",
+                        "headingItalic": "favorite spots."
+                    }
                 ]
             },
             "makernote": {
@@ -279,6 +531,55 @@
                     "Real-time multi-user collaboration",
                     "Offline-first local storage",
                     "Clean MVVM architecture"
+                ],
+                "role": "Flutter Developer",
+                "duration": "3 months",
+                "challenge": "Delivering a collaborative EdTech experience where teachers and students could work on shared boards simultaneously, with full offline support when school networks were unreliable.",
+                "solution": "Implemented an offline-first architecture using local SQLite storage with a background sync queue. Real-time collaboration was driven by a WebSocket layer abstracted cleanly from the MVVM business logic.",
+                "outcome": "A robust classroom tool live on the App Store that teachers trust for daily lesson delivery, with AI/ML-powered handwriting recognition as a standout capability.",
+                "metrics": [
+                    {
+                        "label": "Offline Reliability",
+                        "value": "100%"
+                    },
+                    {
+                        "label": "Sync Latency",
+                        "value": "<1s"
+                    },
+                    {
+                        "label": "Platform",
+                        "value": "iOS"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Vector Canvas",
+                        "title": "Low-Latency Ink Engine",
+                        "kicker": "SMART CANVAS",
+                        "heading": "Write with",
+                        "headingItalic": "natural fluidity."
+                    },
+                    {
+                        "detail": "AI Handwriting",
+                        "title": "Instant OCR Conversion",
+                        "kicker": "NEURAL ENGINE",
+                        "heading": "Convert ink to",
+                        "headingItalic": "searchable text."
+                    },
+                    {
+                        "detail": "Vault Sync",
+                        "title": "Cross-Device Cloud Sync",
+                        "kicker": "REALTIME SYNC",
+                        "heading": "Your notes,",
+                        "headingItalic": "everywhere."
+                    },
+                    {
+                        "detail": "Collections",
+                        "title": "Visual Notebook Shelves",
+                        "kicker": "ORGANIZATION",
+                        "heading": "Structure ideas",
+                        "headingItalic": "without friction."
+                    }
                 ]
             },
             "eco-grocery": {
@@ -292,6 +593,55 @@
                     "Camera barcode scanner integration",
                     "Smart notification & expiry system",
                     "Reactive UI state handling"
+                ],
+                "role": "Android Developer",
+                "duration": "3 months",
+                "challenge": "Building a grocery management experience that felt genuinely smart — not just a list app — by combining barcode scanning, expiry tracking, and personalized recipe recommendations in a single cohesive flow.",
+                "solution": "Integrated ML Kit barcode scanning with Room DB for local item persistence, and connected a public recipe API to surface contextual meal suggestions based on in-stock items. WorkManager drove scheduled expiry notifications.",
+                "outcome": "A polished Android utility app with a standout barcode-to-recipe pipeline that clients praised for genuinely changing how households manage their weekly grocery cycle.",
+                "metrics": [
+                    {
+                        "label": "Scan Accuracy",
+                        "value": "98%"
+                    },
+                    {
+                        "label": "Expiry Alerts",
+                        "value": "Real-time"
+                    },
+                    {
+                        "label": "Recipe Matches",
+                        "value": "500+"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Barcode Scanner",
+                        "title": "Instant Item Lookup",
+                        "kicker": "PANTRY SCAN",
+                        "heading": "Scan items as",
+                        "headingItalic": "you unpack."
+                    },
+                    {
+                        "detail": "Expiry Radar",
+                        "title": "Zero Waste Tracker",
+                        "kicker": "FRESHNESS ALERT",
+                        "heading": "Use ingredients",
+                        "headingItalic": "before they spoil."
+                    },
+                    {
+                        "detail": "Recipe Engine",
+                        "title": "Pantry-to-Plate Cooking",
+                        "kicker": "SMART RECIPES",
+                        "heading": "Meal ideas from",
+                        "headingItalic": "what you have."
+                    },
+                    {
+                        "detail": "Impact Score",
+                        "title": "Sustainability Tracking",
+                        "kicker": "ECO PROGRESS",
+                        "heading": "Track your green",
+                        "headingItalic": "footprint score."
+                    }
                 ]
             },
             "hcloud": {
@@ -305,6 +655,55 @@
                     "Dual-app architecture core",
                     "Offline-first sync queue using Room DB",
                     "Responsive physician clinical UI"
+                ],
+                "role": "Android Developer",
+                "duration": "4 months",
+                "challenge": "Giving doctors a reliable prescription and appointment management tool that worked seamlessly even in hospital zones with intermittent internet connectivity — while staying perfectly in sync with the patient-facing app.",
+                "solution": "Designed an offline-first sync queue using Room DB as the single source of truth, with Retrofit handling background reconciliation when connectivity resumed. Hilt provided clean DI across the dual-app architecture.",
+                "outcome": "A live Play Store clinic suite used by healthcare professionals daily, with an offline-resilient prescription workflow that reduced administrative delays for medical teams.",
+                "metrics": [
+                    {
+                        "label": "Offline Resilience",
+                        "value": "100%"
+                    },
+                    {
+                        "label": "Sync Delay",
+                        "value": "<2s"
+                    },
+                    {
+                        "label": "Live on Play Store",
+                        "value": "✓"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Patient Queue",
+                        "title": "Live Token Dispatch",
+                        "kicker": "CLINIC FLOW",
+                        "heading": "Streamline patient",
+                        "headingItalic": "check-in."
+                    },
+                    {
+                        "detail": "Telehealth HD",
+                        "title": "Twilio Video Consult",
+                        "kicker": "ENCRYPTED CALL",
+                        "heading": "HD consultations",
+                        "headingItalic": "on any device."
+                    },
+                    {
+                        "detail": "Rx Generator",
+                        "title": "Digital Prescription",
+                        "kicker": "INSTANT RX",
+                        "heading": "Prescriptions sent",
+                        "headingItalic": "in seconds."
+                    },
+                    {
+                        "detail": "Revenue Portal",
+                        "title": "Clinic Financial Analytics",
+                        "kicker": "FINANCIAL HUB",
+                        "heading": "Complete clinic",
+                        "headingItalic": "growth metrics."
+                    }
                 ]
             },
             "healthwire": {
@@ -318,6 +717,55 @@
                     "2M+ downloads on Google Play Store",
                     "Twilio real-time video consultations (+15% engagement)",
                     "100% secure payment processing (Meezan, JazzCash, Foree)"
+                ],
+                "role": "Software Engineer, Android",
+                "duration": "2+ years",
+                "challenge": "Scaling a HealthTech superapp handling millions of active users — integrating Twilio video, three payment gateways, lab bookings, pharmacy logistics, and deep-link navigation — while maintaining a 99%+ crash-free rate under high-growth pressure.",
+                "solution": "Adopted MVVM with Hilt and Coroutines/Flow for a clean, reactive architecture. WorkManager handled background sync and FCM delivery. Migrated core screens progressively to Jetpack Compose while keeping the legacy XML base stable throughout the transition.",
+                "outcome": "One of Pakistan's most-downloaded healthcare apps with 2M+ installs, a 99%+ crash-free rate, and a 15% uplift in engagement directly attributed to the Twilio telemedicine integration.",
+                "metrics": [
+                    {
+                        "label": "Downloads",
+                        "value": "2M+"
+                    },
+                    {
+                        "label": "Crash-Free Rate",
+                        "value": "99%+"
+                    },
+                    {
+                        "label": "Engagement Lift",
+                        "value": "+15%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Doctor Search",
+                        "title": "Top Specialist Booking",
+                        "kicker": "FIND DOCTORS",
+                        "heading": "Book verified",
+                        "headingItalic": "healthcare experts."
+                    },
+                    {
+                        "detail": "Online Consult",
+                        "title": "24/7 Telemedicine",
+                        "kicker": "INSTANT CARE",
+                        "heading": "Connect with doctors",
+                        "headingItalic": "around the clock."
+                    },
+                    {
+                        "detail": "Pharmacy Express",
+                        "title": "Doorstep Medicine Delivery",
+                        "kicker": "EXPRESS DISPATCH",
+                        "heading": "Medicines delivered",
+                        "headingItalic": "in under 30m."
+                    },
+                    {
+                        "detail": "Health Vault",
+                        "title": "Unified Medical Records",
+                        "kicker": "DIGITAL RECORDS",
+                        "heading": "All lab reports",
+                        "headingItalic": "in one place."
+                    }
                 ]
             },
             "dongamers": {
@@ -331,6 +779,117 @@
                     "99% crash-free rate across global availability",
                     "Real-time chat infrastructure using Pusher",
                     "Monetization optimization boosting sales by 10%"
+                ],
+                "role": "Senior Android Developer",
+                "duration": "1.5 years",
+                "challenge": "Migrating a large legacy Java codebase to Kotlin without breaking an internationally distributed app, while adding real-time chat infrastructure and improving monetization — all under tight release schedules.",
+                "solution": "Executed an incremental Java-to-Kotlin migration using Kotlin's Java interoperability. Pusher was integrated as the real-time chat backbone with a custom message queue for offline tolerance. AdMob and IAP monetization was A/B tested across user segments.",
+                "outcome": "99% crash-free sessions globally, a 15% engagement uplift from real-time chat, and a 10% sales increase through optimized IAP and AdMob revenue strategies.",
+                "metrics": [
+                    {
+                        "label": "Crash-Free Rate",
+                        "value": "99%"
+                    },
+                    {
+                        "label": "Chat Engagement",
+                        "value": "+15%"
+                    },
+                    {
+                        "label": "Sales Boost",
+                        "value": "+10%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Live Arenas",
+                        "title": "Tournament Bracket Hub",
+                        "kicker": "ESPORTS LIVE",
+                        "heading": "Compete in live",
+                        "headingItalic": "community cups."
+                    },
+                    {
+                        "detail": "Squad Chat",
+                        "title": "Real-time Pusher Lobby",
+                        "kicker": "REALTIME LOBBY",
+                        "heading": "Coordinate tactics",
+                        "headingItalic": "with your squad."
+                    },
+                    {
+                        "detail": "Gamer Wallet",
+                        "title": "Esports Coin Rewards",
+                        "kicker": "REWARDS ENGINE",
+                        "heading": "Earn coins for",
+                        "headingItalic": "every victory."
+                    },
+                    {
+                        "detail": "Pro Profile",
+                        "title": "Player Stat Card",
+                        "kicker": "RANK MATRIX",
+                        "heading": "Showcase win rates",
+                        "headingItalic": "& match achievements."
+                    }
+                ]
+            },
+            "wallpaper": {
+                "title": "Wallpaper App Backend",
+                "category": "Web Development",
+                "summary": "Node.js backend for a high-performance wallpaper platform.",
+                "description": "A scalable Node.js backend built as part of web development services to power the wallpaper.devawais.com platform. Focused on fast API response times, efficient data handling, and robust architecture.",
+                "ctaText": "Visit Site",
+                "altText": "Wallpaper App Node.js Backend built by Muhammad Awais",
+                "highlights": [
+                    "Node.js Backend Architecture",
+                    "Optimized API Performance",
+                    "Scalable Web Services"
+                ],
+                "role": "Backend Developer",
+                "duration": "1 month",
+                "challenge": "Building a backend capable of serving high-resolution wallpaper assets at low latency to a global audience, with efficient CDN-ready image delivery and a clean API surface.",
+                "solution": "Architected a Node.js REST API with optimized asset serving, category-based filtering, and a lean data layer designed for CDN caching compatibility.",
+                "outcome": "A live production backend powering wallpaper.devawais.com with fast API response times and a maintainable, extensible architecture.",
+                "metrics": [
+                    {
+                        "label": "API Response",
+                        "value": "<100ms"
+                    },
+                    {
+                        "label": "Uptime",
+                        "value": "99.9%"
+                    },
+                    {
+                        "label": "Live Site",
+                        "value": "✓"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Curated Feed",
+                        "title": "Ultra HD Collection",
+                        "kicker": "DISCOVER",
+                        "heading": "Explore 4K",
+                        "headingItalic": "art & wallpapers."
+                    },
+                    {
+                        "detail": "One-Tap Set",
+                        "title": "Instant Wallpaper Apply",
+                        "kicker": "ONE-TAP APPLY",
+                        "heading": "Set background",
+                        "headingItalic": "in a single tap."
+                    },
+                    {
+                        "detail": "Daily Drops",
+                        "title": "Fresh Daily Collections",
+                        "kicker": "DAILY REFRESH",
+                        "heading": "New curated art",
+                        "headingItalic": "every 24 hours."
+                    },
+                    {
+                        "detail": "API Engine",
+                        "title": "Fast CDN Delivery",
+                        "kicker": "REST API",
+                        "heading": "Lightning-fast",
+                        "headingItalic": "image CDN distribution."
+                    }
                 ]
             }
         }
@@ -355,6 +914,10 @@
             "architecture": {
                 "title": "Mobile Architecture & Codebase Modernization",
                 "description": "Refactoring monolithic codebases into modular Clean Architecture, migrating Java to Kotlin, and tuning app stability to achieve 99%+ crash-free session rates."
+            },
+            "web-development": {
+                "title": "Web Development & Backend Services",
+                "description": "Custom scalable backend development utilizing Node.js, Next.js, and modern web architectures designed for high performance and robust API integrations."
             }
         }
     },
@@ -408,7 +971,7 @@
         "bookedStatus": "Currently booking Q3 2026 engagements",
         "title": "Have a high-scale mobile app idea or multiplatform project?",
         "description": "Tell me about your product goals, architecture needs, or KMP/Flutter migration — I'll reply within one business day with a clear technical roadmap.",
-        "startProject": "Start a project",
+        "startProject": "Let's Talk",
         "seeWork": "Explore portfolio"
     },
     "footer": {
@@ -417,6 +980,7 @@
         "navigate": "Navigate",
         "specialties": "Specialties",
         "getInTouch": "Get in touch",
+        "viaEmail": "Get in touch via email",
         "specialtiesList": [
             "Native Android (Kotlin & Java)",
             "Kotlin Multiplatform (KMP)",

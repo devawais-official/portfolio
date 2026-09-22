@@ -5,7 +5,13 @@ import { withTranslatedList } from "@/i18n/data-mapper";
 
 export const getHomeData = async (locale: Locale) => {
     const t = await getTranslations({ locale });
-    const translate = (key: string, options?: any) => t(key, options);
+    const translate = (key: string, options?: any) => {
+        try {
+            return t.raw(key);
+        } catch {
+            try { return t(key, options); } catch { return ""; }
+        }
+    };
 
     // 1. Automatic Dynamic Project Mapping
     const featuredProjects = withTranslatedList(

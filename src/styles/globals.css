@@ -1,28 +1,28 @@
 @import "tailwindcss";
 
 /* ==========================================================================
-   TAILWIND CSS V4 - GLOBAL DESIGN SYSTEM TOKENS
+   TAILWIND CSS V4 - DESIGN SYSTEM TOKENS (HEX LIGHT THEME)
    ========================================================================== */
 :root {
-  /* Deep Navy & Slate Blue Base */
-  --background: #151828;
-  --surface: #2d3250;
-  --surface-elevated: #424769;
-  --surface-sunken: #10121d;
+  /* Warm Base & Elevated Surfaces */
+  --background: #F7F5F0;
+  --surface: #EFECE3;
+  --surface-elevated: #E7DCF8;
+  --surface-sunken: #EBE7DC;
 
-  /* Typography Contrast Tokens */
-  --heading: #ffffff;
-  --foreground: #d0d3e2;
-  --muted: #aab2cd;
-  --inverse: #151828;
-  --link: #f9b17a;
+  /* Typography */
+  --heading: #182338;
+  --foreground: #1C2333;
+  --muted: #626978;
+  --inverse: #ffffff;
+  --link: #FF7A50;
 
-  /* Warm Peach Brand Accent (#f9b17a) */
-  --brand: #f9b17a;
-  --brand-dark: #e09a63;
-  --brand-light: #ffc99e;
-  --brand-subtle: color-mix(in srgb, var(--brand) 15%, transparent);
-  --brand-foreground: #151828;
+  /* Coral Primary Brand Accent (#FF7A50) */
+  --brand: #FF7A50;
+  --brand-dark: #E05C33;
+  --brand-light: #FF9E80;
+  --brand-subtle: color-mix(in srgb, var(--brand) 12%, transparent);
+  --brand-foreground: #182338;
 
   --primary: var(--brand);
   --primary-dark: var(--brand-dark);
@@ -30,20 +30,23 @@
   --primary-subtle: var(--brand-subtle);
   --primary-foreground: var(--brand-foreground);
 
-  /* Accent Tokens */
-  --accent: #f9b17a;
-  --accent-dark: #e09a63;
-  --accent-light: #ffc99e;
-  --accent-subtle: color-mix(in srgb, var(--accent) 15%, transparent);
-  --accent-foreground: #151828;
+  /* Secondary Accent (Lavender) */
+  --accent: #E7DCF8;
+  --accent-dark: #C9B8E8;
+  --accent-light: #F3ECFC;
+  --accent-subtle: color-mix(in srgb, var(--accent) 30%, transparent);
+  --accent-foreground: #182338;
 
-  /* Pure Tokenized Clean Borders */
-  --border: color-mix(in srgb, var(--surface-elevated) 60%, transparent);
+  /* Borders */
+  --border: rgba(28, 35, 51, 0.15);
   --border-strong: color-mix(in srgb, var(--brand) 40%, transparent);
-  --border-subtle: color-mix(in srgb, var(--surface-elevated) 30%, transparent);
-  --border-focus: var(--accent);
+  --border-subtle: rgba(28, 35, 51, 0.08);
+  --border-focus: #FF7A50;
 }
 
+/* ==========================================================================
+   TAILWIND V4 THEME CONFIGURATION
+   ========================================================================== */
 @theme {
   --color-background: var(--background);
   --color-surface: var(--surface);
@@ -85,11 +88,63 @@
   --radius-3xl: 32px;
   --radius-full: 9999px;
 
+  /* Custom Animations & Keyframes */
   --animate-marquee: marquee 70s linear infinite;
   --animate-marquee-rtl: marquee-rtl 70s linear infinite;
   --animate-liquid: liquid 12s ease-in-out infinite;
   --animate-float: float 6s ease-in-out infinite;
   --animate-fade-up: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes liquid {
+    0% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+      border-radius: 40% 60% 70% 30%;
+    }
+    50% {
+      transform: translate(20px, -30px) scale(1.1) rotate(180deg);
+    }
+    100% {
+      transform: translate(-10px, 20px) scale(0.95) rotate(360deg);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-rtl {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
 }
 
 /* ==========================================================================
@@ -117,13 +172,12 @@ h6 {
   @apply font-display font-bold text-heading;
 }
 
-/* ⚡ FIX: :where(a) ensures zero-specificity so buttons override link color */
 :where(a) {
-  @apply text-link transition-colors hover:text-accent-light;
+  @apply text-link transition-colors hover:opacity-80;
 }
 
 ::selection {
-  @apply bg-primary/30 text-heading;
+  @apply bg-primary text-primary-foreground;
 }
 
 /* ==========================================================================
@@ -138,23 +192,23 @@ h6 {
 }
 
 .eyebrow {
-  @apply inline-flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-[0.2em] text-primary-light;
+  @apply inline-flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-[0.2em] text-primary;
 }
 
 .liquid-glass {
-  @apply border border-border-subtle bg-surface/40 backdrop-blur-md;
+  @apply border border-border bg-surface/80 backdrop-blur-md shadow-sm;
 }
 
 .card-surface {
-  @apply rounded-xl border border-border/40 bg-surface/60 backdrop-blur-md transition-all duration-300 hover:border-border-strong hover:bg-surface/80;
+  @apply rounded-xl border border-border bg-surface shadow-sm backdrop-blur-md transition-all duration-300 hover:border-border-strong hover:shadow-md;
 }
 
 .input-base {
-  @apply w-full rounded-lg border border-border/50 bg-surface-sunken/80 px-4 py-3 text-sm text-heading outline-none transition-all duration-300 focus:border-accent focus:ring-1 focus:ring-accent;
+  @apply w-full rounded-lg border border-border bg-surface px-4 py-3 text-sm text-heading outline-none transition-all duration-300 focus:border-border-focus focus:ring-1 focus:ring-border-focus;
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 font-mono text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-lg shadow-primary/20 transition-all duration-300 hover:scale-[1.02] hover:bg-primary-light hover:text-primary-foreground active:scale-95;
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 font-mono text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-md shadow-primary/20 transition-all duration-300 hover:scale-[1.02] hover:bg-primary-dark active:scale-95;
 }
 
 .text-gradient-brand {
@@ -162,11 +216,11 @@ h6 {
 }
 
 .badge-icon {
-  @apply relative z-10 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-primary-subtle text-primary-light transition-all duration-300 hover:bg-primary hover:text-primary-foreground;
+  @apply relative z-10 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-primary-subtle text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground;
 }
 
 .layout-glow-layer {
-  @apply pointer-events-none fixed inset-0 -z-10 opacity-30;
+  @apply pointer-events-none fixed inset-0 -z-10 opacity-40;
   background-image: radial-gradient(circle at center, var(--primary-subtle) 0%, transparent 70%);
 }
 
@@ -174,66 +228,7 @@ h6 {
   @apply flex flex-grow flex-col pt-24 sm:pt-28;
 }
 
-/* Keyframes */
-@keyframes liquid {
-  0% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-    border-radius: 40% 60% 70% 30%;
-  }
-
-  50% {
-    transform: translate(20px, -30px) scale(1.1) rotate(180deg);
-  }
-
-  100% {
-    transform: translate(-10px, 20px) scale(0.95) rotate(360deg);
-  }
-}
-
-@keyframes float {
-
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-12px);
-  }
-}
-
-@keyframes fade-up {
-  0% {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-@keyframes marquee-rtl {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(50%);
-  }
-}
-
+/* Marquee Utility Helpers */
 .animate-marquee {
   display: flex;
   width: max-content;

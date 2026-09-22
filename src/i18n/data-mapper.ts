@@ -12,7 +12,11 @@ export function withTranslatedFields<
     const scopedTranslate: TranslateFn = (key: string, options?: Record<string, unknown>) => {
         const cleanKey = key.startsWith(".") ? key.slice(1) : key;
         const fullKey = namespace ? `${namespace}.${raw.slug}.${cleanKey}` : `${raw.slug}.${cleanKey}`;
-        return translate(fullKey, options);
+        try {
+            return translate(fullKey, options);
+        } catch {
+            return "";
+        }
     };
 
     return {

@@ -213,8 +213,8 @@
     },
     "projects": {
         "title": "プロジェクト",
-        "headerTitle": "ネイティブAndroidおよびFlutterエコシステムでの開発・リリース実績",
-        "headerDesc": "プラットフォームで絞り込み、最適なパフォーマンス、セキュリティ、リアルタイム接続を実現するために、アーキテクチャや技術スタックがどのように適応しているかをご覧いただけます。",
+        "headerTitle": "ネイティブAndroidおよびFlutterエコシステムで展開されたアプリケーション。",
+        "headerDesc": "プラットフォームでフィルタリングして、最高のパフォーマンス、堅牢なセキュリティ、リアルタイム接続を提供するためにアーキテクチャと技術スタックがどのように適応されているかをご覧ください。",
         "noProjectsFound": "このカテゴリーのプロジェクトは見つかりませんでした。",
         "backToProjects": "すべてのプロジェクト",
         "techStack": "技術スタック",
@@ -226,128 +226,690 @@
             "kmp": "KMP",
             "cmp": "CMP"
         },
+        "platforms": {
+            "android": "ネイティブAndroid",
+            "flutter": "Flutter",
+            "ios": "iOS",
+            "kmp": "Kotlin Multiplatform",
+            "cmp": "Compose Multiplatform",
+            "web": "Web"
+        },
+        "mockup": {
+            "date": "5月20日（月）",
+            "greeting": "おはようございます、",
+            "userName": "Muhammadさん。",
+            "todaysFocus": "今日のフォーカス",
+            "focusText": "長く残り続けるものを\n創り出そう。",
+            "progressCount": "5件中3件完了",
+            "task1": "アーキテクチャレビュー",
+            "task2": "コードレビュー",
+            "overview": "概要",
+            "inControl": "すべて順調です、",
+            "together": "共に進めましょう。",
+            "availableToSpend": "利用可能残高",
+            "growthText": "今月 +12.4%",
+            "spending": "支出",
+            "saved": "貯蓄",
+            "library": "ライブラリ",
+            "learningHeading1": "創り続けよう、",
+            "learningHeading2": "探究心と共に。",
+            "tag1": "アーキテクチャ",
+            "cardTitle1": "クリーンなコード、\n明瞭な思考。",
+            "cardTime1": "残り12分",
+            "tag2": "プロダクト思考",
+            "cardTitle2": "より良い問いから\nはじめよう。",
+            "cardTime2": "残り18分",
+            "tag3": "リアルタイム",
+            "cardTitle3": "データストリームを\n理解する。",
+            "cardTime3": "残り8分",
+            "liveProject": "ライブプロジェクト",
+            "defaultHeading1": "現実世界での使用に",
+            "defaultHeading2": "最適化された設計。",
+            "statLabel1": "ユーザー数",
+            "statLabel2": "評価",
+            "statLabel3": "稼働率",
+            "statLabel4": "レイテンシ"
+        },
         "ctas": {
             "playStore": "Google Play",
             "appStore": "App Store",
-            "details": "詳細を見る"
+            "details": "詳細を見る",
+            "viewLive": "ライブを見る",
+            "backToProjects": "← すべてのプロジェクト"
+        },
+        "detail": {
+            "role": "役割",
+            "duration": "期間",
+            "platform": "プラットフォーム",
+            "challenge": "課題",
+            "solution": "解決策",
+            "outcome": "成果",
+            "techStack": "技術スタック",
+            "highlights": "ハイライト",
+            "metrics": "実績・指標",
+            "viewOnPlayStore": "Google Playで見る",
+            "viewOnAppStore": "App Storeで見る"
         },
         "items": {
             "spectra-care": {
-                "title": "Spectra Care: 遠隔診療・IoTプラットフォーム",
+                "title": "Spectra Care: ヘルスケア & IoT プラットフォーム",
                 "category": "遠隔医療 & IoT",
-                "summary": "Jetpack Compose、Agoraビデオ通話、6-in-1医療用モニター連携を備えたエンタープライズ向け遠隔診療プラットフォーム。",
-                "description": "Jetpack ComposeおよびMVIアーキテクチャで構築された商用Android遠隔診療アプリ。低遅延のAgoraビデオ診療、Spectra Care 6-in-1健康モニター用のリアクティブなデバイスドライバ、安全なSOAP EHRデータ同期機能を搭載。",
+                "summary": "Jetpack Compose、Agora経由のビデオ通話、6-in-1バイタルモニター統合を備えた企業向け遠隔医療プラットフォーム。",
+                "description": "Jetpack ComposeとMVIアーキテクチャで構築されたプロダクション仕様のネイティブAndroid遠隔医療アプリ。Agoraによる超低遅延のビデオ通話、Spectra Care 6-in-1健康モニターのドライバー、セキュリティで保護された電子健康記録（EHR）同期機能を備えています。",
                 "ctaText": "Google Playで見る",
-                "altText": "Spectra Care — ムハンマド・アワイスが構築した、Agoraビデオ通話およびSpectra IoT健康モニター連携を備えたネイティブAndroid遠隔診療アプリ",
+                "altText": "Spectra Care アプリ — Agoraビデオ通話とIoT機器連携を備えたネイティブAndroid遠隔医療アプリ（開発：Muhammad Awais）",
                 "highlights": [
-                    "Agora SDKによるリアルタイムビデオ診療",
-                    "Spectra Care 6-in-1 IoT健康モニター同期",
-                    "Jetpack Composeを用いたMVIアーキテクチャ"
+                    "Agora SDKを活用したリアルタイムビデオ診察",
+                    "Spectra Care 6-in-1スマート健康モニターとの同期",
+                    "Jetpack Composeを使用したMVIアーキテクチャ"
+                ],
+                "role": "リードAndroidエンジニア",
+                "duration": "8ヶ月",
+                "challenge": "日常の診療業務を中断することなく、Spectra Care IoTデバイスのリアルタイム接続とAgoraによる低遅延ビデオ通話機能を統合し、医師向け・患者向けに独立していたコードベースを一本化すること。",
+                "solution": "Jetpack ComposeとMVIを用いてゼロから完全にリファクタリングを実施。リアクティブなKotlin Flowを使用してIoT接続をUI層から切り離したモジュール式共有アーキテクチャを構築しました。また、Agora SDKを抽象化層にカプセル化し、ネットワーク切断時の自動再接続を実現しました。",
+                "outcome": "医療の現場で毎日安定して運用されている堅牢なプラットフォーム。クラッシュフリー率99%以上を達成し、データ同期中の整合性トラブルはゼロを実現しました。",
+                "metrics": [
+                    {
+                        "label": "クラッシュフリー率",
+                        "value": "> 99%"
+                    },
+                    {
+                        "label": "対応IoTデバイス",
+                        "value": "6-in-1"
+                    },
+                    {
+                        "label": "ビデオ遅延",
+                        "value": "< 300ms"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "毎日の測定",
+                        "title": "6-in-1健康モニター",
+                        "kicker": "リアルタイムセンサー",
+                        "heading": "バイタルデータを測定、",
+                        "headingItalic": "リアルタイムで。"
+                    },
+                    {
+                        "detail": "遠隔診療",
+                        "title": "即時医療通話",
+                        "kicker": "つながる医療",
+                        "heading": "医師に相談、",
+                        "headingItalic": "わずか数分で。"
+                    },
+                    {
+                        "detail": "検査診断",
+                        "title": "自宅でのラボ検査",
+                        "kicker": "迅速配送",
+                        "heading": "認定検査キットを、",
+                        "headingItalic": "あなたの玄関まで。"
+                    },
+                    {
+                        "detail": "ヘルス金庫",
+                        "title": "暗号化医療記録",
+                        "kicker": "安全な保存",
+                        "heading": "あなたの健康データは、",
+                        "headingItalic": "常にあなた管理のもとに。"
+                    }
                 ]
             },
             "zouris": {
-                "title": "Zouris: ホリスティックウェルネスプラットフォーム",
+                "title": "Zouris: 総合ウェルネスプラットフォーム",
                 "category": "ヘルス & ウェルネス",
-                "summary": "ガイドセッション、音声配信、アファメーションを提供するクロスプラットフォーム向けウェルネスアプリ。",
-                "description": "ZourisはFlutterを用いて構築されたホリスティックウェルネスプラットフォームで、認定コーチやプラクティショナーがAndroidおよびiOS上でネイティブ並みのパフォーマンスを発揮し、ガイド付きセッション、メディテーション、リアルタイム音声配信を提供します。",
+                "summary": "ガイド付きセッション、ポッドキャスト、アファメーションを提供するクロスプラットフォーム・ウェルネスアプリ。",
+                "description": "ZourisはFlutterで構築された統合型ウェルネスプラットフォームです。認定インストラクターや専門家が、AndroidとiOS双方でネイティブと同等のパフォーマンスを発揮し、ガイド付きセッション、瞑想、ライブポッドキャストを提供します。",
                 "ctaText": "Google Play",
                 "iosCtaText": "App Store",
-                "altText": "Zouris ウェルネスコーチングアプリ — ムハンマド・アワイスが構築したクロスプラットフォーム対応の瞑想・音声ストリーミングプラットフォーム",
+                "altText": "Zouris アプリ — Flutter製のクロスプラットフォーム瞑想・ポッドキャストアプリ（開発：Muhammad Awais）",
                 "highlights": [
-                    "クロスプラットフォームFlutterアーキテクチャ",
+                    "Flutterによるクロスプラットフォーム構成",
                     "低遅延のリアルタイム音声ストリーミング",
-                    "BLoCによるクリーンな状態管理"
+                    "BLoCによる構造化された状態管理"
+                ],
+                "role": "Flutterディベロッパー",
+                "duration": "5ヶ月",
+                "challenge": "単一のFlutterコードベースから、Android/iOS双方で極めて円滑かつ高品質なウェルネス体験を提供し、バックグラウンドでの安定した音声再生とライブストリーミングのシームレスな移行を実現すること。",
+                "solution": "セッション状態の堅牢な管理にFlutter BLoCを採用し、低遅延ストリーミング用のカスタムオーディオハンドラーを統合。さらに、画面に依存しないフレキシブルなルーティングを行うためDecompose Navigationを導入しました。",
+                "outcome": "Google PlayおよびApp Storeで配信され、アラブ首長国連邦（UAE）のユーザーへ高品質なライブウェルネスセッションを提供中。高いユーザー評価を継続的に獲得しています。",
+                "metrics": [
+                    {
+                        "label": "展開プラットフォーム",
+                        "value": "2"
+                    },
+                    {
+                        "label": "音声レイテンシ",
+                        "value": "< 500ms"
+                    },
+                    {
+                        "label": "ストア平均評価",
+                        "value": "4.8★"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "毎日のチェックイン",
+                        "title": "穏やかなスタート",
+                        "kicker": "おはよう、Mayaさん",
+                        "heading": "スペースを作ろう、",
+                        "headingItalic": "大切なもののために。"
+                    },
+                    {
+                        "detail": "集中セッション",
+                        "title": "一度にひとつのことを",
+                        "kicker": "12分間",
+                        "heading": "ただこれだけに。",
+                        "headingItalic": "余計なことは忘れて。"
+                    },
+                    {
+                        "detail": "週間進捗",
+                        "title": "リズムを感じる",
+                        "kicker": "あなたの成長",
+                        "heading": "あなた自身のペースで、",
+                        "headingItalic": "着実に伸びていく。"
+                    },
+                    {
+                        "detail": "個人プロフィール",
+                        "title": "自分仕様にカスタマイズ",
+                        "kicker": "マイペース",
+                        "heading": "小さな一歩を、",
+                        "headingItalic": "あなたらしく。"
+                    }
                 ]
             },
             "egora-b2b": {
-                "title": "Egora B2B: レストランパートナープラットフォーム",
-                "category": "B2Bソリューション",
-                "summary": "飲食店オーナーが注文、テイクアウト、ライブ予約を管理できるホワイトレーベルのパートナーダッシュボード。",
-                "description": "Flutter、Dio、GetItを用いて開発されたホワイトレーベルのパートナープラットフォーム。飲食店オーナーが店内飲食、テイクアウト、QRコード注文、感熱紙領収書印刷を信頼性の高い決済連携とともに独立して管理できるようにサポート。",
-                "ctaText": "プロジェクトの詳細を見る",
-                "altText": "Egora B2B レストランパートナーダッシュボード — ムハンマド・アワイスが構築した注文・予約・QR管理システム",
+                "title": "Egora B2B: レストラン向け加盟店プラットフォーム",
+                "category": "B2B ソリューション",
+                "summary": "注文、テイクアウト、予約を管理するための、レストランオーナー向けカスタムダッシュボード。",
+                "description": "Flutter、Dio、GetItを使用して構築されたホワイトレーベルB2Bポータル。店舗での注文、持ち帰り、QRコード読取、決済ゲートウェイ連携、感熱レシートプリンターの出力などを統合管理できます。",
+                "ctaText": "プロジェクト詳細を見る",
+                "altText": "Egora B2B レストランダッシュボード — 注文・予約・QRコード管理（開発：Muhammad Awais）",
                 "highlights": [
-                    "Flutter、Dio、GetItアーキテクチャ",
-                    "独立したマルチマーチャントダッシュボード",
-                    "リアルタイム注文同期＆通知エンジン"
+                    "Flutter、Dio、GetItに基づくアーキテクチャ",
+                    "複数店舗に対応した独立型加盟店ダッシュボード",
+                    "リアルタイムの注文同期および通知エンジン"
+                ],
+                "role": "シニアFlutterエンジニア",
+                "duration": "4ヶ月",
+                "challenge": "複数の飲食店ブランドが相互干渉することなく独立運用でき、リアルタイムでの注文同期と多様なプリンター型番での確実なレシート印刷を行えるカスタムB2Bダッシュボードを開発すること。",
+                "solution": "リモートAPIによって動的に外観を設定できるコンフィグレーションシステムを構築。Dio + GetItを組み合わせて、高度に洗練された共通HTTP層と依存性注入を実現しました。",
+                "outcome": "複数のパートナー店舗に展開され、データ競合を起こすことなく、各店舗のブランドデザインに合わせた安定した運用と円滑な注文処理を実現しています。",
+                "metrics": [
+                    {
+                        "label": "導入パートナー店舗",
+                        "value": "10+"
+                    },
+                    {
+                        "label": "同期の安定性",
+                        "value": "99%"
+                    },
+                    {
+                        "label": "印刷処理の信頼性",
+                        "value": "100%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "在庫管理",
+                        "title": "加盟店ダッシュボード",
+                        "kicker": "在庫エンジン",
+                        "heading": "商品を管理、",
+                        "headingItalic": "リアルタイムで。"
+                    },
+                    {
+                        "detail": "キッチントラッキング",
+                        "title": "厨房用ディスプレイ",
+                        "kicker": "厨房マトリクス",
+                        "heading": "注文を伝達、",
+                        "headingItalic": "タイムラグゼロで。"
+                    },
+                    {
+                        "detail": "売上分析",
+                        "title": "収益のインサイト",
+                        "kicker": "日次アナリティクス",
+                        "heading": "売上指標を、",
+                        "headingItalic": "ひと目で把握。"
+                    },
+                    {
+                        "detail": "ブランディング",
+                        "title": "ブランドパッケージ",
+                        "kicker": "テーマエンジン",
+                        "heading": "独自デザインを、",
+                        "headingItalic": "すべての店舗に。"
+                    }
                 ]
             },
             "egora": {
-                "title": "Egora: スマートレストランエコシステム",
+                "title": "Egora: スマートダイニング・エコシステム",
                 "category": "フード & ドリンク",
-                "summary": "QR注文、予約管理、Bluetooth機器連携を備えた大規模レストランエコシステム。",
-                "description": "FlutterおよびJetpack Composeで構築された拡張性の高い予約・飲食店システム。QRコード注文、統合されたXStax決済処理（月間1万件以上の取引）、100%の信頼性を達成したカスタムBluetooth感熱プリンタードライバを搭載。",
-                "ctaText": "プロジェクトの詳細を見る",
-                "altText": "Egora レストランアプリ — ムハンマド・アワイスが構築したQR注文・予約システム・Bluetooth感熱プリンター連携",
+                "summary": "QR注文、予約管理、Bluetooth機器連携を備えた拡張性の高いダイニング・エコシステム。",
+                "description": "FlutterとJetpack Composeで構築された拡張性の高い予約・注文システム。QRコード注文、XStax決済の組み込み（月間1万件以上の決済処理）、および高信頼性のBluetooth感熱プリンター連携を提供します。",
+                "ctaText": "プロジェクト詳細を見る",
+                "altText": "Egora アプリ — QR注文、予約、Bluetoothプリンター統合（開発：Muhammad Awais）",
                 "highlights": [
-                    "顧客利用率30%向上を達成",
-                    "レイテンシを50%削減したBluetooth感熱プリンター連携",
-                    "月間1万件以上の取引を処理するXStax決済ゲートウェイ"
+                    "テーブル回転率が 30% 向上",
+                    "レイテンシを 50% 削減したBluetooth感熱プリンター連携",
+                    "月間 10,000 件以上の決済を処理する XStax ガード"
+                ],
+                "role": "シニアモバイルエンジニア",
+                "duration": "6ヶ月",
+                "challenge": "店舗の混雑ピーク時にも耐えうるQR注文・予約システムを構築し、アプリからBluetooth感熱プリンターを直接かつ確実に制御できるようにすること。",
+                "solution": "Kotlinで接続状態管理と再試行ロジックを備えたBluetoothプリンター抽象化層を開発。Socket.IOでリアルタイムな注文変更を受け取り、PCI準拠のXStax統合で安全な決済処理を実現しました。",
+                "outcome": "テーブル回転率が30%向上。印刷成功率100%を維持し、月間1万件以上のトランザクションにおいて処理遅延を50%削減しました。",
+                "metrics": [
+                    {
+                        "label": "テーブル回転率",
+                        "value": "+30%"
+                    },
+                    {
+                        "label": "月間取引件数",
+                        "value": "> 10,000件"
+                    },
+                    {
+                        "label": "印刷レイテンシ",
+                        "value": "-50%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "テーブルQRスキャン",
+                        "title": "即時注文エンジン",
+                        "kicker": "スキャン & 注文",
+                        "heading": "座席から注文、",
+                        "headingItalic": "直接スムーズに。"
+                    },
+                    {
+                        "detail": "厨房連携",
+                        "title": "リアルタイム注文状況",
+                        "kicker": "ライブキッチン",
+                        "heading": "調理状況を確認、",
+                        "headingItalic": "ステップバイステップで。"
+                    },
+                    {
+                        "detail": "割り勘機能",
+                        "title": "かんたんグループ決済",
+                        "kicker": "グループダイニング",
+                        "heading": "勘定を分割、",
+                        "headingItalic": "ワンタップで。"
+                    },
+                    {
+                        "detail": "特典ハブ",
+                        "title": "リワードを獲得",
+                        "kicker": "ロイヤルティプログラム",
+                        "heading": "特典をゲット、",
+                        "headingItalic": "行きつけのお店で。"
+                    }
                 ]
             },
             "makernote": {
-                "title": "Makernote: インタラクティブEdTech",
+                "title": "Makernote: インタラクティブ学習",
                 "category": "教育アプリ",
-                "summary": "リアルタイムコラボレーションとオフライン同期を備えた教育プラットフォーム。",
-                "description": "教師と生徒のための高性能教育プラットフォーム — リアルタイムのコラボレーション、即時のノート同期、シームレスなオフラインデータ保持を実現するクリーンアーキテクチャで構築。",
+                "summary": "リアルタイム連携とオフライン同期に対応した教育プラットフォーム。",
+                "description": "教員と学生のための高性能な教育プラットフォーム。クリーンアーキテクチャの原則に則って設計されており、リアルタイムの共同作業、ノートの瞬時同期、オフラインでのローカル保存を可能にします。",
                 "ctaText": "App Storeで見る",
-                "altText": "Makernote EdTechアプリ — ムハンマド・アワイスが構築したリアルタイムコラボレーションおよびオフライン同期機能",
+                "altText": "Makernote アプリ — リアルタイム連携とオフライン作業（開発：Muhammad Awais）",
                 "highlights": [
-                    "リアルタイムの複数ユーザーコラボレーション",
-                    "オフラインファーストのローカルストレージ",
+                    "複数ユーザーによるリアルタイム共同作業",
+                    "完全オフライン対応のローカルストレージ",
                     "クリーンなMVVMアーキテクチャ"
+                ],
+                "role": "Flutterディベロッパー",
+                "duration": "3ヶ月",
+                "challenge": "学校のネットワーク環境が不安定な場合でも、教師と生徒が共有キャンバス上で同時に作業を行えるインタラクティブな学習環境を構築すること。",
+                "solution": "SQLiteデータベースとバックグラウンド同期キューを用いたオフラインファースト構成を採用。リアルタイム連携は独立したWebSocket層で管理するように設計しました。",
+                "outcome": "App Storeで公開されている信頼性の高い教育ツール。AI手書き文字認識機能を備え、教育現場で毎日活用されています。",
+                "metrics": [
+                    {
+                        "label": "オフライン稼働信頼性",
+                        "value": "100%"
+                    },
+                    {
+                        "label": "同期レイテンシ",
+                        "value": "< 1秒"
+                    },
+                    {
+                        "label": "対応プラットフォーム",
+                        "value": "iOS"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "ベクターキャンバス",
+                        "title": "高速描画エンジン",
+                        "kicker": "スマートホワイトボード",
+                        "heading": "なめらかに書ける、",
+                        "headingItalic": "紙のように自然に。"
+                    },
+                    {
+                        "detail": "手書き文字AI",
+                        "title": "即時OCR変換",
+                        "kicker": "ニューラルエンジン",
+                        "heading": "手書きメモを変換、",
+                        "headingItalic": "検索可能なテキストへ。"
+                    },
+                    {
+                        "detail": "クラウド同期",
+                        "title": "マルチデバイスバックアップ",
+                        "kicker": "即時クラウド同期",
+                        "heading": "あなたのノートを、",
+                        "headingItalic": "どこへでも持ち運べる。"
+                    },
+                    {
+                        "detail": "コレクション",
+                        "title": "ビジュアルノート棚",
+                        "kicker": "整理整頓",
+                        "heading": "アイディアを分類、",
+                        "headingItalic": "ストレスなくスマートに。"
+                    }
                 ]
             },
             "eco-grocery": {
-                "title": "Eco Grocery: スマート在庫トラッカー",
-                "category": "スマートユーティリティ",
-                "summary": "バーコードスキャン、レシピ提案、賞味期限アラートを備えたスマート食料品トラッキングアプリ。",
-                "description": "レシピ提案エンジンと連携した動的な買い物リストに加え、即時のアイテムカタログ化と賞味期限管理のためのカメラバーコードスキャン機能を備えたインテリジェントなAndroidユーティリティアプリ。",
-                "ctaText": "プロジェクトの詳細を見る",
-                "altText": "Eco Grocery Androidアプリ — ムハンマド・アワイスが構築したバーコードスキャン食料品トラッカー",
+                "title": "Eco Grocery: スマート日用品管理",
+                "category": "スマートツール",
+                "summary": "バーコードスキャナー、レシピ提案、賞味期限通知を備えたスマートお買い物アプリ。",
+                "description": "動的な買い物リストとレシピ提案エンジンが連動するAndroidアプリ。カメラでのバーコードスキャンにより、パントリーの在庫や消費期限をリアルタイムで追跡・管理できます。",
+                "ctaText": "プロジェクト詳細を見る",
+                "altText": "Eco Grocery Android アプリ — バーコードスキャナー付き買い物管理（開発：Muhammad Awais）",
                 "highlights": [
-                    "カメラバーコードスキャナー連携",
-                    "スマート通知 & 賞味期限管理システム",
+                    "カメラを活用したバーコードスキャナー統合",
+                    "消費期限のスマートアラートシステム",
                     "リアクティブなUI状態管理"
+                ],
+                "role": "Androidディベロッパー",
+                "duration": "3ヶ月",
+                "challenge": "単なるToDoリストを超え、商品のスキャン、期限管理、レシピ提案を直感的なインターフェースで統合した実用的なデイリーツールを開発すること。",
+                "solution": "バーコード認識にML Kitを統合し、ローカル保存用のRoomおよびレシピ取得用APIと接続。WorkManagerを活用して賞味期限の通知を確実に送信する仕組みを実装しました。",
+                "outcome": "食材の管理や食品ロス削減に効果的であるとして、ユーザーから高く評価されているネイティブAndroidアプリ。",
+                "metrics": [
+                    {
+                        "label": "スキャン精度",
+                        "value": "98%"
+                    },
+                    {
+                        "label": "期限アラート",
+                        "value": "リアルタイム"
+                    },
+                    {
+                        "label": "マッチングレシピ",
+                        "value": "500件以上"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "バーコードスキャン",
+                        "title": "瞬時商品検索",
+                        "kicker": "成分・商品スキャン",
+                        "heading": "アイテムをスキャン、",
+                        "headingItalic": "仕分けしながら手軽に。"
+                    },
+                    {
+                        "detail": "ロス削減レーダー",
+                        "title": "廃棄防止の追跡",
+                        "kicker": "鮮度アラート",
+                        "heading": "食材を使い切ろう、",
+                        "headingItalic": "無駄にしてしまう前に。"
+                    },
+                    {
+                        "detail": "レシピエンジン",
+                        "title": "あるもので料理",
+                        "kicker": "スマートレシピ",
+                        "heading": "献立のアイディア、",
+                        "headingItalic": "手元にある材料から。"
+                    },
+                    {
+                        "detail": "エコ指数",
+                        "title": "環境貢献の可視化",
+                        "kicker": "エコの歩み",
+                        "heading": "成果を確認しよう、",
+                        "headingItalic": "廃棄削減の貢献度を。"
+                    }
                 ]
             },
             "hcloud": {
                 "title": "HCloud: クリニック管理スイート",
-                "category": "医師向けアプリ",
-                "summary": "予約および処方箋同期機能を備えた医療従事者向けエンタープライズ運用ポータル。",
-                "description": "医師向けに開発されたエンタープライズグレードのクリニック管理アプリケーション。MVVM、Hilt、Room DBで構築され、リアルタイムの処方箋作成、患者記録管理、オフラインファーストの予約管理を実現。",
+                "category": "医療アプリ",
+                "summary": "診療予約の同期とデジタル処方箋の発行を行えるクリニック向け管理システム。",
+                "description": "医師および医療機関向けのクリニック管理アプリ。MVVM、Hilt、Room DBを使用して構築されており、オフライン環境下でも迅速な電子処方箋の発行、カルテ管理、予約管理が可能です。",
                 "ctaText": "Google Playで見る",
-                "altText": "HCloud クリニック管理スイート — ムハンマド・アワイスが構築したリアルタイム処方箋同期および予約スケジュール管理",
+                "altText": "HCloud クリニック管理スイート — リアルタイム予約・処方箋同期（開発：Muhammad Awais）",
                 "highlights": [
-                    "デュアルアプリアーキテクチャコア",
-                    "Room DBを使用したオフラインファーストの同期キュー",
-                    "レスポンシブな医師用臨床UI"
+                    "2つのアプリを連携させるための基盤アーキテクチャ",
+                    "Room DBを活用したオフラインファーストの同期キュー",
+                    "医師向けに最適化された医療用UI/UX"
+                ],
+                "role": "Androidディベロッパー",
+                "duration": "4ヶ月",
+                "challenge": "通信環境が不安定な状況でも動作し、患者用アプリと問題なく同期する、医療従事者向けの信頼性の高い処方・予約管理ツールを提供すること。",
+                "solution": "Room DBをメインデータソースとし、通信復帰時にRetrofitを介してバックグラウンド同期を行うオフラインファースト設計を採用しました。",
+                "outcome": "Google Playで公開され、医療現場で毎日利用されているアプリ。処方箋作成やカルテ管理の時間を大幅に削減することに成功しました。",
+                "metrics": [
+                    {
+                        "label": "オフライン動作",
+                        "value": "100%"
+                    },
+                    {
+                        "label": "同期速度",
+                        "value": "< 2秒"
+                    },
+                    {
+                        "label": "Google Play公開",
+                        "value": "済"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "患者の呼び出し",
+                        "title": "リアルタイム順番管理",
+                        "kicker": "診察フロー",
+                        "heading": "受付順を整理、",
+                        "headingItalic": "スムーズな診察を。"
+                    },
+                    {
+                        "detail": "HD遠隔診療",
+                        "title": "Twilioビデオ通話",
+                        "kicker": "暗号化通話",
+                        "heading": "HD高画質で診察、",
+                        "headingItalic": "どの端末からでも。"
+                    },
+                    {
+                        "detail": "処方箋ジェネレーター",
+                        "title": "デジタル処方箋",
+                        "kicker": "迅速発行",
+                        "heading": "処方箋を作成、",
+                        "headingItalic": "ほんの数秒で。"
+                    },
+                    {
+                        "detail": "収益アナリティクス",
+                        "title": "クリニック経営分析",
+                        "kicker": "経営ダッシュボード",
+                        "heading": "売上推移を、",
+                        "headingItalic": "一目でチェック。"
+                    }
                 ]
             },
             "healthwire": {
-                "title": "Healthwire: ヘルスケアエコシステム",
-                "category": "遠隔診療プラットフォーム",
-                "summary": "200万以上のダウンロード実績を持つ主要ヘルスケアアプリ。遠隔医療、検査予約、安全な決済連携を完備。",
-                "description": "パキスタン有数のヘルスケアプラットフォームのアーキテクチャを設計 — 99%以上のクラッシュフリーセッション率で、薬局ロジスティクス、検査予約、Twilioビデオ診療、ローカル決済ゲートウェイ（Meezan、JazzCash、Foree）を運用。",
+                "title": "Healthwire: 統合ヘルスケアプラットフォーム",
+                "category": "ヘルスケアプラットフォーム",
+                "summary": "診察予約、検査予約、安全な決済機能を備えた200万DL超の大規模ヘルスケアアプリ。",
+                "description": "パキスタン最大級のヘルスケアプラットフォームの開発。薬局サービス、検査予約、Twilioを使用したオンラインビデオ診察、現地決済ゲートウェイ（Meezan、JazzCash、Foree）を統合し、99%以上のクラッシュフリー率を実現しました。",
                 "ctaText": "Google Playで見る",
-                "altText": "Healthwire ヘルスケアアプリ — ムハンマド・アワイスが構築した薬局ロジスティクス、検査予約、Twilio遠隔診療機能",
+                "altText": "Healthwire ヘルスケアアプリ — 薬局、検査予約、Twilioビデオ通話（開発：Muhammad Awais）",
                 "highlights": [
-                    "Google Playストアで200万以上のダウンロード実績",
-                    "Twilioリアルタイムビデオ診療（エンゲージメント+15%）",
-                    "100%安全な決済処理（Meezan、JazzCash、Foree）"
+                    "Google Playにて 200 万回以上のダウンロード",
+                    "Twilioによるビデオ相談でエンゲージメントが 15% 向上",
+                    "主要決済ゲートウェイ（Meezan, JazzCash, Foree）の安全な統合"
+                ],
+                "role": "ソフトウェアエンジニア (Android)",
+                "duration": "2年以上",
+                "challenge": "数百万人のアクティブユーザーを抱える巨大ヘルスケアアプリにおいて、Twilioビデオ通話、3種類の決済ゲートウェイ、検査予約を統合しつつ、99%以上の高い安定性を維持すること。",
+                "solution": "HiltおよびCoroutines/Flowと合わせたMVVMアーキテクチャを採用し、リアクティブでクリーンなコードを構築。WorkManagerで同期や通知を制御し、主要な画面を段階的にJetpack Composeへ移行しました。",
+                "outcome": "200万以上のダウンロード数を誇る国内トップクラスの医療アプリへと成長。99%以上の高稼働率と、オンライン相談機能によるエンゲージメント15%アップを達成しました。",
+                "metrics": [
+                    {
+                        "label": "ダウンロード数",
+                        "value": "> 200万"
+                    },
+                    {
+                        "label": "クラッシュフリー率",
+                        "value": "> 99%"
+                    },
+                    {
+                        "label": "エンゲージメント向上",
+                        "value": "+15%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "専門医検索",
+                        "title": "名医の予約",
+                        "kicker": "医師を見つける",
+                        "heading": "診察を予約、",
+                        "headingItalic": "厳選された専門医に。"
+                    },
+                    {
+                        "detail": "オンライン診療",
+                        "title": "24時間年中無休の遠隔医療",
+                        "kicker": "即時ケア",
+                        "heading": "医師に相談、",
+                        "headingItalic": "いつでも必要な時に。"
+                    },
+                    {
+                        "detail": "特急調剤",
+                        "title": "薬の自宅配送",
+                        "kicker": "スピード配送",
+                        "heading": "お薬をお届け、",
+                        "headingItalic": "30分以内にご自宅へ。"
+                    },
+                    {
+                        "detail": "カルテ統合",
+                        "title": "一元化された健康記録",
+                        "kicker": "デジタル記録",
+                        "heading": "検査結果を、",
+                        "headingItalic": "ひとつの場所に集約。"
+                    }
                 ]
             },
             "dongamers": {
                 "title": "DonGamers: eスポーツプラットフォーム",
-                "category": "eゲームプラットフォーム",
-                "summary": "リアルタイムPusherチャット、トーナメント表、最適化されたマネタイズを備えたグローバルゲームプラットフォーム。",
-                "description": "ネイティブAndroid上に国際的なeスポーツプラットフォームを構築。コードベースをJavaからKotlinに移行し、Pusherを用いた拡張性の高いリアルタイムチャットを設計（エンゲージメント+15%）、アプリ内課金とGoogle AdMobを最適化。",
+                "category": "eスポーツプラットフォーム",
+                "summary": "Pusherによるリアルタイムチャット、大会機能、収益化の最適化を備えたグローバルeスポーツアプリ。",
+                "description": "グローバル向けAndroid eスポーツプラットフォームの開発。JavaからKotlinへのリファクタリング、Pusherを用いたリアルタイムチャット機能の構築（エンゲージメント+15%）、アプリ内課金とAdMob広告の最適化を実施しました。",
                 "ctaText": "Google Playで見る",
-                "altText": "DonGamers eスポーツプラットフォーム — ムハンマド・アワイスが構築したリアルタイムチャットおよびトーナメント追跡機能",
+                "altText": "DonGamers eスポーツプラットフォーム — リアルタイムチャットと大会追跡（開発：Muhammad Awais）",
                 "highlights": [
-                    "グローバル展開で99%のクラッシュフリー率を実現",
-                    "Pusherを使用したリアルタイムチャット基盤",
-                    "マネタイズの最適化により売上を10%向上"
+                    "世界中で 99% のクラッシュフリー率を達成",
+                    "Pusherを採用したリアルタイムチャット基盤",
+                    "収益化の最適化により売上が 10% 向上"
+                ],
+                "role": "シニアAndroidディベロッパー",
+                "duration": "1.5年",
+                "challenge": "世界中のユーザーへのサービスを止めずに、Javaで書かれた大規模コードベースをKotlinへ移行すること。また、リアルタイムチャットを追加し収益性を高めること。",
+                "solution": "JavaとKotlinの相互運用性を活かし、段階的な移行を実施。メッセージのローカルキューを備えたPusherチャットエンジンを統合し、広告とアプリ内購入のA/Bテストを行いました。",
+                "outcome": "グローバルで99%の安定性を確保。チャット導入によりエンゲージメントが15%増加し、購入導線と広告位置の改善により売上が10%増加しました。",
+                "metrics": [
+                    {
+                        "label": "クラッシュフリー率",
+                        "value": "99%"
+                    },
+                    {
+                        "label": "チャット利用率",
+                        "value": "+15%"
+                    },
+                    {
+                        "label": "売上成長率",
+                        "value": "+10%"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "ライブアリーナ",
+                        "title": "トーナメント日程",
+                        "kicker": "ライブeスポーツ",
+                        "heading": "大会に参戦、",
+                        "headingItalic": "コミュニティと共に。"
+                    },
+                    {
+                        "detail": "チームチャット",
+                        "title": "リアルタイムロビー",
+                        "kicker": "即時ロビー",
+                        "heading": "作戦を練ろう、",
+                        "headingItalic": "チームメイトとリアルタイムで。"
+                    },
+                    {
+                        "detail": "ゲーマーウォレット",
+                        "title": "トークン報酬",
+                        "kicker": "リワードエンジン",
+                        "heading": "コインを獲得、",
+                        "headingItalic": "勝利を重ねて。"
+                    },
+                    {
+                        "detail": "プロプロフィール",
+                        "title": "プレイヤー戦績カード",
+                        "kicker": "ランクマトリクス",
+                        "heading": "戦績を披露、",
+                        "headingItalic": "あなたの輝かしい実績を。"
+                    }
+                ]
+            },
+            "wallpaper": {
+                "title": "Wallpaper バックエンドサービス",
+                "category": "Web開発",
+                "summary": "高性能な壁紙配信プラットフォームを支えるNode.jsバックエンドサービス。",
+                "description": "wallpaper.devawais.com を駆動するNode.jsベースの拡張可能なバックエンドサービス。超高速なAPIレスポンス、効率的な画像データ処理、堅牢なインフラ設計に重点を置いて開発されました。",
+                "ctaText": "ウェブサイトを訪問",
+                "altText": "壁紙アプリ向け Node.js バックエンド（開発：Muhammad Awais）",
+                "highlights": [
+                    "Node.jsによるバックエンドアーキテクチャ",
+                    "最適化されたAPIレスポンス時間",
+                    "スケーラブルなWebサービス"
+                ],
+                "role": "バックエンドディベロッパー",
+                "duration": "1ヶ月",
+                "challenge": "世界中のユーザーに対して高解像度の画像を最小限の遅延で配信でき、CDNネットワークに最適化されたバックエンドを構築すること。",
+                "solution": "ファイルの高速配信、カテゴリー検索、および効率的なキャッシュ層に最適化されたRESTful APIをNode.jsで構築しました。",
+                "outcome": "wallpaper.devawais.com で実際に稼働中。極めて高速な応答速度と、今後の拡張に対応できる柔軟な設計を実現しています。",
+                "metrics": [
+                    {
+                        "label": "APIレスポンス",
+                        "value": "< 100ms"
+                    },
+                    {
+                        "label": "稼働率",
+                        "value": "99.9%"
+                    },
+                    {
+                        "label": "稼働ステータス",
+                        "value": "稼働中"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "プレミアムカタログ",
+                        "title": "Ultra HD コレクション",
+                        "kicker": "探索する",
+                        "heading": "壁紙を見つけよう、",
+                        "headingItalic": "美しい4Kアートワーク。"
+                    },
+                    {
+                        "detail": "ワンタップ適用",
+                        "title": "即時セットアップ",
+                        "kicker": "1クリック適用",
+                        "heading": "壁紙に設定、",
+                        "headingItalic": "たった1タップで。"
+                    },
+                    {
+                        "detail": "毎日更新",
+                        "title": "最新コレクション",
+                        "kicker": "毎日更新",
+                        "heading": "新しいアート、",
+                        "headingItalic": "24時間ごとに登場。"
+                    },
+                    {
+                        "detail": "APIエンジン",
+                        "title": "CDN高速配信",
+                        "kicker": "REST API",
+                        "heading": "画像を爆速配信、",
+                        "headingItalic": "ストレスフリーなレスポンス。"
+                    }
                 ]
             }
         }
@@ -372,6 +934,10 @@
             "architecture": {
                 "title": "モバイルアーキテクチャ & コードベースモダン化",
                 "description": "モノリシックなコードベースをモジュール化されたクリーンアーキテクチャへリファクタリングし、JavaからKotlinへの移行を推進。アプリの安定性をチューニングし、99%以上のクラッシュフリー率を達成します。"
+            },
+            "web-development": {
+                "title": "Web Development & Backend Services",
+                "description": "Custom scalable backend development utilizing Node.js, Next.js, and modern web architectures designed for high performance and robust API integrations."
             }
         }
     },
@@ -419,6 +985,7 @@
         "navigate": "ナビゲーション",
         "specialties": "専門分野",
         "getInTouch": "お問い合わせ",
+        "viaEmail": "メールでお問い合わせ",
         "specialtiesList": [
             "ネイティブAndroid (Kotlin & Java)",
             "Kotlin Multiplatform (KMP)",

@@ -196,11 +196,11 @@
     },
     "projects": {
         "title": "Projeler",
-        "headerTitle": "Native Android ve Flutter ekosistemlerinde yayınlanmış uygulamalar.",
-        "headerDesc": "Optimum performans, güvenlik ve gerçek zamanlı bağlantı sağlamak için mimarinin ve teknoloji yığınının nasıl uyarlandığını görmek için platforma göre filtreleyin.",
-        "noProjectsFound": "Bu kategoriye ait proje bulunamadı.",
-        "backToProjects": "Tüm projeler",
-        "techStack": "Teknoloji yığını",
+        "headerTitle": "Yerel Android ve Flutter ekosistemlerinde canlıya alınan uygulamalar.",
+        "headerDesc": "Maksimum performans, yüksek güvenlik ve gerçek zamanlı bağlantı sunmak için mimarinin ve teknoloji yığınının nasıl şekillendiğini görmek için platforma göre filtreleyin.",
+        "noProjectsFound": "Bu kategori için proje bulunamadı.",
+        "backToProjects": "Tüm Projeler",
+        "techStack": "Teknoloji Yığını",
         "filters": {
             "all": "Tümü",
             "android": "Android",
@@ -209,128 +209,690 @@
             "kmp": "KMP",
             "cmp": "CMP"
         },
+        "platforms": {
+            "android": "Yerel Android",
+            "flutter": "Flutter",
+            "ios": "iOS",
+            "kmp": "Kotlin Multiplatform",
+            "cmp": "Compose Multiplatform",
+            "web": "Web"
+        },
+        "mockup": {
+            "date": "20 Mayıs Pazartesi",
+            "greeting": "Günaydın,",
+            "userName": "Muhammad.",
+            "todaysFocus": "BUGÜNÜN ODAĞI",
+            "focusText": "Kalıcı olacak bir şey\ninşa et.",
+            "progressCount": "5 Görevden 3'ü Tamamlandı",
+            "task1": "Mimari İncelemesi",
+            "task2": "Kod İncelemesi",
+            "overview": "Genel Bakış",
+            "inControl": "Her şey kontrol altında,",
+            "together": "birlikte.",
+            "availableToSpend": "Harcamaya Uygun Bakiye",
+            "growthText": "Bu ay +%12.4",
+            "spending": "Harcamalar",
+            "saved": "Birikim",
+            "library": "Kütüphanen",
+            "learningHeading1": "İnşa etmeye devam et,",
+            "learningHeading2": "meraklı zihin.",
+            "tag1": "Mimari",
+            "cardTitle1": "Temiz kod,\n berrak zihin.",
+            "cardTime1": "12 dk kaldı",
+            "tag2": "Ürün Düşüncesi",
+            "cardTitle2": "Daha iyi bir soruyla\nbaşla.",
+            "cardTime2": "18 dk kaldı",
+            "tag3": "Gerçek Zamanlı",
+            "cardTitle3": "Veri akışlarını\nanlamak.",
+            "cardTime3": "8 dk kaldı",
+            "liveProject": "CANLI PROJE",
+            "defaultHeading1": "Gerçek dünya kullanımı",
+            "defaultHeading2": "için tasarlandı.",
+            "statLabel1": "Kullanıcılar",
+            "statLabel2": "Puan",
+            "statLabel3": "Çalışma Süresi",
+            "statLabel4": "Gecikme Süresi"
+        },
         "ctas": {
             "playStore": "Google Play",
             "appStore": "App Store",
-            "details": "Detayları gör"
+            "details": "Detayları Gör",
+            "viewLive": "Canlı İncele",
+            "backToProjects": "← Tüm Projeler"
+        },
+        "detail": {
+            "role": "Rol",
+            "duration": "Süre",
+            "platform": "Platform",
+            "challenge": "Zorluk",
+            "solution": "Çözüm",
+            "outcome": "Sonuç",
+            "techStack": "Teknoloji Yığını",
+            "highlights": "Öne Çıkanlar",
+            "metrics": "Metrikler",
+            "viewOnPlayStore": "Google Play'de Gör",
+            "viewOnAppStore": "App Store'da Gör"
         },
         "items": {
             "spectra-care": {
-                "title": "Spectra Care: Tele-sağlık ve Donanım Platformu",
-                "category": "Tele-sağlık ve IoT",
-                "summary": "Jetpack Compose, Agora görüntülü arama ve 6'sı 1 arada tıbbi monitör entegrasyonuna sahip kurumsal tele-sağlık platformu.",
-                "description": "Jetpack Compose ve MVI mimarisi ile inşa edilmiş canlı ortam Android tele-sağlık uygulaması. Düşük gecikmeli Agora görüntülü görüşmeleri, Spectra Care 6'sı 1 arada sağlık monitörleri için reaktif cihaz sürücüleri ve güvenli SOAP EHR veri senkronizasyonu içerir.",
+                "title": "Spectra Care: Sağlık ve IoT Platformu",
+                "category": "Tele-Sağlık ve IoT",
+                "summary": "Jetpack Compose, Agora ile görüntülü konsültasyon ve 6'sı 1 arada yaşamsal bulgu monitör entegrasyonu sunan kurumsal tele-sağlık platformu.",
+                "description": "Jetpack Compose ve MVI mimarisiyle geliştirilmiş, üretime hazır yerel Android tele-sağlık uygulaması. Agora üzerinden ultra düşük gecikmeli görüntülü görüşmeler, Spectra Care 6'sı 1 arada sağlık monitörleri için cihaz sürücüleri ve güvenli elektronik sağlık kaydı (EHR) senkronizasyonu içerir.",
                 "ctaText": "Google Play'de Gör",
-                "altText": "Spectra Care — Muhammad Awais tarafından geliştirilen Agora görüntülü arama ve Spectra IoT sağlık monitörü entegrasyonlu Android Native tele-sağlık uygulaması",
+                "altText": "Spectra Care Uygulaması — Agora görüntülü görüşme ve IoT entegrasyonlu yerel Android tele-sağlık uygulaması, Muhammad Awais tarafından",
                 "highlights": [
-                    "Agora SDK gerçek zamanlı görüntülü görüşmeler",
-                    "Spectra Care 6'sı 1 arada IoT sağlık monitörü senkronizasyonu",
-                    "Jetpack Compose ile MVI mimarisi"
+                    "Agora SDK ile gerçek zamanlı görüntülü muayeneler",
+                    "Spectra Care 6'sı 1 arada akıllı sağlık monitörü senkronizasyonu",
+                    "Jetpack Compose ile MVI Mimarisi"
+                ],
+                "role": "Lider Android Mühendisi",
+                "duration": "8 Ay",
+                "challenge": "Günlük klinik akışını aksatmadan, doktor ve hasta uygulamaları için bağımsız olan kod tabanlarını birleştirmek, Spectra Care IoT cihazlarını ve Agora düşük gecikmeli görüntülü muayeneleri gerçek zamanlı entegre etmek.",
+                "solution": "Jetpack Compose ve MVI kullanılarak sıfırdan yeniden yapılandırıldı. Reaktif Kotlin Flow yapıları ile IoT bağlantılarını kullanıcı arayüzünden ayıran modüler bir mimarı kuruldu. Agora SDK, ağ kesintilerinde otomatik yeniden bağlanma sağlayan bir soyutlama katmanına izole edildi.",
+                "outcome": "Klinik ortamlarda günlük olarak kullanılan yüksek stabilitede bir platform. %99'un üzerinde hatasız oturum oranı yakalandı ve senkronizasyon sırasında sıfır veri bütünlüğü sorunu yaşandı.",
+                "metrics": [
+                    {
+                        "label": "Hatasız Oturumlar",
+                        "value": "> %99"
+                    },
+                    {
+                        "label": "Desteklenen IoT Cihazları",
+                        "value": "6'sı 1 arada"
+                    },
+                    {
+                        "label": "Video Gecikmesi",
+                        "value": "< 300ms"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Günlük Ölçümler",
+                        "title": "6'sı 1 Arada Sağlık Monitörü",
+                        "kicker": "Gerçek Zamanlı Sensörler",
+                        "heading": "Yaşam bulgularını takip et,",
+                        "headingItalic": "gerçek zamanlı olarak."
+                    },
+                    {
+                        "detail": "Tele-Muayene",
+                        "title": "Anında Tıbbi Görüşme",
+                        "kicker": "Bağlantılı Bakım",
+                        "heading": "Bir doktorla konuş,",
+                        "headingItalic": "dakikalar içinde."
+                    },
+                    {
+                        "detail": "Teşhisler",
+                        "title": "Evde Laboratuvar Testleri",
+                        "kicker": "Hızlı Gönderi",
+                        "heading": "Onaylı testler,",
+                        "headingItalic": "kapında."
+                    },
+                    {
+                        "detail": "Sağlık Kasası",
+                        "title": "Şifrelenmiş Tıbbi Geçmiş",
+                        "kicker": "Güvenli Depolama",
+                        "heading": "Sağlık verilerin,",
+                        "headingItalic": "daima senin kontrolünde."
+                    }
                 ]
             },
             "zouris": {
-                "title": "Zouris: Bütünsel Yaşam ve Sağlık Platformu",
-                "category": "Sağlık ve Yaşam",
-                "summary": "Rehberli seanslar, ses yayınları ve olumlamalar sunan çoklu platform sağlık uygulaması.",
-                "description": "Zouris, sertifikalı koçların ve uzmanların rehberli seanslar, meditasyonlar ve gerçek zamanlı ses yayınlarını Android ve iOS genelinde native kullanıcı deneyimi performansıyla paylaştığı, Flutter kullanılarak tasarlanmış bütünsel bir yaşam platformudur.",
+                "title": "Zouris: Bütünsel İyi Yaşam Platformu",
+                "category": "Sağlık ve İyi Yaşam",
+                "summary": "Rehberli seanslar, podcast'ler ve olumlamalar sunan çoklu platform iyi yaşam uygulaması.",
+                "description": "Zouris, Flutter ile geliştirilmiş bütünsel bir iyi yaşam platformudur. Sertifikalı eğitmenler ve uzmanlar; Android ve iOS üzerinde yüksek performans ve yerel uygulama hissiyle rehberli seanslar, meditasyonlar ve canlı podcast'ler sunar.",
                 "ctaText": "Google Play",
                 "iosCtaText": "App Store",
-                "altText": "Zouris yaşam koçluğu uygulaması — Muhammad Awais tarafından geliştirilen çoklu platform meditasyon ve ses akış platformu",
+                "altText": "Zouris Uygulaması — Muhammad Awais tarafından geliştirilen çoklu platform meditasyon ve podcast uygulaması",
                 "highlights": [
-                    "Çoklu platform Flutter mimarisi",
-                    "Düşük gecikmeli gerçek zamanlı ses akışı",
-                    "BLoC ile temiz durum yönetimi (state management)"
+                    "Flutter ile Çoklu Platform Mimarisi",
+                    "Düşük gecikmeli gerçek zamanlı ses yayını",
+                    "BLoC ile yapılandırılmış durum yönetimi"
+                ],
+                "role": "Flutter Geliştiricisi",
+                "duration": "5 Ay",
+                "challenge": "Tek bir Flutter kod tabanından hem Android hem de iOS üzerinde premium ve akıcı bir iyi yaşam deneyimi sunmak, arka planda kararlı ses çalma ve kesintisiz canlı yayınlar sağlamak.",
+                "solution": "Seans durumunun kararlı yönetimi için Flutter BLoC kullanımı, düşük gecikmeli yayın için özel bir ses sürücüsü entegrasyonu ve ekrandan bağımsız esnek bir yönlendirme mimarisi için Decompose Navigation kurulumu.",
+                "outcome": "Google Play ve App Store'da yayınlandı; BAE'deki kullanıcılara yüksek memnuniyet puanlarıyla canlı iyi yaşam seansları sunmaya devam ediyor.",
+                "metrics": [
+                    {
+                        "label": "Yayınlanan Platformlar",
+                        "value": "2"
+                    },
+                    {
+                        "label": "Ses Gecikmesi",
+                        "value": "< 500ms"
+                    },
+                    {
+                        "label": "Mağaza Puanı",
+                        "value": "4.8★"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Günlük Değerlendirme",
+                        "title": "Huzurlu Başlangıç",
+                        "kicker": "Günaydın, Maya",
+                        "heading": "Alan yarat,",
+                        "headingItalic": "önemli olan şeyler için."
+                    },
+                    {
+                        "detail": "Odaklanma Seansı",
+                        "title": "Her Seferinde Tek Bir Şey",
+                        "kicker": "12 Dakika",
+                        "heading": "Sadece bu.",
+                        "headingItalic": "Başka hiçbir şey değil."
+                    },
+                    {
+                        "detail": "Haftalık İlerleme",
+                        "title": "Ritmi Hisset",
+                        "kicker": "İlerlemen",
+                        "heading": "Kendi ritmin,",
+                        "headingItalic": "sürekli büyüyor."
+                    },
+                    {
+                        "detail": "Kişisel Profil",
+                        "title": "Kendine Göre Şekillendir",
+                        "kicker": "Senin Hızın",
+                        "heading": "Küçük adımlar,",
+                        "headingItalic": "senin tarzınla."
+                    }
                 ]
             },
             "egora-b2b": {
-                "title": "Egora B2B: Restoran Partner Platformu",
+                "title": "Egora B2B: Restoran İş Ortağı Platformu",
                 "category": "B2B Çözümleri",
-                "summary": "Restoran sahiplerinin siparişleri, gel-al işlemlerini ve canlı rezervasyonları yönetmesi için özel markalanabilir (white-labeled) partner paneli.",
-                "description": "Flutter, Dio ve GetIt kullanılarak geliştirilmiş özel markalanabilir partner platformu. Restoran sahiplerinin masa içi sipariş, gel-al, QR kod ile sipariş ve termal fiş yazdırma süreçlerini güvenilir ödeme entegrasyonlarıyla bağımsız olarak yönetmelerini sağlar.",
+                "summary": "Restoran sahiplerinin siparişleri, paket servisleri ve rezervasyonları yönetmesi için özelleştirilebilir panel.",
+                "description": "Flutter, Dio ve GetIt ile geliştirilmiş beyaz etiketli (white-label) B2B portalı. Restoran sahiplerinin masada sipariş, paket servis, QR kod okuma, ödeme kuruluşu entegrasyonu ve termal fiş yazdırma işlemlerini yönetmesini sağlar.",
                 "ctaText": "Proje Detaylarını Gör",
-                "altText": "Egora B2B restoran partner paneli — Muhammad Awais tarafından geliştirilen sipariş, rezervasyon ve QR yönetim sistemi",
+                "altText": "Egora B2B Restoran Paneli — Sipariş, rezervasyon ve QR kod yönetimi, Muhammad Awais tarafından",
                 "highlights": [
-                    "Flutter, Dio ve GetIt mimarisi",
-                    "Bağımsız çoklu üye işyeri panelleri",
+                    "Flutter, Dio ve GetIt tabanlı mimari",
+                    "Çoklu işletmeye uygun izole paneller",
                     "Gerçek zamanlı sipariş senkronizasyonu ve bildirim motoru"
+                ],
+                "role": "Kıdemli Flutter Mühendisi",
+                "duration": "4 Ay",
+                "challenge": "Farklı restoran markalarının birbirine karışmadan bağımsız işletilebileceği, gerçek zamanlı sipariş senkronizasyonuna ve farklı yazıcı modellerinde kararlı fiş basımına sahip özelleştirilebilir bir B2B paneli geliştirmek.",
+                "solution": "Uzak API üzerinden yönetilebilen dinamik bir konfigürasyon sistemi kuruldu. Dio + GetIt ile ortak bir HTTP katmanı ve temiz bir bağımlılık enjeksiyonu (dependency injection) sağlandı.",
+                "outcome": "Çok sayıda partner restoranda başarıyla devreye alındı. Her restoran veri çakışması yaşamadan kendi marka kimliğiyle kararlı ve kusursuz bir operasyon sürdürüyor.",
+                "metrics": [
+                    {
+                        "label": "Partner Restoranlar",
+                        "value": "10+"
+                    },
+                    {
+                        "label": "Senkronizasyon Kararlılığı",
+                        "value": "%99"
+                    },
+                    {
+                        "label": "Yazdırma Güvenilirliği",
+                        "value": "%100"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Stok Yönetimi",
+                        "title": "İşletme Paneli",
+                        "kicker": "Stok Motoru",
+                        "heading": "Ürünleri yönet,",
+                        "headingItalic": "gerçek zamanlı olarak."
+                    },
+                    {
+                        "detail": "Mutfak Yönlendirme",
+                        "title": "Mutfak Ekranı",
+                        "kicker": "Mutfak Matrisi",
+                        "heading": "Siparişleri ilet,",
+                        "headingItalic": "gecikmesiz."
+                    },
+                    {
+                        "detail": "Analizler",
+                        "title": "Gelir Görünümü",
+                        "kicker": "Günlük İstatistikler",
+                        "heading": "Satış metrikleri,",
+                        "headingItalic": "tek bir bakışta."
+                    },
+                    {
+                        "detail": "Özelleştirme",
+                        "title": "Marka Paketi",
+                        "kicker": "Tasarım Motoru",
+                        "heading": "Özel olarak tasarlandı,",
+                        "headingItalic": "her restoran için."
+                    }
                 ]
             },
             "egora": {
-                "title": "Egora: Akıllı Restoran Ekosistemi",
+                "title": "Egora: Akıllı Yeme-İçme Ekosistemi",
                 "category": "Yiyecek ve İçecek",
-                "summary": "QR sipariş, rezervasyon yönetimi ve Bluetooth donanım entegrasyonlarına sahip büyük ölçekli restoran ekosistemi.",
-                "description": "Flutter ve Jetpack Compose kullanılarak inşa edilmiş ölçeklenebilir rezervasyon ve yemek sistemi. QR kod ile sipariş, entegre XStax ödeme işleme (aylık 10 bin+ işlem) ve %100 güvenilirlik sağlayan özel Bluetooth termal yazıcı donanım sürücüleri içerir.",
+                "summary": "QR sipariş, rezervasyon yönetimi ve Bluetooth yazıcı entegrasyonu içeren ölçeklenebilir restoran ekosistemi.",
+                "description": "Flutter ve Jetpack Compose ile tasarlanmış ölçeklenebilir rezervasyon ve sipariş sistemi. QR kod ile sipariş verme, XStax üzerinden entegre ödeme alma (ayda >10 bin işlem) ve yüksek güvenilirlikte Bluetooth termal yazıcı sürücüleri sunar.",
                 "ctaText": "Proje Detaylarını Gör",
-                "altText": "Egora restoran uygulaması — Muhammad Awais tarafından geliştirilen QR sipariş, rezervasyon sistemi ve Bluetooth termal yazıcı entegrasyonu",
+                "altText": "Egora Uygulaması — QR sipariş, rezervasyon ve Bluetooth termal yazıcı entegrasyonu, Muhammad Awais tarafından",
                 "highlights": [
-                    "Müşteri kullanımında %30 artış sağlandı",
-                    "%50 azaltılmış gecikme süresi ile Bluetooth termal yazıcı entegrasyonu",
-                    "Aylık 10 bin+ işlem gerçekleştiren XStax ödeme ağ geçidi"
+                    "Masa devir hızında %30 artış",
+                    "%50 daha az gecikmeyle Bluetooth termal yazıcı entegrasyonu",
+                    "Ayda 10.000'den fazla işlemi işleyen XStax ödeme altyapısı"
+                ],
+                "role": "Kıdemli Mobil Mühendis",
+                "duration": "6 Ay",
+                "challenge": "Yoğun saatlerdeki yüksek trafiği kaldırabilecek bir QR sipariş ve rezervasyon sistemi kurmak; Bluetooth termal yazıcıları doğrudan uygulama üzerinden kesintisiz yönetebilmek.",
+                "solution": "Kotlin üzerinde bağlantı durum yönetimi ve yeniden deneme mantığı içeren bir Bluetooth yazıcı soyutlama katmanı geliştirildi. Gerçek zamanlı güncellemeler için Socket.IO ve PCI uyumlu güvenli ödemeler için XStax entegre edildi.",
+                "outcome": "Masa devir hızında %30 artış, fiş yazdırmada %100 güvenilirlik ve aylık 10.000'den fazla işlemde gecikme süresinde %50 azalma sağlandı.",
+                "metrics": [
+                    {
+                        "label": "Masa Devir Hızı",
+                        "value": "+%30"
+                    },
+                    {
+                        "label": "Aylık İşlemler",
+                        "value": "> 10.000"
+                    },
+                    {
+                        "label": "Yazdırma Gecikmesi",
+                        "value": "-%50"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Masada QR Tarama",
+                        "title": "Anında Sipariş Motoru",
+                        "kicker": "Tara ve Sipariş Et",
+                        "heading": "Doğrudan sipariş ver,",
+                        "headingItalic": "oturduğun masadan."
+                    },
+                    {
+                        "detail": "Mutfak Senkronizasyonu",
+                        "title": "Canlı Sipariş Durumu",
+                        "kicker": "Canlı Mutfak",
+                        "heading": "Hazırlığı takip et,",
+                        "headingItalic": "adım adım."
+                    },
+                    {
+                        "detail": "Hesap Bölüşme",
+                        "title": "Kolay Grup Ödemesi",
+                        "kicker": "Grup Yemeği",
+                        "heading": "Hesabı bölüş,",
+                        "headingItalic": "tek bir dokunuşla."
+                    },
+                    {
+                        "detail": "Ödül Merkezi",
+                        "title": "Kazan ve Puan Topla",
+                        "kicker": "Sadakat Programı",
+                        "heading": "Ayrıcalıklar kazan,",
+                        "headingItalic": "favori mekanlarında."
+                    }
                 ]
             },
             "makernote": {
-                "title": "Makernote: İnteraktif Eğitim Teknolojisi (EdTech)",
+                "title": "Makernote: Etkileşimli Öğrenme",
                 "category": "Eğitim Uygulaması",
-                "summary": "Gerçek zamanlı iş birliği ve çevrimdışı senkronizasyona sahip eğitim platformu.",
-                "description": "Öğretmenler ve öğrenciler için yüksek performanslı eğitim platformu — gerçek zamanlı iş birliği, anında not senkronizasyonu ve kesintisiz çevrimdışı veri depolama için Temiz Mimari ile geliştirilmiştir.",
+                "summary": "Gerçek zamanlı iş birliği ve çevrimdışı senkronizasyon sunan eğitim platformu.",
+                "description": "Öğretmenler ve öğrenciler için tasarlanmış yüksek performanslı eğitim platformu. Gerçek zamanlı iş birliği, anında not senkronizasyonu ve çevrimdışı yerel depolama sağlamak amacıyla Clean Architecture ilkelerine göre geliştirilmiştir.",
                 "ctaText": "App Store'da Gör",
-                "altText": "Makernote EdTech uygulaması — Muhammad Awais tarafından geliştirilen gerçek zamanlı iş birliği ve çevrimdışı senkronizasyon",
+                "altText": "Makernote Uygulaması — Gerçek zamanlı iş birliği ve çevrimdışı çalışma, Muhammad Awais tarafından",
                 "highlights": [
-                    "Gerçek zamanlı çok kullanıcılı iş birliği",
-                    "Çevrimdışı öncelikli (offline-first) yerel depolama",
-                    "Temiz MVVM mimarisi"
+                    "Çoklu kullanıcı ile gerçek zamanlı iş birliği",
+                    "Tam çevrimdışı destekli yerel depolama",
+                    "Temiz MVVM Mimarisi"
+                ],
+                "role": "Flutter Geliştiricisi",
+                "duration": "3 Ay",
+                "challenge": "Okullardaki kararsız internet bağlantılarında bile öğretmen ve öğrencilerin ortak tahtalar üzerinde eş zamanlı çalışabileceği etkileşimli bir ortam sunmak.",
+                "solution": "Yerel SQLite veritabanı ve arka plan senkronizasyon kuyruğuna dayalı çevrimdışı öncelikli (offline-first) bir mimari kuruldu. Gerçek zamanlı etkileşimler bağımsız bir WebSocket katmanı ile yönetildi.",
+                "outcome": "App Store'da yayında olan, yapay zeka destekli el yazısı tanıma özelliğine sahip ve eğitimciler tarafından her gün güvenle kullanılan bir platform.",
+                "metrics": [
+                    {
+                        "label": "Çevrimdışı Güvenilirlik",
+                        "value": "%100"
+                    },
+                    {
+                        "label": "Senkronizasyon Gecikmesi",
+                        "value": "< 1 saniye"
+                    },
+                    {
+                        "label": "Platform",
+                        "value": "iOS"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Vektörel Çizim Alanı",
+                        "title": "Hızlı Çizim Motoru",
+                        "kicker": "Akıllı Akıllı Tahta",
+                        "heading": "Akıcı bir şekilde yaz,",
+                        "headingItalic": "tamamen doğal hissettiren."
+                    },
+                    {
+                        "detail": "El Yazısı Yapay Zekası",
+                        "title": "Anında OCR Dönüştürme",
+                        "kicker": "Nöral Motor",
+                        "heading": "Yazını dönüştür,",
+                        "headingItalic": "aranabilir metne."
+                    },
+                    {
+                        "detail": "Bulut Senkronizasyonu",
+                        "title": "Cihazlar Arası Yedekleme",
+                        "kicker": "Anında Bulut Aktarımı",
+                        "heading": "Notların,",
+                        "headingItalic": "daima yanında."
+                    },
+                    {
+                        "detail": "Koleksiyonlar",
+                        "title": "Görsel Defter Rafı",
+                        "kicker": "Düzenleme",
+                        "heading": "Fikirlerini yapılandır,",
+                        "headingItalic": "çaba harcamadan."
+                    }
                 ]
             },
             "eco-grocery": {
-                "title": "Eco Grocery: Akıllı Envanter Takibi",
-                "category": "Akıllı Araçlar",
-                "summary": "Barkod tarama, tarif önerileri ve son kullanma tarihi uyarıları içeren akıllı market takip uygulaması.",
-                "description": "Anında ürün kataloglama ve son kullanma tarihi yönetimi için dahili kamera barkod taraması ile eşleştirilmiş, yemek tarifi öneri motoruna bağlı dinamik bir market listesi sunan akıllı Android araç uygulaması.",
+                "title": "Eco Grocery: Akıllı Mutfak Yönetimi",
+                "category": "Akıllı Araç",
+                "summary": "Barkod tarayıcı, yemek tarifi önerileri ve son kullanma tarihi uyarıları sunan akıllı alışveriş uygulaması.",
+                "description": "Kamera ile barkod tarayarak stok ve son kullanma tarihlerini gerçek zamanlı takip eden, dinamik alışveriş listesi ve yemek tarifi motoru içeren Android uygulaması.",
                 "ctaText": "Proje Detaylarını Gör",
-                "altText": "Eco Grocery Android uygulaması — Muhammad Awais tarafından geliştirilen barkod taramalı market takip uygulaması",
+                "altText": "Eco Grocery Android Uygulaması — Barkod tarayıcılı alışveriş yöneticisi, Muhammad Awais tarafından",
                 "highlights": [
-                    "Kamera barkod tarayıcı entegrasyonu",
-                    "Akıllı bildirim ve son kullanma tarihi sistemi",
-                    "Reaktif UI durum yönetimi"
+                    "Kamera üzerinden barkod tarayıcı entegrasyonu",
+                    "Son kullanma tarihleri için akıllı uyarı sistemi",
+                    "Reaktif kullanıcı arayüzü durum yönetimi"
+                ],
+                "role": "Android Geliştiricisi",
+                "duration": "3 Ay",
+                "challenge": "Basit bir yapılacaklar listesinin ötesine geçerek ürün tarama, tarih takibi ve yemek tarifi önerilerini tek bir sezgisel arayüzde birleştiren pratik bir günlük araç sunmak.",
+                "solution": "Barkod okuma için ML Kit, yerel depolama için Room ve tarif API entegrasyonu sağlandı. Son kullanma tarihi bildirimlerinin zamanında iletilmesi için WorkManager kullanıldı.",
+                "outcome": "Mutfak düzenini sağlamak ve gıda israfını önlemek konusunda kullanıcılar tarafından yüksek puanlarla değerlendirilen yerel Android uygulaması.",
+                "metrics": [
+                    {
+                        "label": "Tarama Doğruluğu",
+                        "value": "%98"
+                    },
+                    {
+                        "label": "Tarih Uyarıları",
+                        "value": "Gerçek Zamanlı"
+                    },
+                    {
+                        "label": "Eşleşen Tarifler",
+                        "value": "500+"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Barkod Tarayıcı",
+                        "title": "Anında Ürün Arama",
+                        "kicker": "İçerik Taraması",
+                        "heading": "Ürünleri tara,",
+                        "headingItalic": "yerleştirirken zahmetsizce."
+                    },
+                    {
+                        "detail": "İsraf Önleme Radarı",
+                        "title": "Tazelik Takibi",
+                        "kicker": "Tazelik Uyarısı",
+                        "heading": "Gıdalarını tüket,",
+                        "headingItalic": "tarihi geçmeden."
+                    },
+                    {
+                        "detail": "Tarif Motoru",
+                        "title": "Elindekilerle Yemek Yap",
+                        "kicker": "Akıllı Tarifler",
+                        "heading": "Yemek fikirleri,",
+                        "headingItalic": "mevcut malzemelerinle."
+                    },
+                    {
+                        "detail": "Sürdürülebilirlik Endeksi",
+                        "title": "Çevre Etkisi Takibi",
+                        "kicker": "Ekolojik İlerleme",
+                        "heading": "Katkını ölç,",
+                        "headingItalic": "atıkları azaltarak."
+                    }
                 ]
             },
             "hcloud": {
                 "title": "HCloud: Klinik Yönetim Paketi",
-                "category": "Doktor Uygulaması",
-                "summary": "Randevu ve reçete senkronizasyonuna sahip sağlık hizmeti sağlayıcıları için kurumsal operasyon portalı.",
-                "description": "Doktorlar için tasarlanmış kurumsal düzeyde klinik yönetim uygulaması. Gerçek zamanlı reçete oluşturma, hasta kayıtları yönetimi ve çevrimdışı öncelikli randevu planlamasını sağlamak için MVVM, Hilt ve Room DB ile inşa edilmiştir.",
+                "category": "Tıbbi Uygulama",
+                "summary": "Randevu senkronizasyonu ve dijital reçete oluşturma özelliklerine sahip klinik yönetim sistemi.",
+                "description": "Doktorlar ve sağlık kuruluşları için geliştirilmiş klinik yönetim uygulaması. MVVM, Hilt ve Room DB kullanılarak inşa edilen sistem; çevrimdışı çalışma desteğiyle hızlı reçete düzenleme, hasta dosyası yönetimi ve randevu takibi sağlar.",
                 "ctaText": "Google Play'de Gör",
-                "altText": "HCloud klinik yönetim paketi — Muhammad Awais tarafından geliştirilen gerçek zamanlı reçete senkronizasyonu ve randevu planlama",
+                "altText": "HCloud Klinik Yönetim Paketi — Gerçek zamanlı randevu ve reçete senkronizasyonu, Muhammad Awais tarafından",
                 "highlights": [
-                    "Çift uygulamalı mimari çekirdeği",
-                    "Room DB kullanarak çevrimdışı öncelikli senkronizasyon kuyruğu",
-                    "Duyarlı klinik doktor arayüzü"
+                    "Çift uygulamalı sistem için temel mimari altyapı",
+                    "Room DB ile çevrimdışı öncelikli senkronizasyon kuyruğu",
+                    "Doktorlar için optimize edilmiş klinik arayüz"
+                ],
+                "role": "Android Geliştiricisi",
+                "duration": "4 Ay",
+                "challenge": "Sağlık çalışanlarına zayıf bağlantı koşullarında dahi kesintisiz çalışan, hasta uygulamasıyla anlık senkronize olan güvenilir bir reçete ve randevu yönetim aracı sunmak.",
+                "solution": "Ana veri kaynağı olarak Room DB'yi kullanan ve bağlantı sağlandığında Retrofit üzerinden arka planda senkronizasyon yapan çevrimdışı öncelikli bir mimari uygulandı.",
+                "outcome": "Google Play'de yayınlanan ve sağlık personeli tarafından günlük olarak kullanılan uygulama; reçete yazma ve hasta takip süreçlerini önemli ölçüde hızlandırdı.",
+                "metrics": [
+                    {
+                        "label": "Çevrimdışı Çalışma",
+                        "value": "%100"
+                    },
+                    {
+                        "label": "Senkronizasyon Süresi",
+                        "value": "< 2 saniye"
+                    },
+                    {
+                        "label": "Google Play Durumu",
+                        "value": "Yayında"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Hasta Sırası",
+                        "title": "Gerçek Zamanlı Çağrı Sistemi",
+                        "kicker": "Klinik Akışı",
+                        "heading": "Girişleri organize et,",
+                        "headingItalic": "hastaların için."
+                    },
+                    {
+                        "detail": "HD Tele-Sağlık",
+                        "title": "Twilio ile Görüntülü Muayene",
+                        "kicker": "Şifreli Görüşme",
+                        "heading": "HD kalitede muayene,",
+                        "headingItalic": "her cihazda."
+                    },
+                    {
+                        "detail": "Reçete Oluşturucu",
+                        "title": "Dijital Reçete",
+                        "kicker": "Hızlı Düzenleme",
+                        "heading": "Reçete yaz,",
+                        "headingItalic": "birkaç saniye içinde."
+                    },
+                    {
+                        "detail": "Finansal Analizler",
+                        "title": "Klinik Gelir Analizi",
+                        "kicker": "Finans Merkezi",
+                        "heading": "Gelir gelişimini izle,",
+                        "headingItalic": "tek bir bakışta."
+                    }
                 ]
             },
             "healthwire": {
-                "title": "Healthwire: Sağlık Teknolojileri Ekosistemi",
-                "category": "Tele-sağlık Platformu",
-                "summary": "2 Milyondan fazla indirme, tele-tıp, laboratuvar randevusu ve güvenli ödeme entegrasyonlarına sahip öncü sağlık uygulaması.",
-                "description": "Eczane lojistiği, laboratuvar testi randevuları, Twilio görüntülü görüşmeleri ve yerel ödeme ağ geçitlerini (Meezan, JazzCash, Foree) %99+ çökmesiz oturum oranıyla destekleyen, Pakistan'ın lider sağlık platformlarından birinin mimarisini kurdu.",
+                "title": "Healthwire: Sağlık Ekosistemi",
+                "category": "Sağlık Platformu",
+                "summary": "Konsültasyon, laboratuvar randevusu ve güvenli ödeme sunan 2 milyondan fazla indirmeye sahip dev sağlık uygulaması.",
+                "description": "Eczane hizmetleri, laboratuvar testi rezervasyonları, Twilio üzerinden görüntülü muayene ve yerel ödeme altyapılarını (Meezan, JazzCash, Foree) entegre eden, Pakistan'ın en büyük sağlık platformlarından birinin geliştirilmesi.",
                 "ctaText": "Google Play'de Gör",
-                "altText": "Healthwire sağlık uygulaması — Muhammad Awais tarafından geliştirilen eczane lojistiği, laboratuvar randevusu ve Twilio tele-tıp çözümü",
+                "altText": "Healthwire Sağlık Uygulaması — Eczane, laboratuvar rezervasyonu ve Twilio görüntülü muayene, Muhammad Awais tarafından",
                 "highlights": [
-                    "Google Play Store'da 2 Milyondan fazla indirme",
-                    "Twilio gerçek zamanlı görüntülü görüşmeler (+%15 etkileşim)",
-                    "%100 güvenli ödeme işleme (Meezan, JazzCash, Foree)"
+                    "Google Play'de 2 Milyondan fazla indirme",
+                    "Twilio görüntülü görüşme ile %15 artan kullanıcı etkileşimi",
+                    "Güvenli ödeme entegrasyonları (Meezan, JazzCash, Foree)"
+                ],
+                "role": "Yazılım Mühendisi (Android)",
+                "duration": "2+ Yıl",
+                "challenge": "Milyonlarca aktif kullanıcıya sahip devasa bir sağlık uygulamasını ölçeklendirmek; Twilio video, 3 farklı ödeme altyapısı ve tahlil randevularını %99'un üzerinde stabiliteyle sunmak.",
+                "solution": "Temiz ve reaktif kod için Hilt ve Coroutines/Flow ile MVVM mimarisi benimsendi. WorkManager senkronizasyon ve bildirimleri yönetirken, ana ekranlar kademeli olarak Jetpack Compose'a taşındı.",
+                "outcome": "2 milyondan fazla indirmeyle ülkenin en çok kullanılan sağlık uygulamalarından biri haline geldi. %99'un üzerinde kararlılık ve tele-sağlık özellikleri sayesinde kullanıcı etkileşiminde %15 artış elde edildi.",
+                "metrics": [
+                    {
+                        "label": "İndirme Sayısı",
+                        "value": "> 2 Milyon"
+                    },
+                    {
+                        "label": "Kararlılık Oranı",
+                        "value": "> %99"
+                    },
+                    {
+                        "label": "Etkileşim Artışı",
+                        "value": "+%15"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Uzman Arama",
+                        "title": "Uzman Doktor Randevusu",
+                        "kicker": "Doktorunu Bul",
+                        "heading": "Randevu al,",
+                        "headingItalic": "onaylı uzmanlardan."
+                    },
+                    {
+                        "detail": "Çevrim İçi Görüşme",
+                        "title": "7/24 Tele-Sağlık",
+                        "kicker": "Acil Bakım",
+                        "heading": "Doktorlara ulaş,",
+                        "headingItalic": "günün her saatinde."
+                    },
+                    {
+                        "detail": "Hızlı Eczane",
+                        "title": "Eve İlaç Teslimatı",
+                        "kicker": "Hızlı Teslimat",
+                        "heading": "İlaçların kapında,",
+                        "headingItalic": "30 dakikadan kısa sürede."
+                    },
+                    {
+                        "detail": "Dijital Dosya",
+                        "title": "Birleşik Sağlık Geçmişi",
+                        "kicker": "Dijital Kayıtlar",
+                        "heading": "Tüm raporların,",
+                        "headingItalic": "tek bir yerde."
+                    }
                 ]
             },
             "dongamers": {
-                "title": "DonGamers: E-Spor Platformu",
-                "category": "E-Oyun Platformu",
-                "summary": "Gerçek zamanlı Pusher sohbeti, turnuva eşleşmeleri ve optimize edilmiş gelir modelleri sunan küresel oyun platformu.",
-                "description": "Native Android üzerinde uluslararası bir e-spor platformu geliştirdi. Kod tabanını Java'dan Kotlin'e taşıdı, Pusher kullanarak ölçeklenebilir gerçek zamanlı sohbet altyapısı tasarladı (+%15 etkileşim) ve Uygulama İçi Satın Almalar ile Google AdMob'u optimize etti.",
+                "title": "DonGamers: Espor Platformu",
+                "category": "Espor Platformu",
+                "summary": "Pusher ile gerçek zamanlı sohbet, turnuva takibi ve optimize edilmiş gelir modeli sunan küresel espor uygulaması.",
+                "description": "Küresel ölçekte yerel Android espor platformu geliştirilmesi. Kod tabanının Java'dan Kotlin'e taşınması, Pusher ile gerçek zamanlı sohbet altyapısı (%15 etkileşim artışı) ve AdMob ile uygulama içi satın alma optimizasyonu.",
                 "ctaText": "Google Play'de Gör",
-                "altText": "DonGamers e-spor platformu — Muhammad Awais tarafından geliştirilen gerçek zamanlı sohbet ve turnuva takibi",
+                "altText": "DonGamers Espor Platformu — Gerçek zamanlı sohbet ve turnuva takibi, Muhammad Awais tarafından",
                 "highlights": [
-                    "Küresel erişilebilirlikte %99 çökmesiz oturum oranı",
-                    "Pusher kullanan gerçek zamanlı sohbet altyapısı",
+                    "Dünya genelinde %99 hatasız oturum oranı",
+                    "Pusher destekli gerçek zamanlı sohbet altyapısı",
                     "Satışları %10 artıran gelir modeli optimizasyonu"
+                ],
+                "role": "Kıdemli Android Geliştiricisi",
+                "duration": "1.5 Yıl",
+                "challenge": "Dünya genelindeki kullanıcılar için hizmeti kesintiye uğratmadan büyük bir Java kod tabanını Kotlin'e taşımak, gerçek zamanlı sohbet eklemek ve gelirleri artırmak.",
+                "solution": "Java ve Kotlin uyumluluğundan yararlanılarak kademeli bir geçiş yapıldı. Yerel mesaj kuyruğuna sahip Pusher sohbet motoru entegre edildi ve reklam/satın alma stratejileri için A/B testleri uygulandı.",
+                "outcome": "Küresel çapta %99 kararlılık, sohbet ile etkileşimde %15 artış ve optimize edilen satın alma adımları ile reklamlardan %10 gelir artışı sağlandı.",
+                "metrics": [
+                    {
+                        "label": "Kararlılık Oranı",
+                        "value": "%99"
+                    },
+                    {
+                        "label": "Sohbet Etkileşimi",
+                        "value": "+%15"
+                    },
+                    {
+                        "label": "Satış Büyümesi",
+                        "value": "+%10"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Canlı Arenalar",
+                        "title": "Turnuva Takvimi",
+                        "kicker": "Canlı Espor",
+                        "heading": "Turnuvalarda yarış,",
+                        "headingItalic": "toplulukla birlikte."
+                    },
+                    {
+                        "detail": "Takım Sohbeti",
+                        "title": "Gerçek Zamanlı Lobi",
+                        "kicker": "Anında Lobi",
+                        "heading": "Taktikleri koordine et,",
+                        "headingItalic": "takımınla birlikte."
+                    },
+                    {
+                        "detail": "Oyuncu Cüzdanı",
+                        "title": "Jeton Ödülleri",
+                        "kicker": "Ödül Motoru",
+                        "heading": "Jeton kazan,",
+                        "headingItalic": "her galibiyetle."
+                    },
+                    {
+                        "detail": "Pro Profil",
+                        "title": "Oyuncu İstatistik Kartı",
+                        "kicker": "Sıralama Matrisi",
+                        "heading": "Başarılarını sergile,",
+                        "headingItalic": "ve istatistiklerini."
+                    }
+                ]
+            },
+            "wallpaper": {
+                "title": "Wallpaper Arka Plan Servisi",
+                "category": "Web Geliştirme",
+                "summary": "Yüksek performanslı duvar kağıdı platformu için geliştirilmiş Node.js arka plan servisi.",
+                "description": "wallpaper.devawais.com platformuna güç veren ölçeklenebilir Node.js arka plan servisi. Yüksek hızlı API yanıtları, verimli veri işleme ve kararlı bir altyapı odağıyla geliştirilmiştir.",
+                "ctaText": "Web Sitesini Ziyaret Et",
+                "altText": "Duvar kağıdı uygulaması için Node.js arka plan servisi, Muhammad Awais tarafından",
+                "highlights": [
+                    "Node.js tabanlı arka plan mimarisi",
+                    "Optimize edilmiş API yanıt süreleri",
+                    "Ölçeklenebilir web servisleri"
+                ],
+                "role": "Arka Plan (Backend) Geliştiricisi",
+                "duration": "1 Ay",
+                "challenge": "Yüksek çözünürlüklü görselleri dünya genelindeki kullanıcılara minimum gecikmeyle sunabilen, içerik dağıtım ağına (CDN) optimize bir arka plan servisi inşa etmek.",
+                "solution": "Hızlı dosya teslimi, kategori filtreleme ve önbellek dostu hafif bir veri katmanı için optimize edilmiş Node.js RESTful API geliştirildi.",
+                "outcome": "wallpaper.devawais.com adresinde canlıda olan, son derece hızlı yanıt sürelerine ve ölçeklenmeye hazır bir mimariye sahip servis.",
+                "metrics": [
+                    {
+                        "label": "API Yanıt Süresi",
+                        "value": "< 100ms"
+                    },
+                    {
+                        "label": "Çalışma Süresi",
+                        "value": "%99.9"
+                    },
+                    {
+                        "label": "Canlı Durumu",
+                        "value": "Aktif"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Premium Katalog",
+                        "title": "Ultra HD Koleksiyonu",
+                        "kicker": "Keşfet",
+                        "heading": "Duvar kağıtları keşfet,",
+                        "headingItalic": "ve 4K sanat eserleri."
+                    },
+                    {
+                        "detail": "Tek Dokunuşla Uygula",
+                        "title": "Anında Kurulum",
+                        "kicker": "Tek Tıkla Uygulama",
+                        "heading": "Duvar kağıdı yap,",
+                        "headingItalic": "tek bir dokunuşla."
+                    },
+                    {
+                        "detail": "Günlük Yenilikler",
+                        "title": "Güncellenen Koleksiyonlar",
+                        "kicker": "Günlük Güncelleme",
+                        "heading": "Yeni içerikler,",
+                        "headingItalic": "her 24 saatte bir."
+                    },
+                    {
+                        "detail": "API Motoru",
+                        "title": "CDN ile Hızlı Dağıtım",
+                        "kicker": "REST API",
+                        "heading": "Görsel teslimatı,",
+                        "headingItalic": "maksimum hızda."
+                    }
                 ]
             }
         }
@@ -355,6 +917,10 @@
             "architecture": {
                 "title": "Mobil Mimari ve Kod Tabanı Modernizasyonu",
                 "description": "Monolitik kod tabanlarını modüler Temiz Mimari'ye (Clean Architecture) dönüştürme, Java'dan Kotlin'e geçiş ve %99+ çökmesiz (crash-free) oturum oranına ulaşmak için uygulama kararlılığı optimizasyonu."
+            },
+            "web-development": {
+                "title": "Web Development & Backend Services",
+                "description": "Custom scalable backend development utilizing Node.js, Next.js, and modern web architectures designed for high performance and robust API integrations."
             }
         }
     },
@@ -419,6 +985,7 @@
         "navigate": "Gezinti",
         "specialties": "Uzmanlık Alanları",
         "getInTouch": "İletişime Geçin",
+        "viaEmail": "E-posta ile iletişime geçin",
         "specialtiesList": [
             "Native Android (Kotlin & Java)",
             "Kotlin Multiplatform (KMP)",

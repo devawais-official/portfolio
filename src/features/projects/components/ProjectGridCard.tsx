@@ -129,17 +129,15 @@ export default function ProjectGridCard({
     });
   }
 
+  // Always add "View details" so every project card navigates to the case study
   const projectDetailHref = `/projects/${project.slug}`;
-
-  if (actions.length === 0) {
-    actions.push({
-      label: labels.ctaDetails,
-      href: projectDetailHref,
-      isExternal: false,
-      variant: "secondary",
-      icon: <ArrowUpRightIcon className={storeIconStyle} aria-hidden="true" />,
-    });
-  }
+  actions.push({
+    label: labels.ctaDetails,
+    href: projectDetailHref,
+    isExternal: false,
+    variant: actions.length === 0 ? "primary" : "secondary",
+    icon: <ArrowUpRightIcon className={storeIconStyle} aria-hidden="true" />,
+  });
 
   return (
     <GenericCard

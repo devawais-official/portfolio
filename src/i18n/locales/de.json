@@ -196,8 +196,8 @@
     },
     "projects": {
         "title": "Projekte",
-        "headerTitle": "Veröffentlichte Apps im Native Android- und Flutter-Ökosystem.",
-        "headerDesc": "Filtern Sie nach Plattform, um zu sehen, wie sich Architektur und Tech-Stack anpassen, um optimale Performance, Sicherheit und Echtzeit-Konnektivität zu liefern.",
+        "headerTitle": "Ausgelieferte Apps aus den Ökosystemen Android Native & Flutter.",
+        "headerDesc": "Filtern Sie nach Plattform, um zu sehen, wie Architektur und Tech-Stack angepasst werden, um maximale Performance, höchste Sicherheit und Echtzeit-Konnektivität zu liefern.",
         "noProjectsFound": "Keine Projekte für diese Kategorie gefunden.",
         "backToProjects": "Alle Projekte",
         "techStack": "Tech-Stack",
@@ -209,128 +209,690 @@
             "kmp": "KMP",
             "cmp": "CMP"
         },
+        "platforms": {
+            "android": "Android Native",
+            "flutter": "Flutter",
+            "ios": "iOS",
+            "kmp": "Kotlin Multiplatform",
+            "cmp": "Compose Multiplatform",
+            "web": "Web"
+        },
+        "mockup": {
+            "date": "Montag, 20. Mai",
+            "greeting": "Guten Morgen,",
+            "userName": "Muhammad.",
+            "todaysFocus": "FOKUS HEUTE",
+            "focusText": "Bauen Sie etwas,\ndas bleibt.",
+            "progressCount": "3 von 5 erledigt",
+            "task1": "Architektur-Review",
+            "task2": "Code-Review",
+            "overview": "Übersicht",
+            "inControl": "Alles im Griff,",
+            "together": "gemeinsam.",
+            "availableToSpend": "Verfügbares Guthaben",
+            "growthText": "+12,4 % diesen Monat",
+            "spending": "Ausgaben",
+            "saved": "Gespart",
+            "library": "Ihre Bibliothek",
+            "learningHeading1": "Bauen Sie weiter,",
+            "learningHeading2": "neugieriger Geist.",
+            "tag1": "Architektur",
+            "cardTitle1": "Clear Code,\nClear Mind.",
+            "cardTime1": "12 Min. verbleibend",
+            "tag2": "Produkt-Denken",
+            "cardTitle2": "Starten Sie mit einer\nbesseren Frage.",
+            "cardTime2": "18 Min. verbleibend",
+            "tag3": "Echtzeit",
+            "cardTitle3": "Daten-Streams\nverstehen.",
+            "cardTime3": "8 Min. verbleibend",
+            "liveProject": "LIVE-PROJEKT",
+            "defaultHeading1": "Für die echte",
+            "defaultHeading2": "Nutzung gebaut.",
+            "statLabel1": "Nutzer",
+            "statLabel2": "Bewertung",
+            "statLabel3": "Uptime",
+            "statLabel4": "Latenz"
+        },
         "ctas": {
             "playStore": "Google Play",
             "appStore": "App Store",
-            "details": "Details anzeigen"
+            "details": "Details anzeigen",
+            "viewLive": "Live ansehen",
+            "backToProjects": "← Alle Projekte"
+        },
+        "detail": {
+            "role": "Rolle",
+            "duration": "Dauer",
+            "platform": "Plattform",
+            "challenge": "Herausforderung",
+            "solution": "Lösung",
+            "outcome": "Ergebnis",
+            "techStack": "Tech-Stack",
+            "highlights": "Highlights",
+            "metrics": "Kennzahlen",
+            "viewOnPlayStore": "Auf Google Play ansehen",
+            "viewOnAppStore": "Im App Store ansehen"
         },
         "items": {
             "spectra-care": {
-                "title": "Spectra Care: Telehealth- & Hardware-Plattform",
-                "category": "Telehealth & IoT",
-                "summary": "Enterprise-Telehealth-Plattform mit Jetpack Compose, Agora-Videoanrufen und Integration von 6-in-1 Medizinmonitoren.",
-                "description": "Production Android-Telehealth-App, entwickelt mit Jetpack Compose und MVI-Architektur. Bietet latenzarme Agora-Videokonsultationen, reaktive Gerätetreiber für Spectra Care 6-in-1 Gesundheitsmonitore und sichere SOAP EHR-Datensynchronisation.",
+                "title": "Spectra Care: Gesundheits- & IoT-Plattform",
+                "category": "Telemedizin & IoT",
+                "summary": "Enterprise-Telemedizin-Plattform mit Jetpack Compose, Agora-Videoberatung und Integration eines 6-in-1-Vitaldaten-Monitors.",
+                "description": "Nativ entwickelte Android-Telemedizin-App für den Produktionseinsatz, aufgebaut mit Jetpack Compose und MVI-Architektur. Bietet extrem latenzarme Videoberatungen via Agora, Treiber für 6-in-1-Vitaldatenmonitore von Spectra Care und die sichere Synchronisation klinischer EHR-Daten.",
                 "ctaText": "Auf Google Play ansehen",
-                "altText": "Spectra Care — Android Native Telehealth-App mit Agora-Videoanrufen und Spectra IoT-Gesundheitsmonitor-Integration entwickelt von Muhammad Awais",
+                "altText": "Spectra Care App — Native Android Telemedizin-App mit Agora-Videoanrufen und IoT-Geräteintegration von Muhammad Awais",
                 "highlights": [
-                    "Echtzeit-Videokonsultationen via Agora SDK",
-                    "Synchronisation mit Spectra Care 6-in-1 IoT-Gesundheitsmonitoren",
+                    "Echtzeit-Videoberatung über das Agora SDK",
+                    "6-in-1-Smart-Health-Monitor-Synchronisation",
                     "MVI-Architektur mit Jetpack Compose"
+                ],
+                "role": "Lead Android Engineer",
+                "duration": "8 Monate",
+                "challenge": "Zusammenführung zweier getrennter Codebasen für Arzt- und Patienten-Apps bei gleichzeitiger Integration von Spectra Care IoT-Geräten in Echtzeit und latenzarmer Videoberatung über Agora, ohne den täglichen Praxisablauf zu stören.",
+                "solution": "Vollständiger Neuaufbau mit Jetpack Compose und MVI sowie einer gemeinsamen Modulstruktur, die IoT-Verbindungen über reaktive Kotlin Flows von der Benutzeroberfläche trennt. Kapselung des Agora SDKs in einer Abstraktionsschicht mit automatischer Wiederverbindung bei Netzwerkausfällen.",
+                "outcome": "Eine hochstabile Plattform im täglichen klinischen Einsatz mit einer fehlerfreien Sitzungsrate von über 99 % und null Datenintegritätsproblemen bei der Synchronisation.",
+                "metrics": [
+                    {
+                        "label": "Fehlerfreie Sitzungen",
+                        "value": "> 99 %"
+                    },
+                    {
+                        "label": "Unterstützte IoT-Geräte",
+                        "value": "6-in-1"
+                    },
+                    {
+                        "label": "Videolatenz",
+                        "value": "< 300 ms"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Tägliche Messwerte",
+                        "title": "6-in-1-Gesundheitsmonitor",
+                        "kicker": "Echtzeit-Sensoren",
+                        "heading": "Vitaldaten verfolgen,",
+                        "headingItalic": "in Echtzeit."
+                    },
+                    {
+                        "detail": "Telekonsultation",
+                        "title": "Sofortige Arztsprechstunde",
+                        "kicker": "Vernetzte Pflege",
+                        "heading": "Sprechen Sie mit einem Arzt,",
+                        "headingItalic": "in Minuten."
+                    },
+                    {
+                        "detail": "Diagnostik",
+                        "title": "Labor-Heimtests buchen",
+                        "kicker": "Schneller Versand",
+                        "heading": "Zertifizierte Tests,",
+                        "headingItalic": "direkt an Ihre Haustür."
+                    },
+                    {
+                        "detail": "Gesundheits-Tresor",
+                        "title": "Verschlüsselte Krankenakte",
+                        "kicker": "Sicherer Speicher",
+                        "heading": "Ihre Gesundheitsdaten,",
+                        "headingItalic": "immer unter Ihrer Kontrolle."
+                    }
                 ]
             },
             "zouris": {
                 "title": "Zouris: Ganzheitliche Wellness-Plattform",
                 "category": "Gesundheit & Wellness",
-                "summary": "Plattformübergreifende Wellness-App für angeleitete Sessions, Audio-Streams und Affirmationen.",
-                "description": "Zouris ist eine ganzheitliche Wellness-Plattform, entwickelt mit Flutter, auf der zertifizierte Coaches und Experten angeleitete Sessions, Meditationen und Echtzeit-Audio-Streams mit nativer UX-Performance für Android und iOS bereitstellen.",
+                "summary": "Plattformübergreifende Wellness-App mit angeleiteten Sessions, Podcasts und Affirmationen.",
+                "description": "Zouris ist eine All-in-one-Wellness-Plattform, die mit Flutter entwickelt wurde. Zertifizierte Coaches und Experten teilen angeleitete Sessions, Meditationen und Live-Podcasts mit herausragender Performance und nativem Bediengefühl auf Android und iOS.",
                 "ctaText": "Google Play",
                 "iosCtaText": "App Store",
-                "altText": "Zouris Wellness-Coaching-App — plattformübergreifende Meditations- und Audio-Streaming-Plattform entwickelt von Muhammad Awais",
+                "altText": "Zouris Wellness-Coaching-App — Plattformübergreifende Meditations- und Podcast-App von Muhammad Awais",
                 "highlights": [
                     "Plattformübergreifende Flutter-Architektur",
-                    "Latenzarmes Echtzeit-Audio-Streaming",
-                    "Sauberes Statusmanagement mit BLoC"
+                    "Echtzeit-Audio-Streaming mit geringer Latenz",
+                    "Strukturierte Zustandsverwaltung mit BLoC"
+                ],
+                "role": "Flutter Developer",
+                "duration": "5 Monate",
+                "challenge": "Bereitstellung eines hochwertigen, nativ wirkenden Wellness-Erlebnisses auf Android und iOS aus einer einzigen Flutter-Codebasis mit zuverlässigem Hintergrund-Audio-Streaming und nahtlosem Übergang von Coach- zu Abonnenten-Sessions.",
+                "solution": "Nutzung von Flutter BLoC für stabiles Session-State-Management, Integration eines benutzerdefinierten Audio-Handlers für latenzarmen Stream-Wiedergabe sowie Einsatz von Decompose Navigation für eine flexible, bildschirmunabhängige Routing-Architektur.",
+                "outcome": "Eine ausgereifte App im Google Play Store und Apple App Store, die Live-Coaching-Sessions für Nutzer in den VAE mit durchgehend hervorragenden Bewertungen bereitstellt.",
+                "metrics": [
+                    {
+                        "label": "Unterstützte Plattformen",
+                        "value": "2"
+                    },
+                    {
+                        "label": "Audio-Latenz",
+                        "value": "< 500 ms"
+                    },
+                    {
+                        "label": "Store-Bewertung",
+                        "value": "4,8 ★"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Täglicher Check-in",
+                        "title": "Ruhiger Start",
+                        "kicker": "Guten Morgen, Maya",
+                        "heading": "Schaffen Sie Raum für das,",
+                        "headingItalic": "was zählt."
+                    },
+                    {
+                        "detail": "Fokus-Session",
+                        "title": "Eine Sache nach der anderen",
+                        "kicker": "12 Minuten",
+                        "heading": "Nur das hier.",
+                        "headingItalic": "Sonst nichts."
+                    },
+                    {
+                        "detail": "Wöchentlicher Fortschritt",
+                        "title": "Den Rhythmus spüren",
+                        "kicker": "Ihr Fortschritt",
+                        "heading": "Ihr persönliches Tempo",
+                        "headingItalic": "wächst stetig."
+                    },
+                    {
+                        "detail": "Persönliches Profil",
+                        "title": "Gestalten Sie es passend",
+                        "kicker": "Ihr Tempo",
+                        "heading": "Kleine Schritte,",
+                        "headingItalic": "auf Ihre Weise."
+                    }
                 ]
             },
             "egora-b2b": {
-                "title": "Egora B2B: Restaurant-Partner-Plattform",
+                "title": "Egora B2B: Gastro-Partner-Plattform",
                 "category": "B2B-Lösungen",
-                "summary": "White-Label-Partner-Dashboard für Restaurantbesitzer zur Verwaltung von Bestellungen, Abholungen und Live-Reservierungen.",
-                "description": "White-Label-Partner-Plattform, entwickelt mit Flutter, Dio und GetIt. Ermöglicht Restaurantbesitzern die selbstständige Verwaltung von Vor-Ort-Verzehr, Abholung, QR-Code-Bestellungen und Thermobelegdruck mit zuverlässigen Zahlungsintegrationen.",
-                "ctaText": "Projektdetails anzeigen",
-                "altText": "Egora B2B Restaurant-Partner-Dashboard — Bestell-, Reservierungs- und QR-Verwaltung entwickelt von Muhammad Awais",
+                "summary": "Anpassbares Partner-Dashboard für Gastronomen zur Verwaltung von Bestellungen, Abholungen und Reservierungen.",
+                "description": "Anpassbares White-Label-Partnerportal, entwickelt mit Flutter, Dio und GetIt. Ermöglicht Restaurantbetreibern die Verwaltung von Vor-Ort-Gästen, Takeaway, QR-Code-Bestellungen und Thermo-Rechnungsdruck mit nahtloser Zahlungsanbindung.",
+                "ctaText": "Projektdetails ansehen",
+                "altText": "Egora B2B Gastro-Partner-Dashboard — Verwaltung von Bestellungen, Reservierungen und QR-Codes von Muhammad Awais",
                 "highlights": [
-                    "Flutter-, Dio- und GetIt-Architektur",
-                    "Unabhängige Multi-Händler-Dashboards",
-                    "Echtzeit-Bestellsynchronisation und Benachrichtigungs-Engine"
+                    "Architektur basierend auf Flutter, Dio & GetIt",
+                    "Mandantenfähige, isolierte Merchant-Dashboards",
+                    "Echtzeit-Auftragssynchronisation & Benachrichtigungssystem"
+                ],
+                "role": "Senior Flutter Engineer",
+                "duration": "4 Monate",
+                "challenge": "Entwicklung eines anpassbaren B2B-Dashboards, das von mehreren Gastro-Marken unabhängig betrieben werden kann – mit Echtzeit-Auftragssynchronisation und Belegdruck über verschiedene Hardware-Modelle hinweg.",
+                "solution": "Entwicklung eines Konfigurationssystems für visuelle Anpassungen über eine Remote-API. Bereitstellung einer gemeinsamen HTTP-Schicht und sauberer Dependency Injection mit Dio + GetIt.",
+                "outcome": "Erfolgreicher Rollout bei mehreren Gastro-Partnern, die jeweils ein eigenes Branding nutzen – ohne Datenkonflikte und mit absolut zuverlässiger Auftragssynchronisation.",
+                "metrics": [
+                    {
+                        "label": "Partner-Restaurants",
+                        "value": "10+"
+                    },
+                    {
+                        "label": "Sync-Stabilität",
+                        "value": "99 %"
+                    },
+                    {
+                        "label": "Druck-Zuverlässigkeit",
+                        "value": "100 %"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Bestandsverwaltung",
+                        "title": "Händler-Dashboard",
+                        "kicker": "Lager-Engine",
+                        "heading": "Artikel verwalten,",
+                        "headingItalic": "in Echtzeit."
+                    },
+                    {
+                        "detail": "Auftragsweiterleitung",
+                        "title": "Küchen-Monitorsystem",
+                        "kicker": "Küchen-Matrix",
+                        "heading": "Bestellungen weiterleiten,",
+                        "headingItalic": "ohne Verzögerung."
+                    },
+                    {
+                        "detail": "Analysen",
+                        "title": "Umsatz-Einblicke",
+                        "kicker": "Tagesstatistiken",
+                        "heading": "Vertriebskennzahlen,",
+                        "headingItalic": "auf einen Blick."
+                    },
+                    {
+                        "detail": "Branding",
+                        "title": "Marken-Paket",
+                        "kicker": "Design-Engine",
+                        "heading": "Individuell angepasst",
+                        "headingItalic": "für jedes Restaurant."
+                    }
                 ]
             },
             "egora": {
-                "title": "Egora: Smartes Restaurant-Ökosystem",
-                "category": "Gastronomie & Verpflegung",
-                "summary": "Hochskalierbares Restaurant-Ökosystem mit QR-Bestellung, Reservierungsverwaltung und Bluetooth-Hardware-Integrationen.",
-                "description": "Skalierbares Reservierungs- und Gastronomiesystem, entwickelt mit Flutter und Jetpack Compose. Bietet QR-Code-Bestellung, integrierte XStax-Zahlungsabwicklung (10k+ monatliche Transaktionen) und eigene Bluetooth-Thermodrucker-Hardwaretreiber mit 100 % Zuverlässigkeit.",
-                "ctaText": "Projektdetails anzeigen",
-                "altText": "Egora Restaurant-App — QR-Bestellung, Reservierungssystem und Bluetooth-Thermodrucker-Integration entwickelt von Muhammad Awais",
+                "title": "Egora: Smarte Gastronomie-Plattform",
+                "category": "Food & Beverage",
+                "summary": "Skalierbares Gastronomie-Ökosystem mit QR-Bestellung, Reservierungssystem und Bluetooth-Hardware-Anbindung.",
+                "description": "Hochskalierbares Gastro- und Reservierungssystem, entwickelt mit Flutter und Jetpack Compose. Bietet QR-Code-Bestellungen, integrierte Zahlungsabwicklung über XStax (>10k Transaktionen/Monat) und Bluetooth-Thermodrucker-Treiber mit 100%iger Zuverlässigkeit.",
+                "ctaText": "Projektdetails ansehen",
+                "altText": "Egora Gastro-App — QR-Bestellung, Reservierungssystem und Bluetooth-Thermodrucker-Integration von Muhammad Awais",
                 "highlights": [
-                    "30 % Steigerung der Kundennutzung erzielt",
-                    "Bluetooth-Thermodrucker-Integration mit 50 % reduzierter Latenz",
-                    "XStax Payment Gateway verarbeitet 10k+ monatliche Transaktionen"
+                    "30 % Steigerung des Kundendurchsatzes",
+                    "Bluetooth-Thermodrucker-Integration mit 50 % geringerer Latenz",
+                    "XStax-Payment-Gateway verarbeitet >10.000 Transaktionen/Monat"
+                ],
+                "role": "Senior Mobile Engineer",
+                "duration": "6 Monate",
+                "challenge": "Entwicklung eines QR-Bestell- und Reservierungssystems, das Spitzenlasten standhält und Bluetooth-Thermodrucker direkt aus der App heraus stabil ansteuert.",
+                "solution": "Entwurf einer Abstraktionsschicht für Bluetooth-Drucker mit Re-Try-Logik und Verbindungsstatus-Management in Kotlin. Einsatz von Socket.IO für Echtzeit-Bestellupdates und XStax für PCI-konforme Zahlungen.",
+                "outcome": "30 % mehr Kundendurchsatz, 100 % Zuverlässigkeit beim Belegdruck und 50 % geringere Latenz bei über 10.000 monatlichen Transaktionen.",
+                "metrics": [
+                    {
+                        "label": "Kundendurchsatz",
+                        "value": "+30 %"
+                    },
+                    {
+                        "label": "Monatliche Transaktionen",
+                        "value": "> 10.000"
+                    },
+                    {
+                        "label": "Drucklatenz",
+                        "value": "-50 %"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Tisch-QR-Scan",
+                        "title": "Sofort-Bestell-Engine",
+                        "kicker": "Scannen & Bestellen",
+                        "heading": "Direkt bestellen,",
+                        "headingItalic": "von Ihrem Tisch."
+                    },
+                    {
+                        "detail": "Küchen-Synchronisation",
+                        "title": "Live-Bestellstatus",
+                        "kicker": "Live-Küche",
+                        "heading": "Zubereitung verfolgen,",
+                        "headingItalic": "Schritt für Schritt."
+                    },
+                    {
+                        "detail": "Rechnungs-Splitting",
+                        "title": "Nahtlose Gruppenzahlung",
+                        "kicker": "Gemeinsam essen",
+                        "heading": "Rechnung teilen,",
+                        "headingItalic": "mit einem Tippen."
+                    },
+                    {
+                        "detail": "Bonus-Center",
+                        "title": "Genießen & Punkte sammeln",
+                        "kicker": "Treue-Programm",
+                        "heading": "Vorteile sichern",
+                        "headingItalic": "bei Ihren Lieblingsorten."
+                    }
                 ]
             },
             "makernote": {
-                "title": "Makernote: Interaktives EdTech",
+                "title": "Makernote: Interaktives Lernen",
                 "category": "Bildungs-App",
-                "summary": "Bildungsplattform mit Echtzeit-Zusammenarbeit und Offline-Synchronisation.",
-                "description": "Hochperformante Bildungsplattform für Lehrkräfte und Lernende — entwickelt mit Clean Architecture für Echtzeit-Zusammenarbeit, sofortige Notizsynchronisation und nahtlose Offline-Datenspeicherung.",
+                "summary": "Lernplattform mit Echtzeit-Kollaboration und Offline-Synchronisation.",
+                "description": "Hochleistungs-Lernplattform für Lehrende und Lernende — entwickelt nach den Prinzipien der Clean Architecture für Echtzeit-Kollaboration, sofortige Notiz-Synchronisation und lokale Datenhaltung ohne Internetverbindung.",
                 "ctaText": "Im App Store ansehen",
-                "altText": "Makernote EdTech-App — Echtzeit-Zusammenarbeit und Offline-Synchronisation entwickelt von Muhammad Awais",
+                "altText": "Makernote Bildungs-App — Echtzeit-Kollaboration und Offline-Synchronisation von Muhammad Awais",
                 "highlights": [
-                    "Echtzeit-Zusammenarbeit für mehrere Nutzer",
-                    "Offline-First lokaler Speicher",
+                    "Multi-User-Echtzeit-Kollaboration",
+                    "Lokaler Speicher mit voller Offline-Unterstützung",
                     "Saubere MVVM-Architektur"
+                ],
+                "role": "Flutter Developer",
+                "duration": "3 Monate",
+                "challenge": "Schaffung einer interaktiven Lernumgebung, in der Lehrkräfte und Schüler gleichzeitig auf gemeinsamen Boards arbeiten können – selbst bei instabilen Schul-WLAN-Netzwerken.",
+                "solution": "Implementierung einer Offline-First-Architektur mit lokaler SQLite-Datenbank und einer Hintergrund-Sync-Queue. Die Echtzeit-Kollaboration wurde über eine entkoppelte WebSocket-Schicht umgesetzt.",
+                "outcome": "Ein robustes Unterrichtswerkzeug im Apple App Store, das täglich von Lehrkräften genutzt wird und über eine KI-gestützte Handschrifterkennung verfügt.",
+                "metrics": [
+                    {
+                        "label": "Offline-Zuverlässigkeit",
+                        "value": "100 %"
+                    },
+                    {
+                        "label": "Sync-Latenz",
+                        "value": "< 1 Sekunde"
+                    },
+                    {
+                        "label": "Plattform",
+                        "value": "iOS"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Vektor-Canvas",
+                        "title": "Schnelle Zeichen-Engine",
+                        "kicker": "Smartes Board",
+                        "heading": "Flüssig schreiben,",
+                        "headingItalic": "völlig natürlich."
+                    },
+                    {
+                        "detail": "Handschrift-KI",
+                        "title": "Sofortige OCR-Umwandlung",
+                        "kicker": "Neural Engine",
+                        "heading": "Handschrift umwandeln,",
+                        "headingItalic": "in durchsuchbaren Text."
+                    },
+                    {
+                        "detail": "Tresor-Synchronisation",
+                        "title": "Geräteübergreifende Cloud-Sync",
+                        "kicker": "Sofort-Sync",
+                        "heading": "Ihre Notizen,",
+                        "headingItalic": "überall dabei."
+                    },
+                    {
+                        "detail": "Sammlungen",
+                        "title": "Visuelle Notizbuch-Regale",
+                        "kicker": "Organisation",
+                        "heading": "Gedanken strukturieren,",
+                        "headingItalic": "mühelos."
+                    }
                 ]
             },
             "eco-grocery": {
-                "title": "Eco Grocery: Smarter Inventar-Tracker",
-                "category": "Smart Utility",
-                "summary": "Smarte Lebensmittel-Tracker-App mit Barcode-Scanning, Rezeptempfehlungen und Ablaufwarnungen.",
-                "description": "Intelligente Android-Utility-App mit dynamischer Einkaufsliste, verknüpft mit einer Rezeptempfehlungs-Engine, kombiniert mit integriertem Kamera-Barcode-Scanning zur sofortigen Artikelerfassung und Ablaufverfolgung.",
-                "ctaText": "Projektdetails anzeigen",
-                "altText": "Eco Grocery Android-App — Barcode-Scanning Lebensmittel-Tracker entwickelt von Muhammad Awais",
+                "title": "Eco Grocery: Smarte Vorratsverwaltung",
+                "category": "Smarte Hilfsmittel",
+                "summary": "Smarte Einkaufs-App mit Barcode-Scanner, Rezept-Empfehlungen und Ablauf-Benachrichtigungen.",
+                "description": "Smarte Android-App mit einer dynamischen Einkaufsliste, verknüpft mit einer Rezept-Empfehlungs-Engine sowie kamerabasiertem Barcode-Scanning zur Bestandserfassung und Haltbarkeitsprüfung in Echtzeit.",
+                "ctaText": "Projektdetails ansehen",
+                "altText": "Eco Grocery Android App — Einkaufsmanager mit Barcode-Scanner von Muhammad Awais",
                 "highlights": [
-                    "Kamera-Barcode-Scanner-Integration",
-                    "Smartes Benachrichtigungs- & Ablaufwarnsystem",
-                    "Reaktive UI-Statusverarbeitung"
+                    "Kamerabasierte Barcode-Scanner-Integration",
+                    "Smartes Benachrichtigungssystem für Ablaufdaten",
+                    "Reaktive UI-Zustandsverarbeitung"
+                ],
+                "role": "Android Developer",
+                "duration": "3 Monate",
+                "challenge": "Entwicklung eines Alltagshelfers, der über eine einfache To-do-Liste hinausgeht: Kombination von Barcode-Scanning, Haltbarkeits-Tracking und passenden Rezeptvorschlägen in einer intuitiven Oberfläche.",
+                "solution": "Integration von ML Kit für das Barcode-Scanning, Kombination mit einer lokalen Room-Datenbank und Anbindung einer Rezept-API. Nutzung des WorkManagers für die Zuverlässigkeit zeitgesteuerter Ablauf-Erinnerungen.",
+                "outcome": "Eine funktionale Android-App, die von Nutzern für ihre Effizienz bei der Vorratsplanung und Reduzierung von Lebensmittelverschwendung geschätzt wird.",
+                "metrics": [
+                    {
+                        "label": "Scan-Genauigkeit",
+                        "value": "98 %"
+                    },
+                    {
+                        "label": "Ablauf-Warnungen",
+                        "value": "In Echtzeit"
+                    },
+                    {
+                        "label": "Rezept-Treffer",
+                        "value": "500+"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Barcode-Scanner",
+                        "title": "Sofortige Produktsuche",
+                        "kicker": "Zutaten scannen",
+                        "heading": "Produkte scannen,",
+                        "headingItalic": "beim Auspacken."
+                    },
+                    {
+                        "detail": "Ablauf-Radar",
+                        "title": "Verschwendungs-Tracker",
+                        "kicker": "Frische-Warnung",
+                        "heading": "Zutaten verbrauchen,",
+                        "headingItalic": "bevor sie verderben."
+                    },
+                    {
+                        "detail": "Rezept-Engine",
+                        "title": "Kochen mit vorhandenen Zutaten",
+                        "kicker": "Smarte Rezepte",
+                        "heading": "Gerichte kochen,",
+                        "headingItalic": "aus Ihrem Vorrat."
+                    },
+                    {
+                        "detail": "Nachhaltigkeits-Index",
+                        "title": "Umwelt-Tracker",
+                        "kicker": "Öko-Fortschritt",
+                        "heading": "Beitrag verfolgen,",
+                        "headingItalic": "für weniger Verschwendung."
+                    }
                 ]
             },
             "hcloud": {
-                "title": "HCloud: Praxisverwaltungs-Suite",
+                "title": "HCloud: Praxis-Management-Suite",
                 "category": "Ärzte-App",
-                "summary": "Enterprise-Betriebsportal für Gesundheitsdienstleister mit Termin- und Rezept-Synchronisation.",
-                "description": "Enterprise-Praxisverwaltungsanwendung für Ärzte. Entwickelt mit MVVM, Hilt und Room DB zur Echtzeit-Rezepterstellung, Patientenaktenverwaltung und Offline-First-Terminplanung.",
+                "summary": "Praxisverwaltungssystem für medizinische Einrichtungen mit Termin-Sync und E-Rezept-Erstellung.",
+                "description": "Praxis-Management-App für Mediziner und Gesundheitseinrichtungen. Entwickelt mit MVVM, Hilt und Room DB zur schnellen Erstellung von Rezepten, Verwaltung von Patientenakten und Terminplanung mit Offline-Unterstützung.",
                 "ctaText": "Auf Google Play ansehen",
-                "altText": "HCloud Praxisverwaltungs-Suite — Echtzeit-Rezept-Sync und Terminplanung entwickelt von Muhammad Awais",
+                "altText": "HCloud Praxis-Management-Suite — Echtzeit-Terminsynchronisation und Rezept-Erstellung von Muhammad Awais",
                 "highlights": [
-                    "Duale App-Architektur im Kern",
-                    "Offline-First-Synchronisationswarteschlange mit Room DB",
-                    "Responsives klinisches UI für Ärzte"
+                    "Kernarchitektur für eine Zwei-App-Umgebung",
+                    "Offline-First-Sync-Queue mit Room DB",
+                    "Optimierte klinische Benutzeroberfläche für Ärzte"
+                ],
+                "role": "Android Developer",
+                "duration": "4 Monate",
+                "challenge": "Bereitstellung eines zuverlässigen Werkzeugs für Ärztinnen und Ärzte zur Rezept- und Terminverwaltung, das auch bei instabiler Internetverbindung reibungslos funktioniert und sich mit der Patienten-App synchronisiert.",
+                "solution": "Entwurf einer Offline-First-Architektur mit Room DB als primärer Datenquelle und Nutzung von Retrofit für die Hintergrund-Synchronisation, sobald eine Netzwerkverbindung besteht.",
+                "outcome": "Eine im Google Play Store verfügbare App, die täglich von medizinischem Fachpersonal genutzt wird und den administrativen Aufwand bei der Rezeptausstellung spürbar reduziert.",
+                "metrics": [
+                    {
+                        "label": "Offline-Funktionalität",
+                        "value": "100 %"
+                    },
+                    {
+                        "label": "Sync-Verzögerung",
+                        "value": "< 2 Sek."
+                    },
+                    {
+                        "label": "Google Play Store",
+                        "value": "✓"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Patienten-Warteschlange",
+                        "title": "Echtzeit-Aufrufsystem",
+                        "kicker": "Praxis-Ablauf",
+                        "heading": "Patientenannahme,",
+                        "headingItalic": "optimal organisiert."
+                    },
+                    {
+                        "detail": "HD-Telemedizin",
+                        "title": "Video-Sprechstunde via Twilio",
+                        "kicker": "Verschlüsselter Anruf",
+                        "heading": "Sprechstunde in HD,",
+                        "headingItalic": "auf jedem Gerät."
+                    },
+                    {
+                        "detail": "Rezept-Generator",
+                        "title": "Digitales E-Rezept",
+                        "kicker": "Schnelle Verordnung",
+                        "heading": "Rezepte ausstellen,",
+                        "headingItalic": "in Sekunden."
+                    },
+                    {
+                        "detail": "Umsatz-Portal",
+                        "title": "Praxis-Finanzanalysen",
+                        "kicker": "Finanz-Center",
+                        "heading": "Umsatzentwicklung,",
+                        "headingItalic": "auf einen Blick."
+                    }
                 ]
             },
             "healthwire": {
-                "title": "Healthwire: HealthTech-Ökosystem",
-                "category": "Telehealth-Plattform",
-                "summary": "Führende Gesundheitsanwendung mit 2M+ Downloads, Telemedizin, Laborbuchungen und sicheren Zahlungsintegrationen.",
-                "description": "Architektur einer der führenden Gesundheitsplattformen Pakistans — betreibt Apothekenlogistik, Laborbuchungen, Twilio-Videokonsultationen und lokale Payment-Gateways (Meezan, JazzCash, Foree) mit einer absturzfreien Rate von 99 %+.",
+                "title": "Healthwire: Gesundheits-Ökosystem",
+                "category": "Gesundheitsplattform",
+                "summary": "Führende Gesundheits-App mit über 2 Mio. Downloads für Arztkonsultationen, Labortests und sichere Zahlungen.",
+                "description": "Entwicklung einer der größten Gesundheitsplattformen Pakistans — Unterstützung von Apotheken-Services, Labortest-Buchungen, Twilio-Videoberatung und lokalen Payment-Gateways (Meezan, JazzCash, Foree) mit über 99 % fehlerfreien Sitzungen.",
                 "ctaText": "Auf Google Play ansehen",
-                "altText": "Healthwire Gesundheits-App — Apothekenlogistik, Laborbuchung und Twilio-Telemedizin entwickelt von Muhammad Awais",
+                "altText": "Healthwire Gesundheits-App — Apotheken-Services, Laborbuchungen und Twilio-Videoberatung von Muhammad Awais",
                 "highlights": [
-                    "2M+ Downloads im Google Play Store",
-                    "Twilio Echtzeit-Videokonsultationen (+15 % Engagement)",
+                    "Über 2 Millionen Downloads auf Google Play",
+                    "Live-Videoberatung über Twilio (+15 % Engagement)",
                     "100 % sichere Zahlungsabwicklung (Meezan, JazzCash, Foree)"
+                ],
+                "role": "Software Engineer (Android)",
+                "duration": "2+ Jahre",
+                "challenge": "Skalierung einer umfangreichen Gesundheits-App für Millionen aktiver Nutzer — mit Integration von Twilio-Videoanrufen, drei Payment-Gateways und Laborbuchungen bei durchgehend hoher Stabilität (> 99 %).",
+                "solution": "Einsatz von MVVM mit Hilt und Coroutines/Flow für sauberen, reaktiven Code. Der WorkManager übernahm die Synchronisation und Benachrichtigungen, während Kern-Screens schrittweise auf Jetpack Compose migriert wurden.",
+                "outcome": "Eine der meistgenutzten Gesundheits-Apps des Landes mit über 2 Mio. Installationen, einer Stabilität von über 99 % und einer Steigerung der Nutzerinteraktion um 15 % durch Telemedizin-Funktionen.",
+                "metrics": [
+                    {
+                        "label": "Downloads",
+                        "value": "> 2 Mio."
+                    },
+                    {
+                        "label": "Stabilitätsrate",
+                        "value": "> 99 %"
+                    },
+                    {
+                        "label": "Engagement-Anstieg",
+                        "value": "+15 %"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Arztsuche",
+                        "title": "Spezialisten buchen",
+                        "kicker": "Arzt finden",
+                        "heading": "Termine buchen,",
+                        "headingItalic": "bei geprüften Experten."
+                    },
+                    {
+                        "detail": "Online-Sprechstunde",
+                        "title": "Telemedizin 24/7",
+                        "kicker": "Sofortige Versorgung",
+                        "heading": "Ärzte erreichen,",
+                        "headingItalic": "rund um die Uhr."
+                    },
+                    {
+                        "detail": "Express-Apotheke",
+                        "title": "Medikamenten-Lieferservice",
+                        "kicker": "Schnelle Lieferung",
+                        "heading": "Medikamente geliefert,",
+                        "headingItalic": "in unter 30 Minuten."
+                    },
+                    {
+                        "detail": "Gesundheits-Akte",
+                        "title": "Zentrale Krankenakte",
+                        "kicker": "Digitale Akte",
+                        "heading": "Alle Befunde,",
+                        "headingItalic": "an einem Ort."
+                    }
                 ]
             },
             "dongamers": {
-                "title": "DonGamers: E-Sports-Plattform",
-                "category": "E-Gaming-Plattform",
-                "summary": "Globale Gaming-Plattform mit Echtzeit-Pusher-Chat, Turnierbäumen und optimierter Monetarisierung.",
-                "description": "Entwicklung einer internationalen E-Sports-Plattform auf Native Android. Migration der Codebasis von Java zu Kotlin, Architektur eines skalierbaren Echtzeit-Chats mit Pusher (+15 % Engagement) und Optimierung von In-App-Käufen sowie Google AdMob.",
+                "title": "DonGamers: Esports-Plattform",
+                "category": "Esports-Plattform",
+                "summary": "Globale Esports-Plattform mit Pusher-Echtzeit-Chat, Turnierplänen und optimierter Monetarisierung.",
+                "description": "Entwicklung einer globalen Android-Esports-Plattform. Refactoring der Codebasis von Java zu Kotlin, Aufbau einer Echtzeit-Chat-Infrastruktur mit Pusher (+15 % Engagement) und Optimierung von In-App-Käufen sowie AdMob-Anzeigen.",
                 "ctaText": "Auf Google Play ansehen",
-                "altText": "DonGamers E-Sports-Plattform — Echtzeit-Chat und Turnier-Verfolgung entwickelt von Muhammad Awais",
+                "altText": "DonGamers Esports-Plattform — Echtzeit-Chat und Turnier-Tracking von Muhammad Awais",
                 "highlights": [
-                    "99 % absturzfreie Rate bei globaler Verfügbarkeit",
+                    "99 % fehlerfreie Sitzungen bei globaler Verfügbarkeit",
                     "Echtzeit-Chat-Infrastruktur mit Pusher",
-                    "Monetarisierungsoptimierung steigert Umsatz um 10 %"
+                    "Monetarisierungs-Optimierung steigert Verkäufe um 10 %"
+                ],
+                "role": "Senior Android Developer",
+                "duration": "1,5 Jahre",
+                "challenge": "Migration einer umfangreichen Java-Codebasis zu Kotlin im laufenden Betrieb für weltweite Nutzer, bei gleichzeitiger Einführung eines Echtzeit-Chats und Erlösoptimierung.",
+                "solution": "Schrittweise Migration unter Ausnutzung der Java/Kotlin-Interoperabilität. Integration von Pusher als Chat-Backbone mit lokaler Nachrichten-Queue sowie A/B-Testing von Anzeigen- und In-App-Kauf-Strategien.",
+                "outcome": "99 % fehlerfreie Sitzungen weltweit, 15 % höheres Engagement durch die Chat-Funktion und 10 % Mehrumsatz durch optimierte AdMob- und In-App-Kauf-Inhalte.",
+                "metrics": [
+                    {
+                        "label": "Stabilitätsrate",
+                        "value": "99 %"
+                    },
+                    {
+                        "label": "Chat-Engagement",
+                        "value": "+15 %"
+                    },
+                    {
+                        "label": "Umsatzwachstum",
+                        "value": "+10 %"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Live-Arenen",
+                        "title": "Turnier-Übersicht",
+                        "kicker": "Live-Esports",
+                        "heading": "Messen Sie sich,",
+                        "headingItalic": "in Community-Turnieren."
+                    },
+                    {
+                        "detail": "Team-Chat",
+                        "title": "Echtzeit-Lobby",
+                        "kicker": "Instant-Lobby",
+                        "heading": "Taktiken abstimmen,",
+                        "headingItalic": "mit Ihrem Team."
+                    },
+                    {
+                        "detail": "Gamer-Wallet",
+                        "title": "Token-Belohnungen",
+                        "kicker": "Belohnungs-Engine",
+                        "heading": "Münzen verdienen,",
+                        "headingItalic": "mit jedem Sieg."
+                    },
+                    {
+                        "detail": "Pro-Profil",
+                        "title": "Spieler-Statistiken",
+                        "kicker": "Ranglisten-Matrix",
+                        "heading": "Win-Rates zeigen,",
+                        "headingItalic": "und Erfolge teilen."
+                    }
+                ]
+            },
+            "wallpaper": {
+                "title": "Wallpaper Backend-Service",
+                "category": "Web-Entwicklung",
+                "summary": "Node.js-Backend-Service für eine hochperformante Wallpaper-Plattform.",
+                "description": "Skalierbarer Node.js-Backend-Service für die Plattform wallpaper.devawais.com. Fokus auf schnelle API-Antwortzeiten, effiziente Datenverarbeitung und eine robuste Server-Infrastruktur.",
+                "ctaText": "Website besuchen",
+                "altText": "Node.js-Backend für die Wallpaper-App von Muhammad Awais",
+                "highlights": [
+                    "Backend-Architektur auf Node.js-Basis",
+                    "Optimierte API-Antwortzeiten",
+                    "Skalierbare Web-Services"
+                ],
+                "role": "Backend Developer",
+                "duration": "1 Monat",
+                "challenge": "Aufbau eines Backend-Dienstes, der hochauflösende Hintergrundbilder mit minimaler Latenz weltweit bereitstellt und für CDN-Caching optimiert ist.",
+                "solution": "Entwicklung einer Node.js-REST-API mit optimierter Dateiausgabe, Kategorien-Filterung und einer leichtgewichtigen Datenschicht für effizientes Caching.",
+                "outcome": "Ein produktiver Dienst unter wallpaper.devawais.com mit extrem schnellen Ladezeiten und einer erweiterbaren Architektur.",
+                "metrics": [
+                    {
+                        "label": "API-Antwortzeit",
+                        "value": "< 100 ms"
+                    },
+                    {
+                        "label": "Uptime",
+                        "value": "99,9 %"
+                    },
+                    {
+                        "label": "Live-Status",
+                        "value": "✓"
+                    }
+                ],
+                "archiveScreens": [
+                    {
+                        "detail": "Premium-Katalog",
+                        "title": "Ultra-HD-Kollektion",
+                        "kicker": "Entdecken",
+                        "heading": "Entdecken Sie",
+                        "headingItalic": "4K-Kunstwerke."
+                    },
+                    {
+                        "detail": "One-Tap-Set",
+                        "title": "Sofortiges Hintergrund-Setup",
+                        "kicker": "Ein-Klick-Anwendung",
+                        "heading": "Hintergrund festlegen,",
+                        "headingItalic": "mit nur einem Tippen."
+                    },
+                    {
+                        "detail": "Tägliche Drops",
+                        "title": "Frische Kollektionen",
+                        "kicker": "Tägliches Update",
+                        "heading": "Neue Kunstwerke,",
+                        "headingItalic": "alle 24 Stunden."
+                    },
+                    {
+                        "detail": "API-Engine",
+                        "title": "Schnelle CDN-Auslieferung",
+                        "kicker": "REST API",
+                        "heading": "Blitzschnelle",
+                        "headingItalic": "Bild-Bereitstellung."
+                    }
                 ]
             }
         }
@@ -355,6 +917,10 @@
             "architecture": {
                 "title": "Mobile-Architektur & Codebase-Modernisierung",
                 "description": "Refactoring monolithischer Codebasen in eine modulare Clean Architecture, Migration von Java zu Kotlin und Leistungsoptimierung für absturzfreie Sitzungsraten von 99 %+."
+            },
+            "web-development": {
+                "title": "Web Development & Backend Services",
+                "description": "Custom scalable backend development utilizing Node.js, Next.js, and modern web architectures designed for high performance and robust API integrations."
             }
         }
     },
@@ -419,6 +985,7 @@
         "navigate": "Navigation",
         "specialties": "Spezialisierungen",
         "getInTouch": "Kontakt aufnehmen",
+        "viaEmail": "Kontakt per E-Mail aufnehmen",
         "specialtiesList": [
             "Native Android (Kotlin & Java)",
             "Kotlin Multiplatform (KMP)",

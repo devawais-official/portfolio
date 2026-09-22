@@ -9,6 +9,7 @@
         "isOnAppStore": false,
         "image": "/projects/spectra-care.webp",
         "themeColor": "#00B4D8",
+        "mockupVariant": "screen-home",
         "url": "https://play.google.com/store/apps/details?id=com.strl.spectracare",
         "iosUrl": "#",
         "tech": [
@@ -21,6 +22,12 @@
             "Lab Test Booking",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#00B4D8" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#0284C7" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -33,6 +40,7 @@
         "isOnAppStore": true,
         "image": "/projects/zouris.webp",
         "themeColor": "#A855F7",
+        "mockupVariant": "screen-home",
         "url": "https://play.google.com/store/apps/details?id=io.zouris.app.zouris",
         "iosUrl": "https://apps.apple.com/ae/app/zouris/id6759085359",
         "tech": [
@@ -43,6 +51,12 @@
             "Audio/Video Player",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#A855F7" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#3B82F6" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#84CC16" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -55,6 +69,7 @@
         "isOnAppStore": false,
         "image": "/projects/egora-logo.webp",
         "themeColor": "#FF7A00",
+        "mockupVariant": "screen-finance",
         "url": "#",
         "iosUrl": "#",
         "tech": [
@@ -71,6 +86,12 @@
             "DIO",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#FF7A00" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#0284C7" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -83,6 +104,7 @@
         "isOnAppStore": false,
         "image": "/projects/egora-logo.webp",
         "themeColor": "#FF7A00",
+        "mockupVariant": "screen-finance",
         "url": "#",
         "iosUrl": "#",
         "tech": [
@@ -96,6 +118,12 @@
             "DIO",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#FF7A00" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#2563EB" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -108,6 +136,7 @@
         "isOnAppStore": true,
         "image": "/projects/makernote.webp",
         "themeColor": "#22C55E",
+        "mockupVariant": "screen-learning",
         "url": "#",
         "iosUrl": "https://apps.apple.com/hk/app/makernote/id6475201417?l=en-GB",
         "tech": [
@@ -117,6 +146,12 @@
             "Clean Architecture",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#22C55E" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#3B82F6" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#84CC16" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -129,6 +164,7 @@
         "isOnAppStore": false,
         "image": "/projects/eco-grocery.webp",
         "themeColor": "#10B981",
+        "mockupVariant": "screen-learning",
         "url": "#",
         "iosUrl": "#",
         "tech": [
@@ -142,6 +178,12 @@
             "Room DB",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#10B981" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#0284C7" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -154,6 +196,7 @@
         "isOnAppStore": false,
         "image": "/projects/hcloud.webp",
         "themeColor": "#3B82F6",
+        "mockupVariant": "screen-home",
         "url": "https://play.google.com/store/apps/details?id=com.healthwire.hcloud",
         "iosUrl": "#",
         "tech": [
@@ -165,6 +208,12 @@
             "Twilio SDK",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#3B82F6" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#1D4ED8" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -177,6 +226,7 @@
         "isOnAppStore": false,
         "image": "/projects/healthwire.webp",
         "themeColor": "#1D4ED8",
+        "mockupVariant": "screen-home",
         "url": "https://play.google.com/store/apps/details?id=com.healthwire.healthwire",
         "iosUrl": "#",
         "tech": [
@@ -202,6 +252,12 @@
             "Retrofit & OkHttp",
             "Payment Architecture",
             "LBS Optimization"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#1D4ED8" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#2563EB" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     },
     {
@@ -214,6 +270,7 @@
         "isOnAppStore": false,
         "image": "/projects/dongamers.webp",
         "themeColor": "#EAB308",
+        "mockupVariant": "screen-finance",
         "url": "https://play.google.com/store/apps/details?id=com.dongamers.dongamers",
         "iosUrl": "#",
         "tech": [
@@ -226,6 +283,37 @@
             "Kotlin",
             "Google Analytics",
             "Firebase Crashlytics"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#EAB308" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#D97706" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
+        ]
+    },
+    {
+        "id": 10,
+        "updatedAt": "2026-09-17T11:52:00Z",
+        "slug": "wallpaper",
+        "technology": "Node.js",
+        "platform": "web",
+        "isOnPlayStore": false,
+        "isOnAppStore": false,
+        "image": "/projects/wallpaper.webp",
+        "themeColor": "#339933",
+        "mockupVariant": "screen-default",
+        "url": "https://wallpaper.devawais.com",
+        "iosUrl": "#",
+        "tech": [
+            "Node.js",
+            "Backend API",
+            "Web Development"
+        ],
+        "archiveScreens": [
+            { "number": "01", "variant": "orb", "bgStyle": { "bg": "#F4EFEA", "text": "#18181B", "accent": "#339933" } },
+            { "number": "02", "variant": "pause", "bgStyle": { "bg": "#B4D4F3", "text": "#0F172A", "accent": "#166534" } },
+            { "number": "03", "variant": "ring", "bgStyle": { "bg": "#C6E357", "text": "#0F172A", "accent": "#65A30D" } },
+            { "number": "04", "variant": "lines", "bgStyle": { "bg": "#FF644E", "text": "#FFFFFF", "accent": "#FFFFFF" } }
         ]
     }
 ]

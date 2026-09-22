@@ -95,7 +95,7 @@ export default function MobileDrawer({
     return pathname === localized; 
   };
 
-  const buttonText = translate("home.buttonStart") || "Start a Project";
+  const buttonText = translate("home.buttonStart") || "Let's Talk";
 
   return createPortal(
     <AnimatePresence mode="wait">

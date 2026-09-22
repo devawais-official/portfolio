@@ -96,15 +96,15 @@ function HeroPortrait({ translate }: { translate: (key: string) => string }) {
         className={`relative z-10 h-full w-full overflow-hidden ${styles.portraitMaskBg}`}
         style={{ borderRadius: shapes.squircleRadius }}
       >
-       <Image
-  src="/brand/dev-pic.webp"
-  alt={translate("home.portraitAlt")}
-  fill
-  sizes="(max-width: 640px) 260px, (max-width: 768px) 320px, 370px"
-  className="object-cover object-top transition-transform duration-500 hover:scale-105"
-  priority
-  fetchPriority="high"
-/>
+        <Image
+          src="/brand/dev-pic.webp"
+          alt={translate("home.portraitAlt")}
+          fill
+          sizes="(max-width: 640px) 260px, (max-width: 768px) 320px, 370px"
+          className="object-cover object-top transition-transform duration-500 hover:scale-105"
+          priority
+          fetchPriority="high"
+        />
       </div>
 
       {/* Floating Stack Badges Bar */}
@@ -165,9 +165,9 @@ export default function HeroSection({ translate, homeData }: HeroSectionProps) {
             </span>
 
             {/* Heading 2: Styled Accent Text */}
-            <span className={`block mt-1 sm:mt-2 ${THEME_CONFIG.styles.headingGradient} [text-wrap:balance]`}>
+            <em> <span className={`block mt-1 sm:mt-2 ${THEME_CONFIG.styles.headingGradient} [text-wrap:balance]`}>
               {translate("home.heading2")}
-            </span>
+            </span></em>
           </h1>
 
           {/* Description */}
