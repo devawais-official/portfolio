@@ -10,11 +10,11 @@ export function proxy(request: NextRequest) {
     const hostname = request.headers.get("host") || request.nextUrl.hostname;
 
     // ── SEO: Redirect www → non-www (permanent 301) ──
-    if (hostname.startsWith("www.")) {
-        const nonWwwUrl = new URL(request.url);
-        nonWwwUrl.hostname = hostname.replace(/^www\./, "");
-        return NextResponse.redirect(nonWwwUrl, 301);
-    }
+    // if (hostname.startsWith("www.")) {
+    //     const nonWwwUrl = new URL(request.url);
+    //     nonWwwUrl.hostname = hostname.replace(/^www\./, "");
+    //     return NextResponse.redirect(nonWwwUrl, 301);
+    // }
 
     // Static assets aur APIs ko bypass karein
     if (
