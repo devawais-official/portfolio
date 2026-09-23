@@ -4,25 +4,25 @@
    TAILWIND CSS V4 - DESIGN SYSTEM TOKENS (HEX LIGHT THEME)
    ========================================================================== */
 :root {
-  /* Warm Base & Elevated Surfaces */
-  --background: #F7F5F0;
-  --surface: #EFECE3;
-  --surface-elevated: #E7DCF8;
-  --surface-sunken: #EBE7DC;
+  /* Deep Navy & Slate Blue Base */
+  --background: #151828;
+  --surface: #2d3250;
+  --surface-elevated: #424769;
+  --surface-sunken: #10121d;
 
-  /* Typography */
-  --heading: #182338;
-  --foreground: #1C2333;
-  --muted: #626978;
-  --inverse: #ffffff;
-  --link: #FF7A50;
+  /* Typography Contrast Tokens */
+  --heading: #ffffff;
+  --foreground: #d0d3e2;
+  --muted: #aab2cd;
+  --inverse: #151828;
+  --link: #f9b17a;
 
-  /* Coral Primary Brand Accent (#FF7A50) */
-  --brand: #FF7A50;
-  --brand-dark: #E05C33;
-  --brand-light: #FF9E80;
-  --brand-subtle: color-mix(in srgb, var(--brand) 12%, transparent);
-  --brand-foreground: #182338;
+  /* Warm Peach Brand Accent (#f9b17a) */
+  --brand: #f9b17a;
+  --brand-dark: #e09a63;
+  --brand-light: #ffc99e;
+  --brand-subtle: color-mix(in srgb, var(--brand) 15%, transparent);
+  --brand-foreground: #151828;
 
   --primary: var(--brand);
   --primary-dark: var(--brand-dark);
@@ -30,18 +30,18 @@
   --primary-subtle: var(--brand-subtle);
   --primary-foreground: var(--brand-foreground);
 
-  /* Secondary Accent (Lavender) */
-  --accent: #E7DCF8;
-  --accent-dark: #C9B8E8;
-  --accent-light: #F3ECFC;
-  --accent-subtle: color-mix(in srgb, var(--accent) 30%, transparent);
-  --accent-foreground: #182338;
+  /* Accent Tokens */
+  --accent: #f9b17a;
+  --accent-dark: #e09a63;
+  --accent-light: #ffc99e;
+  --accent-subtle: color-mix(in srgb, var(--accent) 15%, transparent);
+  --accent-foreground: #151828;
 
-  /* Borders */
-  --border: rgba(28, 35, 51, 0.15);
+  /* Pure Tokenized Clean Borders */
+  --border: color-mix(in srgb, var(--surface-elevated) 60%, transparent);
   --border-strong: color-mix(in srgb, var(--brand) 40%, transparent);
-  --border-subtle: rgba(28, 35, 51, 0.08);
-  --border-focus: #FF7A50;
+  --border-subtle: color-mix(in srgb, var(--surface-elevated) 30%, transparent);
+  --border-focus: var(--accent);
 }
 
 /* ==========================================================================
